@@ -1,3 +1,14 @@
+/* Header */
+.header {
+    padding: 100px;
+    text-align: center;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: auto;
+  }
+
 /* remove padding and margin */
 *{
     padding: 0;
@@ -6,7 +17,7 @@
 }
 /* set bg image */
 body{
-    background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,9 +28,7 @@ body{
     border-radius: 30px;
     box-shadow: 5px 5px 22px  rgb(219,237,251);
 }
-img{
-    border-radius: 30px;
-}
+
 /* style button */
 .btn{
     border:none;
