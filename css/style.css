@@ -14,19 +14,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* set bg image */
 body{
     /* background-image: url("../images/background.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* style box for form */
+
+/* style box for form
 .row{
     margin-top: 80px;
     background-color: rgb(219,237,251);
     border-radius: 30px;
     box-shadow: 5px 5px 22px  rgb(219,237,251);
-}
+} */
 
 /* style button */
 .btn{
@@ -39,8 +41,21 @@ body{
     border-radius: 4px;
     font-weight: bold;
 }
+
 .btn:hover{
     background-color: white;
     color: black;
     transition-delay: 0.15s;
+}
+
+/* Modal Box & Card */
+.modal-content, .card, .card-body
+{
+  color: black;
+  background-color: white;
+}
+
+/* mb-3 & modal-content */
+.mb-3, .modal-content {
+  text-align: left;
 }
