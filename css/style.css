@@ -43,7 +43,7 @@ body{
 }
 
 .btn:hover{
-    background-color: white;
+    background-color: rgb(160, 160, 160);
     color: black;
     transition-delay: 0.15s;
 }
