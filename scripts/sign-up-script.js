@@ -1,5 +1,6 @@
 $(document).ready(function () {
   const APIKEY = "600e2fe91346a1524ff12dbd";
+  $(".alert").hide();
 
   $("#signup-submit").on("click", function (e) {
     e.preventDefault();
@@ -32,7 +33,7 @@ $(document).ready(function () {
       }
   } 
   $.ajax(settings).done(function (response) {
-    console.log(response);
+    $(".alert").show();
   }); 
 });
 });
