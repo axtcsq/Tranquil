@@ -3,9 +3,9 @@ $(document).ready(function () {
     function sayDone() {
         alert('meditation done');
         $("<a/>", {
-            id: 'example-link',
+            id: 'about-link',
             href: 'about.html',
-            text: 'Go back to main page'
+            text: 'Click here to secure your points!'
         }).appendTo("body");
         loginArray[loginArray.length-1].points+=5;
         const APIKEY = "600e2fe91346a1524ff12dbd";

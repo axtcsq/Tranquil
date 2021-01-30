@@ -77,10 +77,12 @@ body{
   height: 100%;
 }
 
-.animation-center{  
+/* Centralise Animation & Link */
+.animation-center, #about-link{  
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 /* Text animation */
