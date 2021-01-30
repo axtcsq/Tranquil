@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var loginArray = JSON.parse(localStorage.getItem("login"));
     function sayDone() {
-        alert('Meditation completed. Good job!');
+        alert('Good job, meditation completed. Remember to click below to secure your points!');
         $("<a/>", {
             id: 'about-link',
             href: 'about.html',
