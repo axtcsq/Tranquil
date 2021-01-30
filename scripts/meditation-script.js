@@ -1,12 +1,18 @@
 $(document).ready(function () {
+    function goAboutPage(){
+        window.location.href = "about.html";
+    }
     var loginArray = JSON.parse(localStorage.getItem("login"));
+    $("#about-link").hide();
+    $("#success").hide();
+    $("#congrats").hide();
     function sayDone() {
-        alert('Good job! Meditation completed. Remember to click below to secure your points.');
-        $("<a/>", {
-            id: 'about-link',
-            href: 'about.html',
-            text: 'Click here to secure your points'
-        }).appendTo("body");
+        alert('Good job! Meditation completed.');
+        $("#about-link").show();
+        $("#success").hide();
+        $("#meditate-content").hide();
+        $("#congrats").show();
+        
         loginArray[loginArray.length-1].points+=5;
         const APIKEY = "600e2fe91346a1524ff12dbd";
     var id = loginArray[loginArray.length-1].id;
@@ -43,8 +49,9 @@ $(document).ready(function () {
             this.darkmode = darkmode;
         }
     });
+    setTimeout(goAboutPage,3000);
     }
-    setTimeout(sayDone, 60000);
+    setTimeout(sayDone, 3000); //60000
     
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml3');
