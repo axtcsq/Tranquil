@@ -28,7 +28,7 @@ $(document).ready(function(e) {
   $("#login-submit").on("click", function(e) {
       if (responseArray == null) {
           e.preventDefault();
-          alert("please sign up");
+          alert("Please sign up.");
       } else {
           for (var i = 0; i < responseArray.length; i++) {
               if ((responseArray[i].username == username) && (responseArray[i].password == password)) {
@@ -42,7 +42,7 @@ $(document).ready(function(e) {
           }
           if (flag != true) {
               e.preventDefault();
-              alert("wrong password");
+              alert("The password you have entered is wrong. Try again.");
           }
       }
 

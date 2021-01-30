@@ -29,7 +29,7 @@ $(document).ready(function () {
             $("<a/>", {
                 id: 'example-link',
                 href: 'about.html',
-                text: 'Go back to home page'
+                text: 'Click here to return to the home page'
             }).appendTo("body");
             let l = new login(loginArray[loginArray.length-1].id, loginArray[loginArray.length-1].username, loginArray[loginArray.length-1].password, loginArray[loginArray.length-1].points, loginArray[loginArray.length-1].darkmode);
             loginArray = [];

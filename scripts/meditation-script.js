@@ -1,11 +1,11 @@
 $(document).ready(function () {
     var loginArray = JSON.parse(localStorage.getItem("login"));
     function sayDone() {
-        alert('meditation done');
+        alert('Meditation completed. Good job!');
         $("<a/>", {
             id: 'about-link',
             href: 'about.html',
-            text: 'Click here to secure your points!'
+            text: 'Click here to secure your points'
         }).appendTo("body");
         loginArray[loginArray.length-1].points+=5;
         const APIKEY = "600e2fe91346a1524ff12dbd";
