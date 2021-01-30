@@ -37,7 +37,6 @@ $(document).ready(function(e) {
                   loginArray.push(l);
                   localStorage["login"] = JSON.stringify(loginArray);
                   flag = true;
-                  alert("success");
                   break;
               }
           }
