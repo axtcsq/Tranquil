@@ -42,7 +42,7 @@ $(document).ready(function(e) {
           }
           if (flag != true) {
               e.preventDefault();
-              alert("The password you have entered is wrong. Try again.");
+              alert("The password you have entered is incorrect. Try again.");
           }
       }
 
