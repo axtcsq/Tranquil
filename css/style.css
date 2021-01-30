@@ -94,7 +94,7 @@ body{
 .spinner-wrapper{
   width: 100%;
   height: 100%;
-  background-color: #151515;
+  background-color:  rgb(107,121,130);
   position: absolute;
   top: 0;
   left: 0;
@@ -104,10 +104,11 @@ body{
   justify-content: center;
 }
 
-.spinner {
+/* Traditional spinner */
+/* .spinner {
   position: relative;
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 
@@ -121,13 +122,13 @@ body{
 .spinner:before {
   width: 100%;
   height: 100%;
-  background-image:linear-gradient(90deg, #ff00cc 0%,#333399 100% );
+  background-image:linear-gradient(90deg, #11e21c 0%,#3a3027 100% );
   animation: spin .5s infinite linear;
 }
 .spinner:after {
   width: 90%;
   height: 90%;
-  background-color: #151515;
+  background-color: #000000;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -138,4 +139,4 @@ body{
       transform: rotate(360deg);
   }
 
-}
+} */
