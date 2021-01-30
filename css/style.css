@@ -76,3 +76,15 @@ body{
   width: 100%;
   height: 100%;
 }
+
+.animation-center{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text animation */
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
