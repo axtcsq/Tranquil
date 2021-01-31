@@ -17,79 +17,89 @@
 </head>
 
 <body style="background-image: url(images/background3.jpg);">    
+
+    <!-- Loading -->
     <div class='spinner-wrapper'>
+
         <div class="spinner">
             <lottie-player src="https://assets10.lottiefiles.com/temp/lf20_hKSrGc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>   
             <p class="text-center">Loading...</p>
         </div>
-    </div>      
+
+    </div>  
+
     <div id="content">
-    <!-- Sign up Form -->
-    <section class="Form d-flex align-items-center justify-content-center" style="height: 100vh;">
-        <div class="container">
-            <div class="row no-gutters">
-                <!-- 2 columns: 
-                a. image of a man driving
-                b. user input of name, email address, password and home address area-->
-                <!-- a -->
-                <div class="col-lg-6 text-center d-flex align-items-center justify-content-center">
-                    <img src="images/signup.png" class= "img-fluid" alt="" width="350px" height="350px">
+
+        <!-- Sign up Form -->
+        <section class="Form d-flex align-items-center justify-content-center" style="height: 100vh;">
+            <div class="container">
+                <div class="row no-gutters">
+
+                    <div class="col-lg-6 text-center d-flex align-items-center justify-content-center">
+                        <img src="images/signup.png" class= "img-fluid" alt="" width="350px" height="350px">
+                    </div>
+
+                    <!-- User input of username and password -->
+                    <div class="col-lg-6 px-5 pt-5">
+                        <form id ="add-login-form">
+
+                            <!-- Form title -->
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <h1 class="font-weight-bold">Sign Up</h1>
+                                </div>
+                            </div>
+
+                            <!-- Username input -->
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label for="usernameInput">Username</label>
+                                    <input type="text" class="form-control mb-4 p-2" id="usernameInput" placeholder="Enter your username">
+                                </div>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label for="passwordInput">Password</label>
+                                    <input type="password" class="form-control p-2" id="passwordInput" aria-describedby="passwordHelp" placeholder="Enter your password">
+                                    <small id="passwordHelp"  style="color: white;">We will not share your password with anyone</small>
+                                </div>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <div class="form-row pb-3">
+                                <div class="col-lg-7 text-center">
+                                    <a class="btn btn-primary mt-4" id="signup-submit" href="#" role="button"> Sign Up</a>
+                                </div>
+                            </div>
+
+                            <!-- Login link -->
+                            <div class="form-row pb-3">
+                                <div class="col-lg-7 text-center">
+                                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                                </div>
+                            </div>
+
+                            <!-- Successful sign up message -->
+                            <div class="form-row pb-3">
+                                <div class="col-lg-7 text-center">
+                                    <div class="alert alert-success" role="alert">You have signed Up successfully!</div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    
+                    <!-- Application's name -->
+                    <p class="text-center copyright">&copy; Tranquil 2021</p>
+
                 </div>
-
-                <!-- b -->
-                <div class="col-lg-6 px-5 pt-5">
-                    <form id ="add-login-form">
-                        <!-- form title -->
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <h1 class="font-weight-bold">Sign Up</h1>
-                            </div>
-                        </div>
-
-                        <!-- name input -->
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <label for="usernameInput">Username</label>
-                                <input type="text" class="form-control mb-4 p-2" id="usernameInput" placeholder="Enter your username">
-                            </div>
-                        </div>
-
-                        <!-- password input -->
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <label for="passwordInput">Password</label>
-                                <input type="password" class="form-control p-2" id="passwordInput" aria-describedby="passwordHelp" placeholder="Enter your password">
-                                <small id="passwordHelp"  style="color: white;">We will not share your password with anyone</small>
-                            </div>
-                        </div>
-
-                        <!-- sign up button -->
-                        <div class="form-row pb-3">
-                            <div class="col-lg-7 text-center">
-                                <a class="btn btn-primary mt-4" id="signup-submit" href="#" role="button"> Sign Up</a>
-                            </div>
-                        </div>
-                        <!-- link for login -->
-                        <div class="form-row pb-3">
-                            <div class="col-lg-7 text-center">
-                                <p>Already have an account? <a href="login.html">Login here</a></p>
-                            </div>
-                        </div>
-                        <!-- sign up success message -->
-                        <div class="form-row pb-3">
-                            <div class="col-lg-7 text-center">
-                                <div class="alert alert-success" role="alert">You have signed Up successfully!</div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
-                <!-- application's name -->
-                <p class="text-center copyright">&copy; Tranquil 2021</p>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
+        
+    </div>
+
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
