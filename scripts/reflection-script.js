@@ -22,6 +22,7 @@ $(document).ready(function () {
     // $("#api-message").append("hellow");
     $("#reflection-submit").on("click", function(e) {
         e.preventDefault();
+        var loginArray = JSON.parse(localStorage.getItem("login"));
         loginArray[loginArray.length-1].points+=5;
         const APIKEY = "600e2fe91346a1524ff12dbd";
     var id = loginArray[loginArray.length-1].id;
