@@ -24,13 +24,16 @@ body{
     color: white;
 }
 
-/* style box for form
-.row{
-    margin-top: 80px;
-    background-color: rgb(219,237,251);
-    border-radius: 30px;
-    box-shadow: 5px 5px 22px  rgb(219,237,251);
-} */
+.section-padding{
+  padding-top: 250px; 
+  padding-bottom: 250px; 
+  padding-left: 10px;
+}
+
+.article-video-padding{
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
 
 /* style button */
 .btn{
