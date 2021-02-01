@@ -103,4 +103,7 @@ $(document).ready(function () {
             this.darkmode = darkmode;
         }
     });
+    function preferredMode(darkmode){
+        this.darkmode = darkmode;
+    }
 });
