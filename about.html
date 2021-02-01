@@ -14,6 +14,7 @@
     
     <!-- Our CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/about-light.css" rel="stylesheet" type="text/css"> -->
 </head>
 
 <body>
@@ -25,7 +26,7 @@
   </div>
   <div id="content">
     <!-- Navigation Bar -->
-    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light" style="background-color: #e9eff3;">
+    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light">
         
         <!-- Logo & Name -->
         <div class="container-fluid">
@@ -39,7 +40,7 @@
             </button>
           
             <!-- Nav bar links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul class="navbar-nav">
                     <!-- Meditation -->
                     <li class="nav-item">
@@ -58,24 +59,30 @@
                 </ul>
             </div>
         </div>
+        
+        
+
     </nav>
 
     <!-- Header -->
-    <div class="header" style="background-image: url(images/header.jpg);">
-        <img src="images/logo.png" class="rounded mx-auto d-block" alt="A picture of a contact icon" width="150" height="150">
+    <div class="header" id= "header">
+      <a href="#" style="text-decoration: none; color: black;" class="app">
+        <img src="https://img.icons8.com/ios/50/000000/day-and-night.png"/>
+      </a>
+        <!-- <img src="images/logo.png" class="rounded mx-auto d-block" alt="A picture of a contact icon" width="150" height="150"> -->
         <h1>Tranquil</h1>
         <br>
           <p>We hope to encourage people to take care of themselves even on your busiest days!</p>
     </div>
 
     <!-- Section -->
-    <div style="background-image: url(images/background3.jpg); padding-top: 250px; padding-bottom: 250px; padding-left: 10px;">
+    <div class="section-padding" id="article-section">
       <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Want to learn more about <mark style="background-color: yellow">Meditation</mark> ?</b></h1>
       <p style="margin-bottom: 0px; font-size: 30px;"><i>Check out our handpicked articles!</i></p>
     </div>
 
     <!-- Articles -->
-    <div style="background-image: url(images/background4.jpg); padding-top: 50px; padding-bottom: 50px;" class="container-fluid">
+    <div id= "article" class="container-fluid article-video-padding">
         <br>
 
         <div class="row justify-content-evenly">
@@ -126,13 +133,13 @@
     </div>
 
     <!-- Section -->
-    <div style="background-image: url(images/background3.jpg); padding-top: 250px; padding-bottom: 250px; padding-left: 10px;">
+    <div class="section-padding" id="video-section">
       <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Check out how meditation can <mark style="background-color: yellow"> benefit</mark> your life .</b></h1>
       <p style="margin-bottom: 0px; font-size: 30px;"><i>Here's some good videos!</i></p>
     </div>
 
     <!-- Videos -->
-    <div style="background-image: url(images/background5.jpg); padding-top: 50px; padding-bottom: 50px;" class="container-fluid">
+    <div id="video" class="container-fluid article-video-padding">
         <div class="row justify-content-evenly">
 
             <!-- Video 1 -->
@@ -176,7 +183,7 @@
     </div>
 
     <!-- Section -->
-    <div style="background-image: url(images/background3.jpg); padding-top: 250px; padding-bottom: 250px; padding-left: 10px;">
+    <div id="links-section" class="section-padding">
       <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Are you <mark style="background-color: yellow"> ready</mark> to try Meditation ?</b></h1>
       <p style="margin-bottom: 0px; font-size: 30px;"><i>Find your zen & earn some points to unlock additional features!</i></p>
 
