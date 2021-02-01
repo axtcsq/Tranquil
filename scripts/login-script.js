@@ -45,7 +45,10 @@ $(document).ready(function(e) {
               alert("The password you have entered is incorrect. Try again.");
           }
       }
-
+        let p = new preferredMode(false);
+        preferredModeArray =[];
+        preferredModeArray.push(p);
+        localStorage["preferredMode"]= JSON.stringify(preferredModeArray);
   });
 
   function login(id, username, password, points, darkmode) {
@@ -55,4 +58,7 @@ $(document).ready(function(e) {
       this.points = points;
       this.darkmode = darkmode;
   }
+  function preferredMode(darkmode){
+    this.darkmode = darkmode;
+}
 });
