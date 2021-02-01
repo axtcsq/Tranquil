@@ -18,50 +18,55 @@
 </head>
 
 <body>   
+    
+    <!-- Loading animation -->
     <div class='spinner-wrapper'>
         <div class="spinner">
             <lottie-player src="https://assets10.lottiefiles.com/temp/lf20_hKSrGc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>   
             <p class="text-center">Loading...</p>
         </div>
     </div>
+    
     <!-- Header -->
     <div id="content">
-    <div class="header" style="background-image: url(images/header.jpg);">
-    <div style="background-image: url(images/header.jpg); padding-top: 50px; padding-bottom: 50px; text-align: center;" class="container-fluid">
-        <img src="images/account.png" class="rounded mx-auto d-block" alt="Logo" width="150" height="150">
-        <h1>Account</h1> 
-        <h5>Welcome User.</h5>
-        <p>Before we proceed, would you like to login or sign up an account with us?</p>
- 
-        <!-- Cards -->
-        <div class="row justify-content-evenly">
 
-            <!-- Login -->
-            <div class="col-sm-6">
-                <div class="card h-100">
-                <img src="images/screenshots/login.png" class="card-img" alt="...">
-
-                <div class="card-body">
-                    <p class="card-text">Click here if you already have an existing account with us.</p>
-                    <a href="login.html" class="btn btn-dark rounded-pill">Login</a>
-                </div>
-                </div>
-            </div>
+        <div style="background-image: url(images/header.jpg);" class="container-fluid section">
             
-            <!-- Sign Up -->
-            <div class="col-sm-6">
-                <div class="card h-100">
-                <img src="images/screenshots/signup.png" class="card-img-top" alt="...">
+            <img src="images/account.png" class="rounded mx-auto d-block" alt="Logo" width="150" height="150">
+            <h1>Account</h1> 
+            <h5>Welcome User.</h5>
+            <p>Before we proceed, would you like to login or sign up an account with us?</p>
+    
+            <!-- Cards -->
+            <div class="row justify-content-evenly">
 
-                <div class="card-body">
-                    <p class="card-text">Click here if you are a new user.</p>
-                    <a href="sign-up.html" class="btn btn-dark rounded-pill">Sign Up</a>
+                <!-- Login -->
+                <div class="col-sm-6">
+                    <div class="card h-100">
+                    <img src="images/screenshots/login.png" class="card-img" alt="...">
+
+                    <div class="card-body">
+                        <p class="card-text">Click here if you already have an existing account with us.</p>
+                        <a href="login.html" class="btn btn-dark rounded-pill">Login</a>
+                    </div>
+                    </div>
                 </div>
+                
+                <!-- Sign Up -->
+                <div class="col-sm-6">
+                    <div class="card h-100">
+                    <img src="images/screenshots/signup.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <p class="card-text">Click here if you are a new user.</p>
+                            <a href="sign-up.html" class="btn btn-dark rounded-pill">Sign Up</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
+
     </div>
-</div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>

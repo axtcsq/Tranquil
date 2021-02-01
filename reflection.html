@@ -16,7 +16,8 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body style="background-image: url(images/header.jpg);">
+
     <!-- Navigation Bar -->
     <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light" style="background-color: #e9eff3;">
         
@@ -52,13 +53,58 @@
             </div>
         </div>
     </nav>
-    <h1 style="color: black;">Let's reflect on your day..</h1>
+    <div class="container-fluid" style="padding-bottom: 100px;">
+        <div class="container-fluid">
+            <h1 style="text-align: center; padding-top: 200px; padding-bottom: 200px;">Let's reflect on your day..</h1>
 
-    <form >
-        <p style="color: black;">this is a form</p>
-    </form>
-    
-    <a href="#" class="btn btn-dark" id="reflection-submit">Submit</a>
+            <form class="container-fluid" style="background-color: rgb(27, 27, 27); border-radius: 20px;" >
+                <div class="row">
+                    <div class="col">
+                        <!-- Mood Checker -->   
+                        <div class="col" style="text-align: left;">
+                            <h6 style="padding-top: 50px;">Mood</h6>
+                            <div>
+                                <!-- Option 1: Happy -->
+                                <a href="#" style="text-decoration: none; font-size:50px;">😊</a>
+                                <!-- Option 2: Sad -->
+                                <a href="#" style="text-decoration: none; font-size:50px">😞</a>
+                                <!-- Option 3: Angry -->
+                                <a href="#" style="text-decoration: none; font-size:50px">😠</a>
+                                <!-- Option 4: Loved -->
+                                <a href="#" style="text-decoration: none; font-size:50px">🥰</a>
+                            </div> 
+                        </div>
+                        
+                        <br>
+
+                        <!-- Message -->
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Why is that so?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter your message here" required></textarea>
+                        </div>
+
+                        <br>
+
+                        <!-- Message2 -->   
+                        <div style="text-align: left;">
+                            <h6>Tell us how you have been coping </h6>
+                            <div>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter your message here" required></textarea>
+                            </div> 
+                        </div> 
+
+                        <div style="padding-bottom: 50px; padding-top: 50px;">
+                            <a href="#" class="btn btn-dark" id="reflection-submit" style="background-color: white; color: black;">Submit</a>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <p id="api-message"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+   
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

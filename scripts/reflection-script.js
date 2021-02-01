@@ -1,5 +1,25 @@
 $(document).ready(function () {
-    var loginArray = JSON.parse(localStorage.getItem("login"));
+    var settings = {
+        "url": "https://type.fit/api/quotes",
+        "method": "GET",
+        "timeout": 0,
+        "headers": {
+        },
+      };
+      
+      $.ajax(settings).done(function (response) {
+        const data = JSON.parse(response);
+        var indexList = [11,13,21,25,27,32,35]; // need to look at index agn
+        var randomIndex=  Math.floor(Math.random()*10);
+        if(randomIndex == 9 || randomIndex == 8 || randomIndex == 7){
+        randomIndex=  Math.floor(Math.random()*10);
+       }
+        var index = indexList[randomIndex];
+        console.log(randomIndex);
+        console.log(index);
+        $("#api-message").append(data[index].text);
+      });
+    // $("#api-message").append("hellow");
     $("#reflection-submit").on("click", function(e) {
         e.preventDefault();
         loginArray[loginArray.length-1].points+=5;
