@@ -1,0 +1,18 @@
+.navbar{
+    background-color:#313131 ;
+}
+
+.header{
+    background-image: url("../images/background3.jpg");
+}
+
+#article-section,
+#video-section,
+#links-section{
+    background-image: url("../images/background5.jpg");
+}
+
+#article,
+#video{
+    background-image: url("../images/background2.jpg");
+}
