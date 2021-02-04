@@ -10,6 +10,31 @@
     background-image: url("../images/darkbg1.jpg");
 }
 
+/* Modal Box & Card */
+.modal-content, .card, .card-body{
+    color: white;
+    background-color: #212529;
+    text-align: center;
+}
+
+/* style button */
+.btn{
+    border:none;
+    outline: none;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-size: large;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(160, 160, 160);
+    color: black;
+    transition-delay: 0.15s;
+}
+
 #article-section,
 #video-section,
 #links-section{
@@ -18,5 +43,5 @@
 
 #article,
 #video{
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background4.jpg");
 }
