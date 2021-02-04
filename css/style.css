@@ -15,12 +15,21 @@
   box-sizing: border-box;
 }
 
-/* set bg image */
-body{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+body, html {
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+/* Background Image */
+.bg {
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-padding{
