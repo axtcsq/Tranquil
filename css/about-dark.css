@@ -1,9 +1,13 @@
 .navbar{
-    background-color:#313131 ;
+    background-color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
 }
 
 .header{
-    background-image: url("../images/background3.jpg");
+    background-image: url("../images/darkbg1.jpg");
 }
 
 #article-section,

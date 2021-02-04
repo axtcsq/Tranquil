@@ -2,6 +2,10 @@
     background-color:#e9eff3 ;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
 .header{
     background-image: url("../images/header.jpg");
 }

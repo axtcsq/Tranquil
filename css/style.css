@@ -113,15 +113,3 @@ body, html {
   align-items: center;
   justify-content: center;
 }
-
-.section{
-  padding-top: 50px; 
-  padding-bottom: 50px; 
-  text-align: center;
-}
-
-.transition{
-  padding-top: 250px; 
-  padding-bottom: 250px; 
-  padding-left: 10px;
-}
