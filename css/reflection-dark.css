@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.container-fluid{
+    background-color: #212529;
+}
+
+form{
+    color: white;
+}
+
+/* style button */
+.btn{
+    border:none;
+    outline: none;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-size: large;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(160, 160, 160);
+    color: black;
+    transition-delay: 0.15s;
+}
