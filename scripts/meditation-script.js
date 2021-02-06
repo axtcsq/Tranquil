@@ -1,8 +1,22 @@
 $(document).ready(function () {
+    // parse array
     var loginArray = JSON.parse(localStorage.getItem("login"));
+    var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
+
+    // decide if dark/ light mode.
+    if(loginArray[0].darkmode == true){
+        if(preferredModeArray[0].darkmode == true){
+            darkMode();
+        }else{
+            lightMode();
+        }
+    }else{
+        lightMode();
+    }
 
     // hide animation
     $("#congrats").hide();
+
     function sayDone() {
         // alert user and show animation
         alert('Good job! Meditation completed.');
@@ -59,4 +73,21 @@ function login(id, username, password, points, darkmode) {
     this.password = password;
     this.points = points;
     this.darkmode = darkmode;
+}
+
+function darkMode(){
+    var head = document.getElementsByTagName('HEAD')[0];  
+    var link = document.createElement('link'); 
+    link.rel = 'stylesheet';  
+    link.type = 'text/css'; 
+    link.href = 'css/meditation-dark.css';  
+    head.appendChild(link);
+}
+function lightMode(){
+    var head = document.getElementsByTagName('HEAD')[0];  
+    var link = document.createElement('link'); 
+    link.rel = 'stylesheet';  
+    link.type = 'text/css'; 
+    link.href = 'css/meditation-light.css';  
+    head.appendChild(link);
 }

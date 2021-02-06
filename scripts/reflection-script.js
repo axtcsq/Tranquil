@@ -1,4 +1,20 @@
 $(document).ready(function () {
+    $(".app").hide();
+    // parse array
+    var loginArray = JSON.parse(localStorage.getItem("login"));
+    var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
+
+    // decide if dark/ light mode.
+    if(loginArray[0].darkmode == true){
+        if(preferredModeArray[0].darkmode == true){
+            darkMode();
+        }else{
+            lightMode();
+        }
+    }else{
+        lightMode();
+    }
+
     // call quotes API
     var settings = {
         "url": "https://type.fit/api/quotes",
@@ -8,6 +24,7 @@ $(document).ready(function () {
         },
     };
     $.ajax(settings).done(function (response) {
+        const data = JSON.parse(response);
         var indexList = [11,13,21,25,27,32,35]; 
         var randomIndex=  Math.floor(Math.random()*10);
         if(randomIndex == 9 || randomIndex == 8 || randomIndex == 7){
@@ -23,8 +40,6 @@ $(document).ready(function () {
     $("#reflection-submit").on("click", function(e) {
         e.preventDefault();
         loginArray[loginArray.length-1].points+=5;
-        var loginArray = JSON.parse(localStorage.getItem("login"));
-
         //update RESTDB
         const APIKEY = "600e2fe91346a1524ff12dbd";
         var id = loginArray[loginArray.length-1].id;
@@ -70,4 +85,21 @@ function login(id, username, password, points, darkmode) {
     this.password = password;
     this.points = points;
     this.darkmode = darkmode;
+}
+
+function darkMode(){
+    var head = document.getElementsByTagName('HEAD')[0];  
+    var link = document.createElement('link'); 
+    link.rel = 'stylesheet';  
+    link.type = 'text/css'; 
+    link.href = 'css/reflection-dark.css';  
+    head.appendChild(link);
+}
+function lightMode(){
+    var head = document.getElementsByTagName('HEAD')[0];  
+    var link = document.createElement('link'); 
+    link.rel = 'stylesheet';  
+    link.type = 'text/css'; 
+    link.href = 'css/reflection-light.css';  
+    head.appendChild(link);
 }
