@@ -11,8 +11,10 @@
     <!--Linking CSS-->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
     <!-- Our CSS -->
+    <link rel="stylesheet" href="css/OverlayScrollbars.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -27,14 +29,17 @@
   </div>
 
   <div id="content">
+    <a id="back2Top" title="Back to top" href="#">☝️ <br> up </a>
+<div class="header-bg bg">
 
+    
     <!-- Navigation Bar -->
-    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
         
         <!-- Logo & Name -->
         <div class="container-fluid">
             <a class="navbar-brand" href="about.html">
-                <img src="images/logo.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="30" height="30">
+                <img src="images/logo_transparent.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="50" height="50">
             </a>
             
             <!-- Mobile nav bar button -->
@@ -43,115 +48,171 @@
             </button>
           
             <!-- Nav bar links -->
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav column">
+                  <!-- Meditation -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="meditation.html">Meditation</a>
+                  </li>
 
-                    <!-- Meditation -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="meditation.html">Meditation</a>
-                    </li>
+                  <!-- Reflection -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="reflection.html">Reflection</a>
+                  </li>
 
-                    <!-- Reflection -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="reflection.html">Reflection</a>
-                    </li>
-
-                    <!-- Account -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Log out</a>
-                    </li>
-
-                    <!-- Colour Scheme -->
-                    <li>
-                      <a href="#" style="text-decoration: none; color: black;" class="app">
-                        <img src="images/colourscheme.png" style="width: 35px; height: 35px;" class="img-fluid">
-                      </a>
-                    </li>
-
+                  <!-- Account -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Log out</a>
+                  </li>
+                  <!-- <li class="nav-item navbar-text" id="motto">
+                  </li>
+                  <li>
+                    <a href="#" style="text-decoration: none; color: black;" class="app">
+                      <img src="images/colourscheme.png" style="width: 50px; height: 50px;" class="img-fluid">
+                    </a>
+                  </li> -->
                 </ul>
             </div>
+            <span class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+              <div class="nav-item navbar-text" id="motto" style="padding: 10px; padding-left: 0px;">
+              </div>
+              <!-- Colour Scheme -->
+              <div>
+                <a href="#" style="text-decoration: none; color: black;" class="app">
+                  <img src="images/colourscheme.png" style="width: 50px; height: 50px;" class="img-fluid">
+                </a>
+              </div>
+            </span>
         </div>
 
     </nav>
 
     <!-- Header -->
-    <div class="header bg" id="header">
-        <img src="images/logo.png" class="rounded mx-auto d-block" alt="A picture of a contact icon" width="150" height="150">
-        <h1>Tranquil</h1>
+    <!-- <div class="header bg" id="header"> -->
+        <!-- <img src="images/logo.png" class="rounded mx-auto d-block" alt="A picture of a contact icon" width="150" height="150"> -->
+        <div class="header" style="height: 100vh;">
+        <h1 style="font-size: 8vw; font-family: 'Yeseva One', cursive; line-height: initial;">Tranquil</h1>
+        <p style="font-size: 3vh; color:darkslategray;">Take care of yourself because you deserve it</p>
         <br>
-          <p>We hope to encourage people to take care of themselves even on your busiest days!</p>
-    </div>
 
+        </div>
+    <!-- </div> -->
+    
+  </div>
+  
     <!-- Section -->
     <div class="section-padding bg" id="article-section">
-      <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Want to learn more about <mark style="background-color: yellow">Meditation</mark> ?</b></h1>
-      <p style="margin-bottom: 0px; font-size: 30px;"><i>Check out our handpicked articles!</i></p>
-    </div>
-
-    <!-- Articles -->
-    <div id="article" class="container-fluid article-video-padding bg">
-        <br>
-
-        <div class="row justify-content-evenly">
-
-        <!-- Article 1 -->
-        <div class="col-sm-6">
-          <div class="card h-100">
-            <img src="images/article1.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-              <h5 class="card-title">Keep calm and curl up: More turning to meditation to cope with stress</h5>
-                <p class="card-text">
-                    "Meditation has helped me to take the emotion, process it, think why I am 
-                    feeling this way, recognise it, accept it, and move on."
-                </p>
-            </div>
-
-            <div class="card-footer">
-                <a href="https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress" class="btn btn-primary">Read More</a>
-                <small class="text-muted">NOV 17, 2020, 6:15 PM SGT</small>
-            </div>
+      <h1 style="margin-bottom: 0px; padding-bottom: 10px; text-align: center; font-size: 50px; font-family: 'Yeseva One', cursive;"><b>Want to learn more about <mark style="background-color: yellow">Meditation</mark> ?</b></h1>
+      <p style="margin-bottom: 0px; font-size: 30px; text-align: center; padding-bottom: 100px;color: black;"><i>Check out our handpicked articles!</i></p>
+      <div style="
+      text-align: center;
+      font-size: 100px;
+      padding-bottom: 100px;
+      font-family: 'Yeseva One', cursive;
+      color: black;
+  "> 01 </div>
+      <div class="container-fluid" style="color: black;">
+        <div class="row">
+          <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
+            <img src="images/article2.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
+            <div style="text-align: left;">
+            <h2>Keep calm and curl up: More turning to meditation to cope with stress</h2>
+            <p>
+                "Meditation has helped me to take the emotion, process it, think why I am 
+                feeling this way, recognise it, accept it, and move on."
+            </p>
+            <a href="https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream" class="reminderLink" style="color: rgb(0, 0, 0); text-decoration: none; ">Read More</a> <br>
+            <small class="text-muted">OCT 15, 2017, 1:26 PM SGT</small>
           </div>
         </div>
-
-        <!-- Article 2 -->
-        <div class="col-sm-6">
-          <div class="card h-100">
-            
-            <img src="images/article2.jpg" class="card-img-top" alt="...">
-
-            <div class="card-body">
-              <h5 class="card-title">After yoga, meditation breaks into the mainstream</h5>
-                <p class="card-text">
-                    "I just need a moment to chill out. This city - you are always running place to place 
-                    and there are not a lot of quiet spaces," she explains. I think it's made me a lot happier 
-                    and also just helped me make better decisions, more thoughtful decisions."
-                </p>
-            </div>
-
-            <div class="card-footer">
-                <a href="https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream" class="btn btn-primary">Read More</a>
-                <small class="text-muted">OCT 15, 2017, 1:26 PM SGT</small>
-            </div>
+        </div>
+        <div style="
+      text-align: center;
+      font-size: 100px;
+      padding-bottom: 100px;
+      padding-top: 100px;
+      font-family: 'Yeseva One', cursive;
+      color: black;
+  "> 02 </div>
+        <div class="row">
+          <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
+            <div style="text-align: end;">
+            <h2>Keep calm and curl up: More turning to meditation to cope with stress</h2>
+            <p>
+                "Meditation has helped me to take the emotion, process it, think why I am 
+                feeling this way, recognise it, accept it, and move on."
+            </p>
+            <a href="https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress" class="reminderLink" style="color: rgb(0, 0, 0); text-decoration: none; ">Read More</a> <br>
+            <small class="text-muted">NOV 17, 2020, 6:15 PM SGT</small>
+          </div>
+        </div>
+          <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
+            <img src="images/article1.jpg" class="img-fluid" alt="...">
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Section -->
-    <div class="section-padding bg" id="video-section">
-      <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Wondering how meditation can <mark style="background-color: yellow"> benefit</mark> your life?</b></h1>
-      <p style="margin-bottom: 0px; font-size: 30px;"><i>Here's some videos we recommend watching.</i></p>
-    </div>
+    <!-- </div> -->
 
-    <div id="video" class="container-fluid article-video-padding bg">
+    <!-- Articles -->
+    <!-- <div id="article" class="container-fluid article-video-padding bg">
+        <div class="col justify-content-evenly"> -->
+            <!-- Article 1 -->
+            <!-- <div class="" style="padding: 50px 20px;">
+              <div class="row card h-100" style="width: 50%;">
+                <div class="card-body">
+                  <h5 class="card-title">Keep calm and curl up: More turning to meditation to cope with stress</h5>
+                    <p class="card-text">
+                        "Meditation has helped me to take the emotion, process it, think why I am 
+                        feeling this way, recognise it, accept it, and move on."
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress" class="reminderLink" style="color: white; text-decoration: none; ">Read More</a> <br>
+                    <small class="text-muted">NOV 17, 2020, 6:15 PM SGT</small>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Article 2 -->
+            <!-- <div class="" style="display: flex; justify-content: flex-end; padding: 50px 20px;">
+              <div class="row card h-100" style="width: 50%;">
+                <img src="images/article2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">After yoga, meditation breaks into the mainstream</h5>
+                    <p class="card-text">
+                        "I just need a moment to chill out. This city - you are always running place to place 
+                        and there are not a lot of quiet spaces," she explains. I think it's made me a lot happier 
+                        and also just helped me make better decisions, more thoughtful decisions."
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream" class="reminderLink" style="color: white; text-decoration: none; ">Read More</a> <br>
+                    <small class="text-muted">OCT 15, 2017, 1:26 PM SGT</small>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> -->
+  </div>
+
+    
 
       <!-- Videos -->
-      <div class="container-fluid section">
+      <div class="container-fluid section" style="background: rgb(37,124,136); padding:100px 50px;">
+        <!-- Section -->
+    <div class="section-padding bg" style="text-align: center;">
+      <h1 style="margin-bottom: 0px;color: white; font-size: 50px; font-family: 'Yeseva One', cursive;"><b>Wondering how meditation can <mark style="background-color: yellow"> benefit</mark> your life?</b></h1>
+      <p style="margin-bottom: 0px; font-size: 30px; color:antiquewhite;"><i>Here's some videos we recommend watching.</i></p>
+    </div>
+
           <div class="row justify-content-evenly">
 
               <!-- Video 1 -->
-              <div class="col-sm-6">
+              <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d;
+              border-radius: 10px; margin-top: 20px;">
                 <div class="card h-100">
                   <div class="videoWrapper">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/bb5OOO_0HXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -171,9 +232,9 @@
                   </div>
                 </div>
               </div>
-
               <!-- Video 2 -->
-              <div class="col-sm-6">
+              <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d;
+              border-radius: 10px; margin-top: 20px;">
                   <div class="card h-100">
                       <div class="videoWrapper">
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/RZrdUuEARXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -193,29 +254,28 @@
                     </div>
                   </div>
               </div>
-          </div>
       </div>
     </div>
 
     <!-- Section -->
-    <div id="links-section" class="section-padding bg">
-      <h1 style="margin-bottom: 0px; padding-bottom: 10px;"><b>Are you <mark style="background-color: yellow"> ready</mark> to try Meditation ?</b></h1>
-      <p style="margin-bottom: 0px; font-size: 30px;"><i>Find your zen & earn some points to unlock additional features!</i></p>
 
-      <br>
-
-      <div class="container-fluid">
+      <div class="container-fluid" style="padding-left:0px; padding-right: 0px;">
+        <div  class="section-padding header-bg bg">
+          <h1 style="margin-bottom: 0px; padding-bottom: 10px; color:white;"><b>Are you ready to try <mark style="background-color: yellow">Meditation </mark>?</b></h1>
+          <p style="margin-bottom: 0px; font-size: 30px;"><i>Find your zen & earn some points to unlock additional features!</i></p>
+    
+          <br>
         <div class="row">
 
-          <div class="col-sm-2" style="padding-left: 0px;">
+          <!-- <div  style="padding-left: 20px;"> -->
             <!-- Meditation Button -->
-            <a href="meditation.html" class="btn btn-dark rounded-pill" style="width: 150px;">Meditation</a>
-          </div>
+            <a href="meditation.html" class="btn btn-dark rounded-pill" style="margin-left: 20px; width: 150px; margin-top: 10px;">Meditation</a>
+          <!-- </div> -->
 
-          <div class="col-sm-2" style="padding-left: 0px;">
+          <!-- <div style="padding-left: 20px;"> -->
             <!-- Reflection Button -->
-            <a href="reflection.html" class="btn btn-dark rounded-pill" style="width: 150px;">Reflection</a>
-          </div>
+            <a href="reflection.html" class="btn btn-dark rounded-pill" style="margin-left: 20px; width: 150px; margin-top: 10px;">Reflection</a>
+          <!-- </div> -->
         </div>
       </div>
     </div>   
@@ -227,6 +287,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <script src="scripts/about-script.js"></script>
     <script src="scripts/loader-script.js"></script>
+    <script src="scripts/back-to-top.js"></script>
+    <script src="scripts/OverlayScrollbars.min.js"></script>
+    <script src="scripts/overlay-scrollbar.js"></script>
+    
 
 </body>
 </html>
