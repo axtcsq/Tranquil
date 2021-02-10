@@ -30,9 +30,7 @@ body, html {
 }
 
 .section-padding{
-  padding-top: 250px; 
-  padding-bottom: 250px; 
-  padding-left: 10px;
+  padding: 150px 50px;
 }
 
 .article-video-padding{
@@ -68,6 +66,7 @@ body, html {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  padding-top: 10px;
 }
 
 .videoWrapper iframe{
@@ -103,4 +102,63 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.app{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+}
+
+.card{
+  border: none;
+}
+
+.reminderLink{
+  display: inline-block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  font-size: 18px;
+}
+.reminderLink::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition: width .3s;
+}
+.reminderLink:hover::after{
+  width: 100%;
+}
+.reminderLink:hover{
+  text-decoration: none;
+}
+
+#back2Top {
+  width: 50px;
+  margin: 20px;
+  overflow: hidden;
+  z-index: 999;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  background-color: rgba(11, 54, 36, 0.507);
+  color: rgb(231, 240, 240);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#back2Top:hover {
+  background-color: rgb(238, 235, 49);
+  color: #000;
+}
+
+h1{
+  line-height: 2em;
+}
+
+.card-footer{
+  background-color: none;
 }
