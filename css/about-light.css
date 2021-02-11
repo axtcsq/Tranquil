@@ -7,12 +7,13 @@
 }
 
 .header-bg{
-    /* background-image: url("../images/header.jpg"); */
     background-image: url("../images/background-light.jpg");
 }
+
 h1{
     color: darkslategray;
 }
+
 /* Modal Box & Card */
 .modal-content, .card, .card-body{
     color: black;
@@ -41,13 +42,5 @@ h1{
 #article-section,
 #video-section,
 #links-section{
-    /* background-image: url("../images/scott-webb-hDyO6rr3kqk-unsplash.jpg"); */
-    /* background-image: linear-gradient(to bottom right, rgb(85 190 208), rgb(175 204 193)); */
     background: rgb(205,235,246);
 }
-
-#article,
-#video{
-    /* background-image: url("../images/background4.jpg"); */
-}
-
