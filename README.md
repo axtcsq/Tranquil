@@ -5,7 +5,7 @@ Our idea is to create a website that raises awareness of mental health. The aim 
 * Audience: busy people, students, workers - needs comfort
 * Group name: Tranquil
 ## Table of Contents
-* [Tranquil (Assignment 3)]()
+* [Tranquil (Assignment 3)](https://github.com/axtcsq/Tranquil#tranquil-assignment-3)
 * [GitHub](https://github.com/axtcsq/Tranquil#github)
   * [GitHub Repository](https://github.com/axtcsq/Tranquil#github-repository)
   * [GitHub Pages](https://github.com/axtcsq/Tranquil#github-pages)
