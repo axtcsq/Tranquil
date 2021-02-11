@@ -10,10 +10,6 @@
     background-image: url("../images/background-light.jpg");
 }
 
-h1{
-    color: white;
-}
-
 /* Modal Box & Card */
 .modal-content, .card, .card-body{
     color: black;
@@ -42,5 +38,5 @@ h1{
 #article-section,
 #video-section,
 #links-section{
-    background: rgb(151, 184, 196);
+    background: rgb(122, 148, 156);
 }
