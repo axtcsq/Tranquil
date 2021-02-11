@@ -30,7 +30,7 @@ body, html {
 }
 
 .section-padding{
-  padding: 150px 50px;
+  padding: 30px 30px;
 }
 
 .article-video-padding{
@@ -147,15 +147,15 @@ body, html {
   position: fixed;
   bottom: 20px;
   right: 0;
-  background-color: rgba(11, 54, 36, 0.507);
-  color: rgb(231, 240, 240);
+  background-color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
 }
 
 #back2Top:hover {
-  background-color: rgb(238, 235, 49);
+  background-color: yellow;
   color: #000;
 }
 

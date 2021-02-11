@@ -3,7 +3,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: black;
 }
 
 .header{
@@ -38,10 +38,5 @@
 #article-section,
 #video-section,
 #links-section{
-    background-image: url("../images/background5.jpg");
-}
-
-#article,
-#video{
-    background-image: url("../images/background4.jpg");
+    background: rgb(89, 111, 116);
 }

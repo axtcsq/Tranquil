@@ -3,7 +3,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: white;
 }
 
 .header-bg{
@@ -42,5 +42,5 @@ h1{
 #article-section,
 #video-section,
 #links-section{
-    background: rgb(205,235,246);
+    background: rgb(151, 184, 196);
 }
