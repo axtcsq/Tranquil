@@ -11,91 +11,259 @@
     <!--Linking CSS-->
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+
         <!-- Our CSS -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="background-image: url(images/header.jpg);" class="bg">
+<body style="background-color:rgb(197,226,240);" >
 
-    <!-- Navigation Bar -->
-    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light">
-        
-        <!-- Logo & Name -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="about.html">
-                <img src="images/logo.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="30" height="30">
-            </a>
+    <div style="
+    background: azure;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;">
+
+    
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
             
-            <!-- Mobile nav bar button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <!-- Nav bar links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <!-- Meditation -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="meditation.html">Meditation</a>
-                    </li>
-
-                    <!-- Reflection -->
-                    <li class="nav-item">
-                        <a class="nav-link active" href="reflection.html">Reflection</a>
-                    </li>
-
-                    <!-- Account -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Log out</a>
-                    </li>
-
-                    <!-- Colour Scheme -->
-                    <li>
-                        <a href="#" style="text-decoration: none; color: black;" class="app">
-                          <img src="images/colourscheme.png" style="width: 35px; height: 35px;" class="img-fluid">
-                        </a>
-                    </li>
-
-                </ul>
+            <!-- Logo & Name -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="about.html">
+                    <img src="images/logo_transparent.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="50" height="50">
+                </a>
+                
+                <!-- Mobile nav bar button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <!-- Nav bar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav column">
+                      <!-- Meditation -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="meditation.html">Meditation</a>
+                      </li>
+    
+                      <!-- Reflection -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="reflection.html">Reflection</a>
+                      </li>
+    
+                      <!-- Account -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Log out</a>
+                      </li>
+                    </ul>
+                </div>
+    
+                <span class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+                  <div class="nav-item navbar-text" id="motto" style="padding: 10px; padding-left: 0px;">
+                  </div>
+    
+                  <!-- Colour Scheme -->
+                  <div>
+                    <a href="#" style="text-decoration: none; color: black;" class="app">
+                      <img src="images/colourscheme.png" style="width: 50px; height: 50px;" class="img-fluid">
+                    </a>
+                  </div>
+                </span>
             </div>
+        </nav>
+    
+        <!-- Header -->
+        <div class="header" style="color: black;">
+          <h1 id="hi-msg" style="font-size: 8vw; font-family: 'Yeseva One', cursive; line-height: initial;"></h1>
+          <p style="font-size: 3vh;">Take 5 minutes to reflect each day and gain points along the way!</p>
         </div>
-    </nav>
-
-    <div class="container-fluid" style="padding-bottom: 100px;">
-        <div class="container-fluid">
-
-            <!-- Reflection animation -->
-            <div class="animation-center">
-                <div style="display:block;">
-                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_zJkn1j.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <div> 
+            <div style="display: flex;color: black;justify-content: center;">
+                <div id="mood-select" style="padding: 10px 50px;border-top-left-radius: 20px;border-top-right-radius: 20px;background: rgb(197,226,240);">
+                    Mood
+                </div>
+                
+                <div id="well-being-select" style="padding: 10px 50px;border-top-left-radius: 20px;border-top-right-radius: 20px;background-color: none;">
+                     Well-being
+                </div>
+    
+                <div id="self-care-select" style="padding: 10px 50px;border-top-left-radius: 20px;border-top-right-radius: 20px;">
+                     Self-care
                 </div>
             </div>
+        </div>
+      </div>
+
+    <div class="container-fluid" style="padding-bottom: 100px;">
+        <div id="mood-content" style="padding: 50px 0px;">
+            <h1 style="text-align: center;">
+                How are you feeling today?
+            </h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6" style="padding: 10px;">
+                        <img src="images/article1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6" style="padding: 10px;">
+                        <img src="images/article1.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6" style="padding: 10px;">
+                        <img src="images/article1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6" style="padding: 10px;">
+                        <img src="images/article1.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <h1 style="text-align: center; padding-top: 50px;">
+                Go deeper and pen down your thoughts. <br>
+                We'll not share it with anyone
+            </h1>
+            <div style="padding: 0px 30px;">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message here" required></textarea>
+            </div>
+            <div style="padding-top: 50px;">
+                <h1>
+                    We hear you! 
+                </h1>
+                <h2>
+                    Now take a deep breath and let your emotions sink in.
+                </h2>
+            </div>
+        </div>
+        <div id="well-being-content">
+            <h1>
+                Food
+            </h1>
+            <h2>
+                What have you eaten today?
+            </h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <h1>
+                Exercise
+            </h1>
+            <h2>
+                Have you exercise today?
+            </h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="images/background2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div id="self-care-content">
+            <h1>
+                Choose how you want to give yourself a treat today 
+            </h1>
+            <div class="row">
+                <div class="col-6" style="padding: 20px;">
+                    <img src="images/background3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6" style="padding: 20px;">
+                    <img src="images/background3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6" style="padding: 20px;">
+                    <img src="images/background3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6" style="padding: 20px;">
+                    <img src="images/background3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+  <footer class="d-flex align-items-center justify-content-center" style="background-color: black; color: white;">
+    <div class="container">
+
+      <div class="row my-5 px-0">
+        <!-- Application description + personal info: linkedin, instagram, github -->
+        <div class="col-6">
+          Tranquil <br>
+          Singapore <br> <br>
+          By: Alexander & Balqis <br>
+          Follow us <br> <br>
+          <a href="https://sg.linkedin.com/school/ngee-ann-polytechnic/" target="_blank"><img src="images/linkedin-white.svg" alt="linkedin logo" width="32" height="32" title="linkedin"></a> 
+          <a href="https://github.com/axtcsq/Tranquil" target="_blank"><img src="images/github-white.svg" alt="github logo" width="32" height="32" title="github"></a>
+        </div>
+
+        <!-- Links for api + github reference  -->
+        <div class="col-3">
+          <b>Developer</b>  <br> <br>
+          <a href="https://github.com/axtcsq/Tranquil" target="_blank" style="color: white;">Github</a> <br>
+          <a href="https://type.fit/api/quotes" target="_blank" style="color: white;">API</a> <br>
+        </div>
+
+        <!-- Contact/feedback link -->
+        <div class="col-3" id="contact">
+          <b>Feedback</b> <br> <br>
+          <address>
+            <a href="mailto:askNP@np.edu.sg" style="color: white;">Email</a>
+          </address>
+        </div>
+      </div>
+
+      <!-- Application's name -->
+      <div class="row my-5">
+        <div class="col-12 text-center " style="font-size: 1rem;">&copy; Tranquil 2021</div>
+      </div>
+
+    </div>          
+  </footer>
+
+<!-- Reflection animation -->
+        <!-- <div class="animation-center">
+            <div style="display:block;">
+                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_zJkn1j.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+            </div>
+        </div> -->
+    <!--<div class="container-fluid">
 
             <h1 style="text-align: center; padding-bottom: 50px;">Let's reflect on your day...</h1>
-
-            <!-- Background colour is in css -->
+        
+            Background colour is in css
             <form class="container-fluid" style="border-radius: 20px;" >
                 <div class="row">
                     <div class="col">
-                        <!-- Mood Checker -->   
+                        Mood Checker   
                         <div class="col" style="text-align: left;">
                             <h6 style="padding-top: 50px;">Mood</h6>
                             <div>
-                                <!-- Option 1: Happy -->
+                                Option 1: Happy
                                 <a href="#" style="text-decoration: none; font-size:50px;">😊</a>
-                                <!-- Option 2: Sad -->
+                                Option 2: Sad
                                 <a href="#" style="text-decoration: none; font-size:50px">😞</a>
-                                <!-- Option 3: Angry -->
+                                Option 3: Angry
                                 <a href="#" style="text-decoration: none; font-size:50px">😠</a>
-                                <!-- Option 4: Loved -->
+                                Option 4: Loved
                                 <a href="#" style="text-decoration: none; font-size:50px">🥰</a>
                             </div> 
                         </div>
                         
                         <br>
 
-                        <!-- Message -->
+                        Message
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Why is that so?</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter your message here" required></textarea>
@@ -103,7 +271,7 @@
 
                         <br>
 
-                        <!-- Message2 -->   
+                        Message2   
                         <div style="text-align: left;">
                             <h6>Tell us how you have been coping </h6>
                             <div>
@@ -122,8 +290,7 @@
                 </div>
             </form>
         </div>
-    </div>
-   
+        -->
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
