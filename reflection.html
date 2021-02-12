@@ -17,8 +17,53 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <style>
             .img-fluid{
-                border-radius: 60px;
-                max-width: 80%;
+            border-radius: 60px;
+            max-width: 100%;
+            }
+            .image-container {
+            position: relative;
+            border-radius: 60px;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .image {
+            display: block;
+            width: 100%;
+            height: auto;
+            }
+
+            .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            border-radius: 60px;
+            background-color: #ffffffdc;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .image-container:hover .overlay {
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            .text {
+            color: rgb(24, 24, 24);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
             }
         </style>
 </head>
@@ -107,43 +152,90 @@
                 How are you feeling today?
             </h1>
             <div class="container-fluid" style="padding: 30px 50px ;">
-                <div class="row">
-                    <div class="col-6" style="padding: 80px;">
-                        <img src="https://image.freepik.com/free-vector/enthusiastic-concept-illustration_114360-3716.jpg" alt="" class="img-fluid">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-5" style="padding: 80px;">
+                        <div class="image-container">
+                            <img src="https://image.freepik.com/free-vector/enthusiastic-concept-illustration_114360-3716.jpg" alt="" class="img-fluid">
+                            <div class="overlay">
+                                <div class="row">
+                                    <p class="text">
+                                        Notice who you are with when you're happy :)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <h3>
-                            Happy
+                            #TeamHappy
                         </h3>
                     </div>
-                    <div class="col-6" style="padding: 80px;">
-                        <img src="https://image.freepik.com/free-vector/low-self-esteem-illustration_52683-49955.jpg" alt="" class="img-fluid">
+                    <div class="col-5" style="padding: 80px;">
+                        <div class="image-container">
+                            <img src="https://image.freepik.com/free-vector/low-self-esteem-illustration_52683-49955.jpg" alt="" class="img-fluid">
+                            <div class="overlay">
+                                <div class="row">
+                                    <p class="text">
+                                        We can't control everything <br>
+                                        Just try your best and the rest will follow 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <h3>
-                            Troubled
+                            #TeamAnxious
                         </h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6" style="padding: 80px;">
-                        <img src="https://image.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_52683-36476.jpg" alt="" class="img-fluid">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-5" style="padding: 80px;">
+                        <div class="image-container">
+                            <img src="https://image.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_52683-36476.jpg" alt="" class="img-fluid">
+                            <div class="overlay">
+                                <div class="row">
+                                    <p class="text">
+                                        We take too much things for granted, <br>
+                                        Being thankful for small things can make you feel loved 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <h3>
-                            Grateful
+                            #TeamGrateful
                         </h3>
                     </div>
-                    <div class="col-6" style="padding: 80px;">
-                        <img src="https://image.freepik.com/free-vector/cabin-fever-with-sad-man-house_23-2148571637.jpg" alt="" class="img-fluid">
+                    <div class="col-5" style="padding: 80px;">
+                        <div class="image-container">
+                            <img src="https://image.freepik.com/free-vector/cabin-fever-with-sad-man-house_23-2148571637.jpg" alt="" class="img-fluid">
+                            <div class="overlay">
+                                <div class="row">
+                                    <p class="text">
+                                        So sorry to hear that :( <br>
+                                        Things will get better for sure!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <h3>
-                            Sad
+                            #TeamSad
                         </h3>
                     </div>
                 </div>
             </div>
-            <h1 style="text-align: center; padding-top: 50px;">
-                Go deeper and pen down your thoughts.
-            </h1>
-            <p>
-                We'll not share it with anyone
-            </p>
-            <div style="padding: 100px 150px;">
-                <textarea style="padding: 10px 60px;background: #ffffff5d;" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type here" required></textarea>
+            <div style="background-color: white; margin: 80px; border-radius: 30px;">
+                <h1 style="text-align: center; padding-top: 50px;">
+                    Go deeper and pen down your thoughts.
+                </h1>
+                <p>
+                    We'll not share it with anyone
+                </p>
+                <div style="padding: 100px 150px;">
+                    <textarea style="background: #ffffff5d;" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type here" required></textarea>
+                    <div class="row">
+                        <p class="col" id="date" style="text-align: left; padding-top: 10px; color:grey;"></p>
+                        <div class="col" style="padding-bottom: 50px; padding-top: 10px; display: flex;justify-content: flex-end;">
+                            <a href="#" class="btn" id="reflection-submit" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); width: 200px;">Submit</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div style="padding-top: 50px;">
                 <h1>
