@@ -82,6 +82,18 @@ $(document).ready(function () {
         $(".self-care-content-container")[3].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[3].style.borderBottomLeftRadius = "30px";
     })
+    $("#food-section-submit").click(function(){
+        loginArray[loginArray.length-1].points+=2;
+        updateData();
+    })
+    $("#exercise-section-submit").click(function(){
+        loginArray[loginArray.length-1].points+=2;
+        updateData();
+    })
+    $("#sleep-section-submit").click(function(){
+        loginArray[loginArray.length-1].points+=2;
+        updateData();
+    })
     // call quotes API
     var settings = {
         "url": "https://type.fit/api/quotes",
