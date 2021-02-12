@@ -9,7 +9,7 @@ $(window).scroll(function() {
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
         event.preventDefault();
-        window.location.href = "about.html#content";
+        window.location.href = "#content";
         return false;
     });
 
