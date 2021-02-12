@@ -46,6 +46,42 @@ $(document).ready(function () {
         $("#self-care-content").show();
 
     })
+
+    $("#arrow-0").click(function(){
+        loginArray[loginArray.length-1].points+=1;
+        updateData();
+        $(".self-care-content-container")[0].style.backgroundColor ="#040822";
+        $(".self-care-content-container")[0].style.color = "white";
+        $(".self-care-content-container")[0].style.borderTopLeftRadius = "30px";
+        $(".self-care-content-container")[0].style.borderBottomLeftRadius = "30px";
+    })
+
+    $("#arrow-1").click(function(){
+        loginArray[loginArray.length-1].points+=1;
+        updateData();
+        $(".self-care-content-container")[1].style.backgroundColor ="#040822";
+        $(".self-care-content-container")[1].style.color = "white";
+        $(".self-care-content-container")[1].style.borderTopLeftRadius = "30px";
+        $(".self-care-content-container")[1].style.borderBottomLeftRadius = "30px";
+    })
+
+    $("#arrow-2").click(function(){
+        loginArray[loginArray.length-1].points+=1;
+        updateData();
+        $(".self-care-content-container")[2].style.backgroundColor ="#040822";
+        $(".self-care-content-container")[2].style.color = "white";
+        $(".self-care-content-container")[2].style.borderTopLeftRadius = "30px";
+        $(".self-care-content-container")[2].style.borderBottomLeftRadius = "30px";
+    })
+
+    $("#arrow-3").click(function(){
+        loginArray[loginArray.length-1].points+=1;
+        updateData();
+        $(".self-care-content-container")[3].style.backgroundColor ="#040822";
+        $(".self-care-content-container")[3].style.color = "white";
+        $(".self-care-content-container")[3].style.borderTopLeftRadius = "30px";
+        $(".self-care-content-container")[3].style.borderBottomLeftRadius = "30px";
+    })
     // call quotes API
     var settings = {
         "url": "https://type.fit/api/quotes",
@@ -71,6 +107,10 @@ $(document).ready(function () {
     $("#reflection-submit").on("click", function(e) {
         e.preventDefault();
         loginArray[loginArray.length-1].points+=5;
+        updateData();
+    });
+
+    function updateData(){
         //update RESTDB
         const APIKEY = "600e2fe91346a1524ff12dbd";
         var id = loginArray[loginArray.length-1].id;
@@ -93,20 +133,15 @@ $(document).ready(function () {
             "processData": false,
             "data": JSON.stringify(jsondata)
         }
-        
+    
         // update local storage
         $.ajax(settings).done(function (response) {
-            $("<a/>", {
-                id: 'example-link',
-                href: 'about.html',
-                text: 'Click here to return to the home page'
-            }).appendTo("body");
             let l = new login(loginArray[loginArray.length-1].id, loginArray[loginArray.length-1].username, loginArray[loginArray.length-1].password, loginArray[loginArray.length-1].points, loginArray[loginArray.length-1].darkmode);
             loginArray = [];
             loginArray.push(l);
             localStorage["login"] = JSON.stringify(loginArray);
         });
-    });
+    }
 });
 
 // function
@@ -134,3 +169,4 @@ function lightMode(){
     link.href = 'css/reflection-light.css';  
     head.appendChild(link);
 }
+
