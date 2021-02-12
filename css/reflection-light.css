@@ -7,11 +7,12 @@
 }
 
 .container-fluid{
-    background-color: #e9eff3;
+    /* background-color: #e9eff3; */
 }
 
 form{
     color: black;
+    background-color: darkslategray;
 }
 
 /* style button */
