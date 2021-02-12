@@ -3,7 +3,7 @@ $(document).ready(function () {
     // parse array
     var loginArray = JSON.parse(localStorage.getItem("login"));
     var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
-
+    $("#hi-msg").append("hello"+" "+loginArray[0].username);
     // decide if dark/ light mode.
     if(loginArray[0].darkmode == true){
         if(preferredModeArray[0].darkmode == true){
@@ -14,7 +14,33 @@ $(document).ready(function () {
     }else{
         lightMode();
     }
+    $("#self-care-content").hide();
+    $("#well-being-content").hide();
+    $("#mood-select").on("click",function(){
+        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        $("#well-being-select")[0].style.backgroundColor = "";
+        $("#self-care-select")[0].style.backgroundColor = "";
+        $("#mood-content").show();
+        $("#self-care-content").hide();
+        $("#well-being-content").hide();
+    })
+    $("#well-being-select").on("click",function(){
+        $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        $("#mood-select")[0].style.backgroundColor = "";
+        $("#self-care-select")[0].style.backgroundColor = "";
+        $("#mood-content").hide();
+        $("#self-care-content").hide();
+        $("#well-being-content").show();
+    })
+    $("#self-care-select").on("click",function(){
+        $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        $("#mood-select")[0].style.backgroundColor = "";
+        $("#well-being-select")[0].style.backgroundColor = "";
+        $("#mood-content").hide();
+        $("#well-being-content").hide();
+        $("#self-care-content").show();
 
+    })
     // call quotes API
     var settings = {
         "url": "https://type.fit/api/quotes",
