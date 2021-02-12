@@ -14,6 +14,11 @@ $(document).ready(function () {
     }else{
         lightMode();
     }
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
     $("#self-care-content").hide();
     $("#well-being-content").hide();
     $("#mood-select").on("click",function(){
