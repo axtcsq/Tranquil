@@ -21,8 +21,17 @@ $(document).ready(function () {
     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
     $("#self-care-content").hide();
     $("#well-being-content").hide();
-    $("#mood-select").on("click",function(){
+    if(preferredModeArray[0].darkmode == false){
         $("#mood-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+    }else{
+        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+    }
+    $("#mood-select").on("click",function(){
+        if(preferredModeArray[0].darkmode == false){
+            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        }else{
+            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+        }
         $("#well-being-select")[0].style.backgroundColor = "";
         $("#self-care-select")[0].style.backgroundColor = "";
         $("#mood-content").show();
@@ -30,7 +39,11 @@ $(document).ready(function () {
         $("#well-being-content").hide();
     })
     $("#well-being-select").on("click",function(){
-        $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        if(preferredModeArray[0].darkmode == false){
+            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        }else{
+            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+        }
         $("#mood-select")[0].style.backgroundColor = "";
         $("#self-care-select")[0].style.backgroundColor = "";
         $("#mood-content").hide();
@@ -38,7 +51,11 @@ $(document).ready(function () {
         $("#well-being-content").show();
     })
     $("#self-care-select").on("click",function(){
-        $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        if(preferredModeArray[0].darkmode == false){
+            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        }else{
+            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+        }
         $("#mood-select")[0].style.backgroundColor = "";
         $("#well-being-select")[0].style.backgroundColor = "";
         $("#mood-content").hide();
