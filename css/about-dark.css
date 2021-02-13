@@ -1,6 +1,9 @@
 .navbar-light .navbar-nav .nav-link{
     color: white;
 }
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(177, 177, 177);
+}
 
 #points{
     color: antiquewhite;
