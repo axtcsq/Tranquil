@@ -288,6 +288,13 @@ footer{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.reflection-select,
+.self-care-choice-arrow{
+  cursor: pointer;
+}
+
+
 @media (min-width: 576px) { 
   footer{
     font-size: 15px;
