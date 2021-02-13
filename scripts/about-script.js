@@ -38,7 +38,7 @@ $(document).ready(function () {
     $("<div/>", {
         id: 'points',
         text: points + " points"
-    }).appendTo("#motto");
+    }).appendTo("#points");
 
     // decide if user can purchase dark mode
     if(loginArray[0].points > 30 && loginArray[0].darkmode == false){
