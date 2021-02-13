@@ -72,7 +72,7 @@ body, html {
 }
 
 /* Centralise Animation & Link */
-.animation-center, #about-link, .centralise{  
+.centralise{  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,6 +188,11 @@ h1{
   background-color: yellow;
 }
 
+#reflection-header-bg{
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
 .p-t-50{
   padding-top: 50px!important;
 }
@@ -207,6 +212,12 @@ footer{
 .p-y-100{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.reflection-select{
+  padding: 10px 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 @media (min-width: 576px) { 
