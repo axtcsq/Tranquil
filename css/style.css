@@ -1,6 +1,5 @@
 /* Header */
 .header{
-    padding: 100px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,22 +40,19 @@ body, html {
     border:none;
     outline: none;
     width: 100%;
-    background-color: black;
-    color: white;
     font-size: large;
     border-radius: 4px;
     font-weight: bold;
 }
 
 .btn:hover{
-    background-color: rgb(160, 160, 160);
-    color: black;
     transition-delay: 0.15s;
 }
 
-/* mb-3 & modal-content */
-.mb-3, .modal-content{
-  text-align: left;
+.feature-btn{
+  margin-left: 20px; 
+  width: 150px; 
+  margin-top: 10px;
 }
 
 /* Responsive Youtube thumbnail */
@@ -76,11 +72,10 @@ body, html {
 }
 
 /* Centralise Animation & Link */
-.animation-center, #about-link{  
+.animation-center, #about-link, .centralise{  
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
 /* Meditation text animation */
@@ -111,11 +106,16 @@ body, html {
 
 .card{
   border: none;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; 
+  margin-top: 20px;
 }
 
 .reminderLink{
+  color: white;
+  text-decoration: none;
   display: inline-block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
   font-size: 18px;
 }
 
@@ -124,8 +124,8 @@ body, html {
   display: block;
   width: 0;
   height: 2px;
-  background: #000000;
   transition: width .3s;
+  background: rgb(255, 255, 255);
 }
 
 .reminderLink:hover::after{
@@ -133,7 +133,7 @@ body, html {
 }
 
 .reminderLink:hover{
-  text-decoration: none;
+  color: white;
 }
 
 #back2Top {
@@ -157,14 +157,81 @@ body, html {
   color: #000;
 }
 
+#points.nav-item.navbar-text{
+  padding: 10px; 
+  padding-left: 0px;
+}
+
 h1{
   line-height: 2em;
+  font-family: 'Yeseva One', cursive; 
+}
+
+.line-height-initial{
+  line-height: initial;
 }
 
 .card-footer{
   background-color: none;
 }
 
-.text-muted {
-  color: white!important;
+
+.height-9{
+  height: 90vh;
+}
+
+.font-small{
+  font-size: 3vh;
+}
+
+.mark-bg{
+  background-color: yellow;
+}
+
+.p-t-50{
+  padding-top: 50px!important;
+}
+
+footer{
+  font-size: 12px;
+  background-color: black; 
+}
+.font-big{
+  font-size: 4rem;
+}
+
+.font-100{
+  font-size: 100px!important;
+}
+
+.p-y-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 576px) { 
+  footer{
+    font-size: 15px;
+  }
+  .font-big{
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-big{
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 992px) { 
+  .font-big{
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .font-big{
+    font-size: 10rem;
+  }
 }
