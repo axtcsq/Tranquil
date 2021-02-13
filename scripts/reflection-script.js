@@ -3,7 +3,7 @@ $(document).ready(function () {
     // parse array
     var loginArray = JSON.parse(localStorage.getItem("login"));
     var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
-    $("#hi-msg").append("hello"+" "+loginArray[0].username);
+    $("#hi-msg").append("Hello"+" "+loginArray[0].username+" "+ "👋");
     // decide if dark/ light mode.
     if(loginArray[0].darkmode == true){
         if(preferredModeArray[0].darkmode == true){
