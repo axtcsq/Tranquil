@@ -11,6 +11,7 @@
     <!--Linking CSS-->
       <!-- Bootstrap CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <!-- fonts -->
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
       <!-- Our CSS -->
@@ -28,207 +29,217 @@
     </div>
   </div>
 
+  <!-- content after loading -->
   <div id="content">
+
+    <!-- back to top link -->
     <a id="back2Top" title="Back to top" href="#">🔝 <br> Up </a>
-<div class="header-bg bg">
 
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
-        
-        <!-- Logo & Name -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="about.html">
-                <img src="images/logo_transparent.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="50" height="50">
-            </a>
-            
-            <!-- Mobile nav bar button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <!-- Nav bar links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav column">
-                  <!-- Meditation -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="meditation.html">Meditation</a>
-                  </li>
+    <!-- header -->
+    <div class="header-bg bg">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
 
-                  <!-- Reflection -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="reflection.html">Reflection</a>
-                  </li>
+              <!-- logo -->
+              <a class="navbar-brand" href="about.html">
+                  <img src="images/logo_transparent.png" class="rounded mx-auto d-block d-inline-block align-top" alt="Logo" width="50" height="50">
+              </a>
 
-                  <!-- Account -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="index.html">Log out</a>
-                  </li>
-                </ul>
+              <!-- Mobile nav bar button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Nav bar links (right) -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav column">
+                    <!-- Meditation -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="meditation.html">Meditation</a>
+                    </li>
+                    <!-- Reflection -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="reflection.html">Reflection</a>
+                    </li>
+                    <!-- Account -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Log out</a>
+                    </li>
+                  </ul>
+              </div>
+
+              <!-- nav bar links (left) -->
+              <span class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+                <!-- points -->
+                <div class="nav-item navbar-text" id="points" style="padding: 10px; padding-left: 0px;">
+                </div>
+                <!-- Colour Scheme -->
+                <div>
+                  <a href="#" style="text-decoration: none; color: black;" class="app">
+                    <img src="images/colourscheme.png" style="width: 50px; height: 50px;" class="img-fluid">
+                  </a>
+                </div>
+              </span>
+
             </div>
+        </nav>
 
-            <span class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
-              <div class="nav-item navbar-text" id="motto" style="padding: 10px; padding-left: 0px;">
-              </div>
-
-              <!-- Colour Scheme -->
-              <div>
-                <a href="#" style="text-decoration: none; color: black;" class="app">
-                  <img src="images/colourscheme.png" style="width: 50px; height: 50px;" class="img-fluid">
-                </a>
-              </div>
-            </span>
+        <!-- Welcome screen -->
+        <div class="header" style="height: 100vh;">
+          <h1 style="font-size: 8vw; font-family: 'Yeseva One', cursive; line-height: initial;">
+            Tranquil
+          </h1>
+          <p style="font-size: 3vh;">
+            <i>Take care of yourself because you deserve it.</i>
+          </p>
         </div>
-    </nav>
-
-    <!-- Header -->
-    <div class="header" style="height: 100vh;">
-      <h1 style="font-size: 8vw; font-family: 'Yeseva One', cursive; line-height: initial;">Tranquil</h1>
-      <p style="font-size: 3vh;"><i>Take care of yourself because you deserve it.</i></p>
-      <br>
     </div>
-  </div>
   
-    <!-- Section -->
+    <!-- Article -->
     <div class="section-padding bg" id="article-section">
-      <h1 style="margin-bottom: 0px; padding-bottom: 10px; text-align: center; font-size: 50px; font-family: 'Yeseva One', cursive;"><b>Want to learn more about <mark style="background-color: yellow">Meditation</mark> ?</b></h1>
-      <p style="margin-bottom: 0px; font-size: 30px; text-align: center; padding-bottom: 100px;"><i>Check out our handpicked articles!</i></p>
+      <!-- text -->
+      <h1 style="margin-bottom: 0px; padding-bottom: 10px; text-align: center; font-size: 50px; font-family: 'Yeseva One', cursive;">
+        <b>Want to learn more about <mark style="background-color: yellow">Meditation</mark> ?</b>
+      </h1>
+      <p style="margin-bottom: 0px; font-size: 30px; text-align: center; padding-bottom: 100px;">
+        <i>Check out our handpicked articles!</i>
+      </p>
       
-      <div style="
-        text-align: center;
-        font-size: 100px;
-        padding-bottom: 100px;
-        font-family: 'Yeseva One', cursive;"> 
+      <!-- article 1 -->
+      <div style="text-align: center;font-size: 100px;padding-bottom: 100px;font-family: 'Yeseva One', cursive;"> 
         01 
       </div>
-
       <div class="container-fluid">
         <div class="row">
-
+          <!-- image -->
           <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
             <img src="images/article2.jpg" class="img-fluid" alt="...">
           </div>
 
+          <!-- content -->
           <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
             <div style="text-align: left;">
-              <h2>Keep calm and curl up: More turning to meditation to cope with stress</h2>
-              
+              <h2>
+                Keep calm and curl up: More turning to meditation to cope with stress
+              </h2>
               <p>
                   "Meditation has helped me to take the emotion, process it, think why I am 
                   feeling this way, recognise it, accept it, and move on."
               </p>
-
-              <a href="https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream" class="reminderLink" style="text-decoration: none; color: white;">Read More</a> <br>
+              <a target="_blank" href="https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream" class="reminderLink" style="text-decoration: none; color: white;">Read More</a> <br>
               <small class="text-muted">OCT 15, 2017, 1:26 PM SGT</small>
             </div>
           </div>
-
         </div>
 
-        <div style="
-          text-align: center;
-          font-size: 100px;
-          padding-bottom: 100px;
-          padding-top: 100px;
-          font-family: 'Yeseva One', cursive;">
+        <!-- article 2 -->
+        <div style="text-align: center;font-size: 100px;padding-bottom: 100px;padding-top: 100px;font-family: 'Yeseva One', cursive;">
           02 
         </div>
-
         <div class="row">
-          
+          <!-- content -->
           <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
-            
             <div style="text-align: end;">
-              <h2>Keep calm and curl up: More turning to meditation to cope with stress</h2>
-              
+              <h2>
+                Keep calm and curl up: More turning to meditation to cope with stress
+              </h2>
               <p>
                   "Meditation has helped me to take the emotion, process it, think why I am 
                   feeling this way, recognise it, accept it, and move on."
               </p>
-              <a href="https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress" class="reminderLink" style="text-decoration: none; color: white;">Read More</a> <br>
+              <a target="_blank" href="https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress" class="reminderLink" style="text-decoration: none; color: white;">Read More</a> <br>
               <small class="text-muted">NOV 17, 2020, 6:15 PM SGT</small>
             </div>
-
-        </div>
-
-        <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
-          <img src="images/article1.jpg" class="img-fluid" alt="...">
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Videos -->
-  <div class="container-fluid section" style="background: rgb(70, 124, 175); padding:100px 50px;">
-        
-    <!-- Section -->
-    <div class="section-padding bg" style="text-align: center;">
-      <h1 style="margin-bottom: 0px;color: white; font-size: 50px; font-family: 'Yeseva One', cursive;"><b>Wondering how meditation can <mark style="background-color: yellow"> benefit</mark> your life?</b></h1>
-      <p style="margin-bottom: 0px; font-size: 30px; color:antiquewhite;"><i>Here's some videos we recommend watching.</i></p>
-    </div>
-
-    <div class="row justify-content-evenly">
-
-      <!-- Video 1 -->
-      <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d; border-radius: 10px; margin-top: 20px;">
-        
-        <div class="card h-100">
-          <div class="videoWrapper">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/bb5OOO_0HXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <div class="card-body">
-            <h5 class="card-title">Dr. Oz Shares The Benefits of Meditation</h5>
+          <!-- image -->
+          <div class="col-sm d-flex align-items-center justify-content-center" style="flex-direction: column;">
+            <img src="images/article1.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Videos -->
+    <div class="container-fluid section" style="background: rgb(70, 124, 175); padding:100px 50px;">
+      <!-- text -->
+      <div class="section-padding bg" style="text-align: center;">
+        <h1 style="margin-bottom: 0px;color: white; font-size: 50px; font-family: 'Yeseva One', cursive;">
+          <b>Wondering how meditation can <mark style="background-color: yellow"> benefit</mark> your life?</b>
+        </h1>
+        <p style="margin-bottom: 0px; font-size: 30px; color:antiquewhite;">
+          <i>Here's some videos we recommend watching.</i>
+        </p>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <!-- Video 1 -->
+        <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d; border-radius: 10px; margin-top: 20px;">
+          <div class="card h-100">
+            <!-- embed youtube -->
+            <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bb5OOO_0HXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- description -->
+            <div class="card-body">
+              <h5 class="card-title">
+                Dr. Oz Shares The Benefits of Meditation
+              </h5>
               <p class="card-text">
                 Dr. Oz explains how you can reduce stress and anxiety by taking a few minutes each day 
                 to concentrate on your breath.
               </p>
-          </div>
+            </div>
 
-          <div class="card-footer">
-              <a href="https://www.youtube.com/watch?v=bb5OOO_0HXs" class="btn btn-primary">YouTube Link</a>
-              <small class="text-muted">Oct 30, 2014</small>
+            <!-- card footer -->
+            <div class="card-footer">
+                <a href="https://www.youtube.com/watch?v=bb5OOO_0HXs" class="btn btn-primary" target="_blank">YouTube Link</a>
+                <small class="text-muted">Oct 30, 2014</small>
+            </div>
           </div>
         </div>
 
-      </div>
+        <!-- Video 2 -->
+        <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d; border-radius: 10px; margin-top: 20px;">
+          <div class="card h-100">
+            <!-- embed youtube -->
+            <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RZrdUuEARXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
-      <!-- Video 2 -->
-      <div class="col-sm-5" style="padding-top:10px; background: #ffffff7d; border-radius: 10px; margin-top: 20px;">
-          
-        <div class="card h-100">
-          <div class="videoWrapper">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/RZrdUuEARXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+            <!-- description -->
+            <div class="card-body">
+              <h5 class="card-title">
+                Meditation - The Single Most Important Skill Needed Today | Dr. Shyam Bhat | TEDxLavelleRoad
+              </h5>
+              <p class="card-text">
+                Dr. Shyam Bhat shares how meditation can help overcome all problems plaguing the 
+                human race in this age of constant hustle and bustle.
+              </p>
+            </div>
 
-          <div class="card-body">
-            <h5 class="card-title">Meditation - The Single Most Important Skill Needed Today | Dr. Shyam Bhat | TEDxLavelleRoad</h5>
-                <p class="card-text">
-                  Dr. Shyam Bhat shares how meditation can help overcome all problems plaguing the 
-                  human race in this age of constant hustle and bustle.
-                </p>
-          </div>
-
-          <div class="card-footer">
-              <a href="https://www.youtube.com/watch?v=RZrdUuEARXA" class="btn btn-primary">YouTube Link</a>
-              <small class="text-muted">Jan 6, 2018</small>
+            <!-- card footer -->
+            <div class="card-footer">
+                <a href="https://www.youtube.com/watch?v=RZrdUuEARXA" class="btn btn-primary" target="_blank">YouTube Link</a>
+                <small class="text-muted">Jan 6, 2018</small>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-  </div>
-
-  <!-- Section -->
+  <!-- Features links -->
   <div class="container-fluid" style="padding-left:0px; padding-right: 0px;">
-    
     <div  class="section-padding header-bg bg" style="padding-left: 90px;">
-      <h1 style="margin-bottom: 0px; padding-bottom: 10px; color:white;"><b>Ready to try <mark style="background-color: yellow">Meditation</mark> ?</b></h1>
+      <!-- text -->
+      <h1 style="margin-bottom: 0px; padding-bottom: 10px; color:white;">
+        <b>Ready to try <mark style="background-color: yellow">Meditation</mark> ?</b>
+      </h1>
       <p style="margin-bottom: 0px; font-size: 30px;"><i>Find your zen & earn some points to unlock additional features!</i></p>
 
-      <br>
-
+      <!-- links -->
       <div class="row">
           <!-- Meditation Button -->
           <a href="meditation.html" class="btn btn-dark rounded-pill" style="margin-left: 20px; width: 150px; margin-top: 10px;">Meditation</a>
@@ -237,15 +248,13 @@
           <a href="reflection.html" class="btn btn-dark rounded-pill" style="margin-left: 20px; width: 150px; margin-top: 10px;">Reflection</a>
       </div>
     </div>
-
   </div>   
 
   <!-- Footer -->
   <footer class="d-flex align-items-center justify-content-center" style="background-color: black; color: white;">
     <div class="container">
-
       <div class="row my-5 px-0">
-        <!-- Application description + personal info: linkedin, instagram, github -->
+        <!-- Application description + personal info: linkedin, github -->
         <div class="col-6">
           Tranquil <br>
           Singapore <br> <br>
@@ -275,7 +284,6 @@
       <div class="row my-5">
         <div class="col-12 text-center " style="font-size: 1rem;">&copy; Tranquil 2021</div>
       </div>
-
     </div>          
   </footer>
 
