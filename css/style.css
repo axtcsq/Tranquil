@@ -7,6 +7,19 @@
     width: auto;
 }
 
+.ml3{
+  font-weight: 900;
+  font-size: 3.5em;
+}
+.mb-3, .modal-content{
+  text-align: left;
+}
+.animation-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 /* Remove padding and margin */
 *{
   padding: 0;
@@ -79,10 +92,6 @@ body, html {
 }
 
 /* Meditation text animation */
-.ml3{
-  font-weight: 900;
-  font-size: 3.5em;
-}
 
 .spinner-wrapper{
   width: 100%;
