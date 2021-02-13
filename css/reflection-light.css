@@ -20,6 +20,7 @@
 p,
 h1,
 h3,
+h5,
 .font-color{
     color: black;
 }
@@ -27,3 +28,8 @@ h3,
 .form-bg{
     background-color: white;
 }
+
+.self-care-choice-arrow{
+    background-color: #040822;
+}
+
