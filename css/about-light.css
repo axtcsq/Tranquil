@@ -1,42 +1,28 @@
-.navbar{
-    background-color:#e9eff3 ;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
 .header-bg{
     background-image: url("../images/background-light.jpg");
 }
 
 /* Modal Box & Card */
-.modal-content, .card, .card-body{
+.card{
     color: black;
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
+    background: #ffffff7d; 
 }
 
 /* style button */
 .btn{
-    border:none;
-    outline: none;
-    width: 100%;
     background-color: black;
     color: white;
-    font-size: large;
-    border-radius: 4px;
-    font-weight: bold;
 }
 
 .btn:hover{
     background-color: rgb(160, 160, 160);
     color: black;
-    transition-delay: 0.15s;
 }
 
-#article-section,
-#video-section,
-#links-section{
+#article-bg{
     background: rgb(122, 148, 156);
+}
+
+#video-bg{
+    background: rgb(70, 124, 175);
 }
