@@ -1,40 +1,61 @@
-.navbar{
-    background-color: #212529;
-}
-
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link{
     color: white;
 }
-
 .navbar-light .navbar-nav .nav-link:hover{
-    color: blanchedalmond;
-}
-.navbar-light .navbar-nav .nav-link.active{
-    color:rgb(218, 200, 173);
-}
-
-.container-fluid{
-    background-color: #212529;
-}
-
-form{
-    color: white;
+    color: rgb(177, 177, 177);
 }
 
 /* style button */
 .btn{
-    border:none;
-    outline: none;
-    width: 100%;
-    background-color: rgb(216, 216, 216);
-    color: black;
-    font-size: large;
-    border-radius: 4px;
-    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#reflection-submit{
+    background-color: rgb(90, 90, 90);
+}
+
+#reflection-submit:hover{
+    background-color: rgb(0, 0, 0);
 }
 
 .btn:hover{
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(36, 36, 36);
+    color: rgb(238, 238, 238);
+}
+
+.reflection-bg{
+    background-color:rgb(9, 6, 22);
+}
+
+#reflection-header-bg{
+    background: rgb(34, 34, 34);
+}
+
+p,
+h1,
+h3,
+h5,
+.font-color{
+    color: rgb(255, 255, 255);
+}
+
+.form-bg{
+    background-color: rgb(255, 255, 255);
+}
+
+.forms-text{
     color: black;
-    transition-delay: 0.15s;
+}
+
+.self-care-choice-arrow{
+    background-color: #040822;
+}
+
+.form-bg{
+    background-color: #435cff;
+}
+
+#form-bg-dark{
+    background-color: white;
 }
