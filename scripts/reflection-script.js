@@ -51,7 +51,9 @@ $(document).ready(function () {
         loginArray[loginArray.length-1].points+=1;
         updateData();
         $(".self-care-content-container")[0].style.backgroundColor ="#040822";
-        $(".self-care-content-container")[0].style.color = "white";
+        $(".self-care-content-text")[0].style.color = "white";
+        $(".self-care-content-text")[1].style.color = "white";
+        $(".self-care-content-text")[2].style.color = "white";
         $(".self-care-content-container")[0].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[0].style.borderBottomLeftRadius = "30px";
     })
@@ -60,7 +62,9 @@ $(document).ready(function () {
         loginArray[loginArray.length-1].points+=1;
         updateData();
         $(".self-care-content-container")[1].style.backgroundColor ="#040822";
-        $(".self-care-content-container")[1].style.color = "white";
+        $(".self-care-content-text")[3].style.color = "white";
+        $(".self-care-content-text")[4].style.color = "white";
+        $(".self-care-content-text")[5].style.color = "white";
         $(".self-care-content-container")[1].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[1].style.borderBottomLeftRadius = "30px";
     })
@@ -69,7 +73,9 @@ $(document).ready(function () {
         loginArray[loginArray.length-1].points+=1;
         updateData();
         $(".self-care-content-container")[2].style.backgroundColor ="#040822";
-        $(".self-care-content-container")[2].style.color = "white";
+        $(".self-care-content-text")[6].style.color = "white";
+        $(".self-care-content-text")[7].style.color = "white";
+        $(".self-care-content-text")[8].style.color = "white";
         $(".self-care-content-container")[2].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[2].style.borderBottomLeftRadius = "30px";
     })
@@ -78,7 +84,9 @@ $(document).ready(function () {
         loginArray[loginArray.length-1].points+=1;
         updateData();
         $(".self-care-content-container")[3].style.backgroundColor ="#040822";
-        $(".self-care-content-container")[3].style.color = "white";
+        $(".self-care-content-text")[9].style.color = "white";
+        $(".self-care-content-text")[10].style.color = "white";
+        $(".self-care-content-text")[11].style.color = "white";
         $(".self-care-content-container")[3].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[3].style.borderBottomLeftRadius = "30px";
     })
