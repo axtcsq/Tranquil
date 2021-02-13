@@ -112,6 +112,11 @@ body, html {
   margin-top: 20px;
 }
 
+.remove-link-deco,
+.remove-link-deco:hover{
+  color: white;
+}
+
 .reminderLink{
   color: white;
   text-decoration: none;
@@ -231,6 +236,57 @@ footer{
 #reflection-header-bg{
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+.border-right-30{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 30px;
+  background-color: #ffffffdc;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: rgb(24, 24, 24);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 @media (min-width: 576px) { 
   footer{
