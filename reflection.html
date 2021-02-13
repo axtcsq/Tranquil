@@ -15,53 +15,6 @@
 
         <!-- Our CSS -->
         <link rel="stylesheet" href="css/OverlayScrollbars.min.css">
-        <style>
-            .image-container {
-            position: relative;
-            border-radius: 60px;
-            justify-content: center;
-            align-items: center;
-            }
-
-            .image {
-            display: block;
-            width: 100%;
-            height: auto;
-            }
-
-            .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .5s ease;
-            border-radius: 60px;
-            background-color: #ffffffdc;
-            justify-content: center;
-            align-items: center;
-            }
-
-            .image-container:hover .overlay {
-            opacity: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            }
-            .text {
-            color: rgb(24, 24, 24);
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;
-            }
-        </style>
         <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -345,101 +298,100 @@
             </div>
 
             <!-- self care content -->
-            <div id="self-care-content" style="padding: 50px 0px;">
-                <h1>
+            <div id="self-care-content" class="py-5">
+                <h2 class="font-color">
                     Choose how you want to give yourself a treat today 
                 </h1>
-                <p>
+                <p class="pb-5">
                     Click on the arrow once you're done to secure the points  
                 </p>
-                <div class="row" style="justify-content: center;padding: 100px 0px;">
-                    <div class="col-5" style="margin: 20px;  background-color: white; border-radius: 30px;">
-                        <div class="row" style="height: 100%;">
-                            <div class="col-10 self-care-content-container" style="padding:50px 0px;">
-                                <h1>
+
+                <!-- choices -->
+                <div class="row justify-content-center section-padding">
+                    <!-- movie marathon -->
+                    <div class="col-md-5 img-border form-bg mx-2 my-2">
+                        <div class="row h-100">
+                            <div class="col-10 self-care-content-container py-5 ">
+                                <h1 class="self-care-content-text">
                                     01
                                 </h1>
-                                <h5>
+                                <h5 class="self-care-content-text">
                                     Movie Marathon 
                                 </h5>
-                                <p>
+                                <p class="self-care-content-text">
                                     Pick a movie, ask a friend to keep you company (or watch alone), grab a hot chocolate and popcorn. You're good to go :)
                                 </p>
                             </div>
-                            <div  class="col-2 d-flex justify-content-center align-items-center" style="background-color: #040822;
-                            color: white;
-                            border-top-right-radius: 30px;
-                            border-bottom-right-radius: 30px;" id="arrow-0">
-                                ->
+                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-0">
+                                <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
-                    <div class="col-5" style="margin: 20px;  background-color: white; border-radius: 30px;">
-                        <div class="row" style="height: 100%;">
-                            <div class="col-10 self-care-content-container" style="padding:50px 0px;">
-                                <h1>
+
+                    <!-- game night -->
+                    <div class="col-md-5 img-border form-bg mx-2 my-2" >
+                        <div class="row h-100">
+                            <div class="col-10 self-care-content-container py-5">
+                                <h1 class="self-care-content-text">
                                     02
                                 </h1>
-                                <h5>
+                                <h5 class="self-care-content-text">
                                     Game Night
                                 </h5>
-                                <p>
+                                <p class="self-care-content-text">
                                     Time to immerse yourself in the alternate reality.. triple kill !! 
                                 </p>
                             </div>
-                            <div class="col-2 d-flex justify-content-center align-items-center" style="background-color: #040822;
-                            color: white;
-                            border-top-right-radius: 30px;
-                            border-bottom-right-radius: 30px;" id="arrow-1">
-                                ->
+                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-1">
+                                <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row" style="justify-content: center;">
-                    <div class="col-5" style="margin: 20px;  background-color: white; border-radius: 30px;">
-                        <div class="row">
-                            <div class="col-10 self-care-content-container" style="padding:50px 0px;">
-                                <h1>
+
+                <div class="row justify-content-center section-padding">
+                    <!-- have a chat -->
+                    <div class="col-md-5 img-border form-bg mx-2 my-2">
+                        <div class="row h-100">
+                            <div class="col-10 self-care-content-container py-5" >
+                                <h1 class="self-care-content-text">
                                     03
                                 </h1>
-                                <h5>
+                                <h5 class="self-care-content-text">
                                     Chat with your loved ones
                                 </h5>
-                                <p>
+                                <p class="self-care-content-text">
                                     How many hours a week do we spend quality time with our loved ones? Snuggle up and have a cute convo with them :)
                                 </p>
                             </div>
-                            <div class="col-2 d-flex justify-content-center align-items-center" style="background-color: #040822;
-                            color: white;
-                            border-top-right-radius: 30px;
-                            border-bottom-right-radius: 30px;" id="arrow-2">
-                                ->
+                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-2">
+                                <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
-                    <div class="col-5" style="margin: 20px;  background-color: white; border-radius: 30px;">
-                        <div class="row">
-                            <div class="col-10 self-care-content-container" style="padding:50px 0px;">
-                                <h1>
+
+                    <!-- take a break -->
+                    <div class="col-md-5 img-border form-bg mx-2 my-2" >
+                        <div class="row h-100">
+                            <div class="col-10 self-care-content-container py-5">
+                                <h1 class="self-care-content-text">
                                     04
                                 </h1>
-                                <h5>
+                                <h5 class="self-care-content-text">
                                     Push the pause button 
                                 </h5>
-                                <p>
+                                <p class="self-care-content-text">
                                     It's ok to slow down.. sip some tea, stargaze, listen to song and do whatever makes you a happy bean :-)
                                 </p>
                             </div>
-                            <div class="col-2 d-flex justify-content-center align-items-center" style="background-color: #040822;
-                            color: white;
-                            border-top-right-radius: 30px;
-                            border-bottom-right-radius: 30px;" id="arrow-3">
-                                ->
+                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-3">
+                                <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- quotes of the day -->
                 <h1 class="pt-5">Quote of the day</h1>
                 <blockquote class="blockquote text-center pt-3">
                     <p id="api-message" class="mb-0 py-3"></p>
@@ -449,43 +401,41 @@
         </div>
 
         <!-- Footer -->
-    <footer class="d-flex align-items-center justify-content-center">
-        <div class="container">
-
-        <div class="row my-5 px-0">
-            <!-- Application description + personal info: linkedin, instagram, github -->
-            <div class="col-6">
-            Tranquil <br>
-            Singapore <br> <br>
-            By: Alexander & Balqis <br>
-            Follow us <br> <br>
-            <a href="https://sg.linkedin.com/school/ngee-ann-polytechnic/" target="_blank"><img src="images/linkedin-white.svg" alt="linkedin logo" width="32" height="32" title="linkedin"></a> 
-            <a href="https://github.com/axtcsq/Tranquil" target="_blank"><img src="images/github-white.svg" alt="github logo" width="32" height="32" title="github"></a>
-            </div>
-
-            <!-- Links for api + github reference  -->
-            <div class="col-3">
-            <b>Developer</b>  <br> <br>
-            <a href="https://github.com/axtcsq/Tranquil" target="_blank" style="color: white;">Github</a> <br>
-            <a href="https://type.fit/api/quotes" target="_blank" style="color: white;">API</a> <br>
-            </div>
-
-            <!-- Contact/feedback link -->
-            <div class="col-3" id="contact">
-            <b>Feedback</b> <br> <br>
-            <address>
-                <a href="mailto:askNP@np.edu.sg" style="color: white;">Email</a>
-            </address>
-            </div>
-        </div>
-
-        <!-- Application's name -->
-        <div class="row my-5">
-            <div class="col-12 text-center " style="font-size: 1rem;">&copy; Tranquil 2021</div>
-        </div>
-
-        </div>          
-    </footer>
+        <footer class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row my-5 px-0">
+                    <!-- Application description + personal info: linkedin, github -->
+                    <div class="col-6">
+                        Tranquil <br>
+                        Singapore <br> <br>
+                        By: Alexander & Balqis <br>
+                        Follow us <br> <br>
+                        <a href="https://sg.linkedin.com/school/ngee-ann-polytechnic/" target="_blank"><img src="images/linkedin-white.svg" alt="linkedin logo" width="32" height="32" title="linkedin"></a> 
+                        <a href="https://github.com/axtcsq/Tranquil" target="_blank"><img src="images/github-white.svg" alt="github logo" width="32" height="32" title="github"></a>
+                    </div>
+        
+                    <!-- Links for api + github reference  -->
+                    <div class="col-3">
+                        <b>Developer</b>  <br> <br>
+                        <a href="https://github.com/axtcsq/Tranquil" target="_blank" class="remove-link-deco">Github</a> <br>
+                        <a href="https://type.fit/api/quotes" target="_blank" class="remove-link-deco">API</a> <br>
+                    </div>
+        
+                    <!-- Contact/feedback link -->
+                    <div class="col-3" id="contact">
+                        <b>Feedback</b> <br> <br>
+                        <address>
+                            <a href="mailto:askNP@np.edu.sg" class="remove-link-deco">Email</a>
+                        </address>
+                    </div>
+                </div>
+        
+                <!-- Application's name -->
+                <div class="row my-5">
+                    <div class="col-12 text-center " style="font-size: 1rem;">&copy; Tranquil 2021</div>
+                </div>
+            </div>          
+        </footer>
     </div>
 
     <!-- Scripts -->
