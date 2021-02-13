@@ -1,42 +1,36 @@
-.navbar{
-    background-color: #212529;
+.navbar-light .navbar-nav .nav-link{
+    color: white;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: black;
+#points{
+    color: antiquewhite;
 }
 
-.header{
+.header-bg{
     background-image: url("../images/darkbg1.jpg");
 }
 
 /* Modal Box & Card */
-.modal-content, .card, .card-body{
-    color: white;
-    background-color: #212529;
-    text-align: center;
+.card{
+    color: black;
+    background: #ffffff7d; 
 }
 
 /* style button */
 .btn{
-    border:none;
-    outline: none;
-    width: 100%;
-    background-color: rgb(216, 216, 216);
-    color: black;
-    font-size: large;
-    border-radius: 4px;
-    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .btn:hover{
-    background-color: rgb(160, 160, 160);
-    color: black;
-    transition-delay: 0.15s;
+    background-color: rgb(36, 36, 36);
+    color: rgb(238, 238, 238);
 }
 
-#article-section,
-#video-section,
-#links-section{
-    background: rgb(89, 111, 116);
+#article-bg{
+    background: rgb(0, 17, 22);
+}
+
+#video-bg{
+    background: rgb(15, 15, 15);
 }
