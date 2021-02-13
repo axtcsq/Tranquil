@@ -16,10 +16,6 @@
         <!-- Our CSS -->
         <link rel="stylesheet" href="css/OverlayScrollbars.min.css">
         <style>
-            .img-fluid{
-            border-radius: 60px;
-            max-width: 100%;
-            }
             .image-container {
             position: relative;
             border-radius: 60px;
@@ -86,7 +82,6 @@
         <div id="reflection-header-bg">
             <!-- Navigation Bar -->
             <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
-                
                 <!-- Logo & Name -->
                 <div class="container-fluid">
                     <a class="navbar-brand" href="about.html">
@@ -122,19 +117,25 @@
         
             <!-- Header -->
             <div class="header py-4">
-                <h1 id="hi-msg" class="font-big"></h1>
+                <h1 id="hi-msg">
+                </h1>
                 <p>Take 5 minutes to reflect each day and gain points along the way!</p>
             </div>
+
+            <!-- options -->
             <div> 
                 <div class="centralise font-color">
+                    <!-- mood -->
                     <div id="mood-select" class="reflection-select" style="background: rgb(197,226,240);">
                         Mood
                     </div>
-                    
+
+                    <!-- well-being -->
                     <div id="well-being-select" class="reflection-select">
                         Well-being
                     </div>
         
+                    <!-- self-care -->
                     <div id="self-care-select" class="reflection-select">
                         Self-care
                     </div> 
@@ -142,16 +143,22 @@
             </div>
         </div>
 
-        <div class="container-fluid text-center pb-5">
-            <div id="mood-content" style="padding: 50px 0px;">
-                <h1>
+        <div class="container-fluid text-center">
+            <!-- mood content -->
+            <div id="mood-content" class="py-5">
+                <h2 class="font-color">
                     How are you feeling today?
-                </h1>
-                <div class="container-fluid" style="padding: 30px 50px ;">
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-5" style="padding: 80px;">
+                </h2>
+                <p>
+                    It's always a good idea to reflect at the end of each day!
+                </p>
+                <!-- images of different moods -->
+                <div class="container-fluid py-5 px-5">
+                    <div class="row centralise px-3 py-3">
+                        <!-- happy -->
+                        <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
-                                <img src="https://image.freepik.com/free-vector/enthusiastic-concept-illustration_114360-3716.jpg" alt="" class="img-fluid">
+                                <img src="https://image.freepik.com/free-vector/enthusiastic-concept-illustration_114360-3716.jpg" alt="" class="img-fluid img-border">
                                 <div class="overlay">
                                     <div class="row">
                                         <p class="text">
@@ -164,9 +171,11 @@
                                 #TeamHappy
                             </h3>
                         </div>
-                        <div class="col-5" style="padding: 80px;">
+
+                        <!-- anxious -->
+                        <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
-                                <img src="https://image.freepik.com/free-vector/low-self-esteem-illustration_52683-49955.jpg" alt="" class="img-fluid">
+                                <img src="https://image.freepik.com/free-vector/low-self-esteem-illustration_52683-49955.jpg" alt="" class="img-fluid img-border">
                                 <div class="overlay">
                                     <div class="row">
                                         <p class="text">
@@ -181,10 +190,12 @@
                             </h3>
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-5" style="padding: 80px;">
+
+                    <div class="row centralise px-3 py-3">
+                        <!-- Grateful -->
+                        <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
-                                <img src="https://image.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_52683-36476.jpg" alt="" class="img-fluid">
+                                <img src="https://image.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_52683-36476.jpg" alt="" class="img-fluid img-border">
                                 <div class="overlay">
                                     <div class="row">
                                         <p class="text">
@@ -198,9 +209,11 @@
                                 #TeamGrateful
                             </h3>
                         </div>
-                        <div class="col-5" style="padding: 80px;">
+
+                        <!-- sad -->
+                        <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
-                                <img src="https://image.freepik.com/free-vector/cabin-fever-with-sad-man-house_23-2148571637.jpg" alt="" class="img-fluid">
+                                <img src="https://image.freepik.com/free-vector/cabin-fever-with-sad-man-house_23-2148571637.jpg" alt="" class="img-fluid img-border">
                                 <div class="overlay">
                                     <div class="row">
                                         <p class="text">
@@ -216,31 +229,37 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-color: white; margin: 80px; border-radius: 30px;">
-                    <h1 style="text-align: center; padding-top: 50px;">
+
+                <!-- form input of reflection -->
+                <div class="form-bg form-border form-margin">
+                    <h1 class="text-center py-4">
                         Go deeper and pen down your thoughts.
                     </h1>
                     <p>
                         We'll not share it with anyone
                     </p>
-                    <div style="padding: 100px 150px;">
-                        <textarea style="background: #ffffff5d;" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type here" required></textarea>
+                    <div class="px-5">
+                        <textarea class="form-control" rows="5" placeholder="Type here" required></textarea>
                         <div class="row">
-                            <p class="col" id="date" style="text-align: left; padding-top: 10px; color:grey;"></p>
-                            <div class="col" style="padding-bottom: 50px; padding-top: 10px; display: flex;justify-content: flex-end;">
-                                <a href="#" class="btn" id="reflection-submit" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); width: 200px;">Submit</a>
+                            <p class="col-sm-6 text-start pt-1 text-muted" id="date"></p>
+                            <div class="col-sm-6 pb-3 d-flex justify-content-end">
+                                <a href="#" class="btn feature-btn" id="reflection-submit" >Submit</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="padding-top: 50px;">
+
+                <!-- mood section footer -->
+                <div class="py-5">
                     <h1>
                         We hear you!  
                     </h1>
                     <h2 class="font-color">
                         Now take a deep breath and let your emotions sink in.
                     </h2>
-                    <a href="meditation.html" class="reminderLink" style="text-decoration: none; color: black;">Check out our meditation feature</a>
+                    <a href="meditation.html" class="reminderLink font-color">
+                        Check out our meditation feature
+                    </a>
                 </div>
             </div>
 
