@@ -11,12 +11,15 @@
     <!--Linking CSS-->
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
         <!-- Our CSS -->
+        <link rel="stylesheet" href="css/OverlayScrollbars.min.css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="background-image: url(images/background3.jpg); height: auto;" class="bg">    
+<body style="background-image: url(images/background3.jpg);" class="bg d-flex align-items-center justify-content-center">    
 
     <!-- Loading animation -->
     <div class='spinner-wrapper'>
@@ -28,75 +31,66 @@
 
     </div>  
 
+    <!-- Log in Form -->
     <div id="content">
-
-        <!-- Sign up Form -->
-        <section class="Form d-flex align-items-center justify-content-center" style="height: auto; padding-top: 50px;">
+        <section class="Form " style="height: auto; padding-top: 80px; padding-bottom: 60px;">
             <div class="container">
-                <div class="row no-gutters">
-
-                    <div class="col-lg-6 text-center d-flex align-items-center justify-content-center" style="padding:50px;">
-                        <img src="images/signup.png" class= "img-fluid" alt="" width="350px" height="350px">
-                    </div>
-
+                <div class="row no-gutters" style="padding:0px 30px;">
                     <!-- User input of username and password -->
-                    <div class="col-lg-6 px-5 pt-5">
+                    <div class="col-lg-12" style="padding:30px 50px; background-color: #ffffff1a; border-radius: 10px;">
                         <form id ="add-login-form">
-
+                            
                             <!-- Form title -->
-                            <div class="form-row">
-                                <div class="col-lg-7">
-                                    <h1 class="font-weight-bold">Sign Up</h1>
+                            <div class="form-row d-flex align-items-center justify-content-center">
+                                <div class="col-7">
+                                    <h1 class="font-weight-bold">Sign Up With Us!</h1>
                                 </div>
                             </div>
 
                             <!-- Username input -->
-                            <div class="form-row">
-                                <div class="col-lg-7">
+                            <div class="form-row d-flex align-items-center justify-content-center">
+                                <div class="col-7">
                                     <label for="usernameInput">Username</label>
                                     <input type="text" class="form-control mb-4 p-2" id="usernameInput" placeholder="Enter your username">
                                 </div>
                             </div>
 
                             <!-- Password input -->
-                            <div class="form-row">
-                                <div class="col-lg-7">
+                            <div class="form-row d-flex align-items-center justify-content-center">
+                                <div class="col-7">
                                     <label for="passwordInput">Password</label>
-                                    <input type="password" class="form-control p-2" id="passwordInput" aria-describedby="passwordHelp" placeholder="Enter your password">
+                                    <input type="password" class="form-control p-2" id="passwordInput" placeholder="Enter your password">
                                 </div>
                             </div>
 
-                            <!-- Sign up button -->
-                            <div class="form-row pb-3">
-                                <div class="col-lg-7 text-center">
-                                    <a class="btn btn-primary mt-4" id="signup-submit" href="#" role="button"> Sign Up</a>
+                            <!-- sign up button -->
+                            <div class="form-row d-flex align-items-center justify-content-center">
+                                <div class="col-7 text-center">
+                                    <a class="btn btn-primary mt-4" id="signup-submit" href="#" role="button">Sign up</a>
                                 </div>
                             </div>
 
                             <!-- Login link -->
                             <div class="form-row pb-3">
-                                <div class="col-lg-7 text-center">
+                                <div class="col text-center">
                                     <p>Already have an account? <a href="login.html">Login here</a></p>
                                 </div>
                             </div>
 
                             <!-- Successful sign up message -->
                             <div class="form-row pb-3">
-                                <div class="col-lg-7 text-center">
-                                    <div class="alert alert-success" role="alert">You have signed Up successfully!</div>
+                                <div class="centralise text-center">
+                                    <div class="col-7 alert alert-success" role="alert">You have signed Up successfully!</div>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                     
                     <!-- Application's name -->
                     <p class="text-center copyright">&copy; Tranquil 2021</p>
-
                 </div>
             </div>
         </section>
-        
     </div>
 
     <!-- Scripts -->
@@ -106,5 +100,7 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="scripts/sign-up-script.js"></script>
     <script src="scripts/loader-script.js"></script>
+    <script src="scripts/overlay-scrollbar.js"></script>
+    <script src="scripts/OverlayScrollbars.min.js"></script>
 </body>
 </html>
