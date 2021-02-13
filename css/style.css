@@ -27,7 +27,7 @@ body, html {
 }
 
 .section-padding{
-  padding: 30px 30px;
+  padding: 30px;
 }
 
 .article-video-padding{
@@ -188,10 +188,6 @@ h1{
   background-color: yellow;
 }
 
-#reflection-header-bg{
-  border-bottom-left-radius: 150px;
-  border-bottom-right-radius: 150px;
-}
 
 .p-t-50{
   padding-top: 50px!important;
@@ -215,17 +211,39 @@ footer{
 }
 
 .reflection-select{
-  padding: 10px 50px;
+  padding: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
+.img-border{
+  border-radius: 60px;
+}
+
+.form-border{
+  border-radius: 30px;
+}
+
+.form-margin{
+  margin: 15px;
+}
+
+#reflection-header-bg{
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
 @media (min-width: 576px) { 
   footer{
     font-size: 15px;
   }
   .font-big{
     font-size: 5rem;
+  }
+  .form-margin{
+    margin: 50px;
+  }
+  .reflection-select{
+    padding: 10px 50px;
   }
 }
 
@@ -239,10 +257,21 @@ footer{
   .font-big{
     font-size: 7rem;
   }
+  .form-margin{
+    margin: 150px;
+  }
+  #reflection-header-bg{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
 }
 
 @media (min-width: 1200px) { 
   .font-big{
     font-size: 10rem;
+  }
+  #reflection-header-bg{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
   }
 }
