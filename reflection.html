@@ -8,35 +8,40 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo_transparent.png"/>
     
-    <!--Linking CSS-->
-        <!-- Bootstrap CSS -->
+    <!-- CSS -->
+        <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <!-- fonts -->
+        
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
 
-        <!-- Our CSS -->
+        <!-- Self-Defined -->
         <link rel="stylesheet" href="css/OverlayScrollbars.min.css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+
     <!-- Loading animation -->
     <div class='spinner-wrapper'>
         <div class="spinner">
-        <lottie-player src="https://assets10.lottiefiles.com/temp/lf20_hKSrGc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>   
-        <p class="text-center">Loading...</p>
+            <lottie-player src="https://assets10.lottiefiles.com/temp/lf20_hKSrGc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>   
+            <p class="text-center" style="color: white;">Loading...</p>
         </div>
     </div>
 
-    <!-- content after loading -->
+    <!-- Content after loading -->
     <div id="content" class="reflection-bg">
-        <!-- back to top link -->
+
+        <!-- Back to top link -->
         <a id="back2Top" title="Back to top" href="#">🔝 <br> Up </a>
 
         <div id="reflection-header-bg">
+
             <!-- Navigation Bar -->
             <nav class="navbar navbar navbar-expand-lg navbar-light bg-transparent">
+
                 <!-- Logo & Name -->
                 <div class="container-fluid">
                     <a class="navbar-brand" href="about.html">
@@ -51,20 +56,22 @@
                     <!-- Nav bar links -->
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav column">
-                        <!-- Meditation -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="meditation.html">Meditation</a>
-                        </li>
-        
-                        <!-- Reflection -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="reflection.html">Reflection</a>
-                        </li>
-        
-                        <!-- Account -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Log out</a>
-                        </li>
+
+                            <!-- Meditation -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="meditation.html">Meditation</a>
+                            </li>
+            
+                            <!-- Reflection -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="reflection.html">Reflection</a>
+                            </li>
+            
+                            <!-- Account -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Log out</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -72,173 +79,150 @@
         
             <!-- Header -->
             <div class="header py-4">
-                <h1 id="hi-msg">
-                </h1>
+                <h1 id="hi-msg"></h1>
                 <p>Take 5 minutes to reflect each day and gain points along the way!</p>
             </div>
 
-            <!-- options -->
+            <!-- Options -->
             <div> 
                 <div class="centralise font-color">
-                    <!-- mood -->
-                    <div id="mood-select" class="reflection-select">
-                        Mood
-                    </div>
+
+                    <!-- Mood -->
+                    <div id="mood-select" class="reflection-select">Mood</div>
 
                     <!-- well-being -->
-                    <div id="well-being-select" class="reflection-select">
-                        Well-being
-                    </div>
+                    <div id="well-being-select" class="reflection-select">Well-being</div>
         
-                    <!-- self-care -->
-                    <div id="self-care-select" class="reflection-select">
-                        Self-care
-                    </div> 
+                    <!-- Self-care -->
+                    <div id="self-care-select" class="reflection-select">Self-care</div> 
                 </div>
             </div>
         </div>
 
         <div class="container-fluid text-center">
-            <!-- mood content -->
+            
+            <!-- Mood content -->
             <div id="mood-content" class="py-5">
-                <h2 class="font-color">
-                    How are you feeling today?
-                </h2>
-                <p>
-                    It's always a good idea to reflect at the end of each day!
-                </p>
-                <!-- images of different moods -->
+                <h2 class="font-color">How are you feeling today?</h2>
+                <p>It's always a good idea to reflect at the end of each day!</p>
+                
+                <!-- Images of different moods -->
                 <div class="container-fluid py-5 px-5">
                     <div class="row centralise px-3 py-3">
-                        <!-- happy -->
+                        
+                        <!-- Happy -->
                         <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
                                 <img src="https://image.freepik.com/free-vector/enthusiastic-concept-illustration_114360-3716.jpg" alt="" class="img-fluid img-border">
+                                
                                 <div class="overlay">
                                     <div class="row">
-                                        <p class="text">
-                                            Notice who you are with when you're happy :)
-                                        </p>
+                                        <p class="text">Notice who you are with when you're happy :)</p>
                                     </div>
                                 </div>
                             </div>
-                            <h3>
-                                #TeamHappy
-                            </h3>
+
+                            <h3>#TeamHappy</h3>
                         </div>
 
-                        <!-- anxious -->
+                        <!-- Anxious -->
                         <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
                                 <img src="https://image.freepik.com/free-vector/low-self-esteem-illustration_52683-49955.jpg" alt="" class="img-fluid img-border">
+                                
                                 <div class="overlay">
                                     <div class="row">
-                                        <p class="text">
-                                            We can't control everything <br>
-                                            Just try your best and the rest will follow 
-                                        </p>
+                                        <p class="text">We can't control everything <br>
+                                            Just try your best and the rest will follow</p>
                                     </div>
                                 </div>
                             </div>
-                            <h3>
-                                #TeamAnxious
-                            </h3>
+
+                            <h3>#TeamAnxious</h3>
                         </div>
+
                     </div>
 
                     <div class="row centralise px-3 py-3">
+                        
                         <!-- Grateful -->
                         <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
                                 <img src="https://image.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_52683-36476.jpg" alt="" class="img-fluid img-border">
+                                
                                 <div class="overlay">
                                     <div class="row">
-                                        <p class="text">
-                                            We take too much things for granted, <br>
-                                            Being thankful for small things can make you feel loved 
-                                        </p>
+                                        <p class="text">We take too many things for granted, <br>
+                                            Being thankful for small things can make you feel loved</p>
                                     </div>
                                 </div>
                             </div>
-                            <h3>
-                                #TeamGrateful
-                            </h3>
+
+                            <h3>#TeamGrateful</h3>
                         </div>
 
-                        <!-- sad -->
+                        <!-- Sad -->
                         <div class="col-md-5 px-4 py-4">
                             <div class="image-container">
                                 <img src="https://image.freepik.com/free-vector/cabin-fever-with-sad-man-house_23-2148571637.jpg" alt="" class="img-fluid img-border">
+                                
                                 <div class="overlay">
                                     <div class="row">
-                                        <p class="text">
-                                            So sorry to hear that :( <br>
-                                            Things will get better for sure!
-                                        </p>
+                                        <p class="text">So sorry to hear that :( <br>
+                                            Things will get better for sure!</p>
                                     </div>
                                 </div>
                             </div>
-                            <h3>
-                                #TeamSad
-                            </h3>
+
+                            <h3>#TeamSad</h3>
                         </div>
                     </div>
+
                 </div>
 
-                <!-- form input of reflection -->
+                <!-- Form input for reflection -->
                 <div class="form-bg form-border form-margin" id="form-bg-dark">
-                    <h1 class="text-center py-4 forms-text">
-                        Go deeper and pen down your thoughts.
-                    </h1>
-                    <p class="forms-text">
-                        We'll not share it with anyone
-                    </p>
+                    <h1 class="text-center py-4 forms-text">Go deeper and pen down your thoughts.</h1>
+                    <p class="forms-text">🔐 No information will be shared.</p>
+                    
                     <div class="px-5">
-                        <textarea class="form-control" rows="5" placeholder="Type here" required></textarea>
+                        <textarea class="form-control" rows="5" placeholder="What has been bothering your mind lately?" required></textarea>
+                        
                         <div class="row">
                             <p class="col-sm-6 text-start pt-1 text-muted" id="date"></p>
                             <div class="col-sm-6 pb-3 d-flex justify-content-end">
-                                <a href="#" class="btn feature-btn" id="reflection-submit" >Submit</a>
+                                <a href="#" class="btn feature-btn" id="reflection-submit">Submit</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- mood section footer -->
+                <!-- Mood section footer -->
                 <div class="py-5">
-                    <h1>
-                        We hear you!  
-                    </h1>
-                    <h2 class="font-color">
-                        Now take a deep breath and let your emotions sink in.
-                    </h2>
-                    <a href="meditation.html" class="reminderLink font-color">
-                        Check out our meditation feature
-                    </a>
+                    <h1>We hear you!</h1>
+                    <h2 class="font-color">Now take a deep breath and let your emotions sink in.</h2>
+                    <a href="meditation.html" class="reminderLink font-color">Check out our meditation feature</a>
                 </div>
             </div>
 
-            <!-- well-being content -->
+            <!-- Well-being content -->
             <div id="well-being-content" class="py-5">
-                <!-- food -->
-                <h2 class="font-color">
-                    Food
-                </h2>
-                <p class="pb-5">
-                    What have you eaten today?
-                </p>
+
+                <!-- Food -->
+                <h2 class="font-color">Food</h2>
+                <p class="pb-5">What have you eaten today?</p>
+
                 <div class="row">
                     <div class="col-sm-6 centralise px-3">
                         <img src="https://image.freepik.com/free-vector/eating-healthy-food-concept-illustration_114360-2235.jpg" alt="" class="img-fluid">
                     </div>
+
                     <div class="col-sm-6 centralise flex-column">
-                        <h1>
-                            Have control over what you eat
-                        </h1>
-                        <p>
-                            Eating balanced meal and staying hydrated is important to fuel yourself throughout the day ! <br>
-                            Do not skip meals and don't stress too much about what you eat. Cheat meals couple times per week are fine too 
-                        </p>
+                        <h1>Have control over what you eat</h1>
+                        <p>Eating balanced meal and staying hydrated is important to fuel yourself 
+                            throughout the day! <br> Do not skip meals and don't stress too much about 
+                            what you eat. Cheat meals couple times per week are fine too.</p>
+
                         <div class="row centralise">
                             <a href="reflection.html#food-section-submit" class="btn feature-btn" id="food-section-submit" >Eaten</a>
                             <a href="reflection.html#food-section-submit" class="btn feature-btn" >Not eaten</a>
@@ -246,25 +230,21 @@
                     </div>
                 </div>
 
-                <!-- exercise -->
-                <h2 class="font-color pt-5">
-                    Exercise
-                </h2>
-                <p class="pb-5">
-                    Have you exercise today?
-                </p>
+                <!-- Exercise -->
+                <h2 class="font-color pt-5">Exercise</h2>
+                <p class="pb-5">Have you exercised today?</p>
+                
                 <div class="row">
                     <div class="col-sm-6 centralise px-3">
                         <img src="https://image.freepik.com/free-vector/pilates-concept-illustration_114360-1111.jpg" alt="" class="img-fluid">
                     </div>
+
                     <div class="col-sm-6 centralise flex-column">
-                        <h1>
-                            Runner's high
-                        </h1>
-                        <p>
-                            From cardio to yoga, move your body at least 30 minutes per day. Do not over-do your exercise,though and be careful while doing them. <br>
-                            Follow the correct and safe procedures. 
-                        </p>
+                        <h1>Runner's high</h1>
+                        <p>From cardio to yoga, move your body at least 30 minutes per day. Do not over-do 
+                            your exercise,though and be careful while doing them. <br> Follow the correct and 
+                            safe procedures.</p>
+
                         <div class="row centralise">
                             <a href="reflection.html#exercise-section-submit" class="btn feature-btn" id="exercise-section-submit" >Exercised</a>
                             <a href="reflection.html#exercise-section-submit" class="btn feature-btn" >Not exercised</a>
@@ -272,25 +252,21 @@
                     </div>
                 </div>
 
-                <!-- sleep -->
-                <h2 class="font-color pt-5">
-                    sleep
-                </h2>
-                <p class="pb-5">
-                    Did you sleep well last night?
-                </p>
+                <!-- Sleep -->
+                <h2 class="font-color pt-5">Sleep</h2>
+                <p class="pb-5">Did you sleep well last night?</p>
+                
                 <div class="row">
                     <div class="col-sm-6 centralise">
                         <img src="https://image.freepik.com/free-vector/insomnia-concept-illustration_23-2148671697.jpg" alt="" class="img-fluid">
                     </div>
+
                     <div class="col-sm-6 centralise flex-column">
-                        <h1>
-                            Night owl
-                        </h1>
-                        <p>
-                            Beauty sleep: a foreign term for us hustlers. Let's promise ourselves to prioritise sleep after work's done. <br>
-                            Some benefits include better memory, less stress and many more 
-                        </p>
+                        <h1>Night owl</h1>
+                        <p>Beauty sleep: a foreign term for us hustlers. Let's promise ourselves to 
+                            prioritise sleep after work's done. <br> Some benefits include better memory, 
+                            less stress and many more.</p>
+
                         <div class="row centralise">
                             <a href="reflection.html#sleep-section-submit" class="btn feature-btn" id="sleep-section-submit" >Slept well</a>
                             <a href="reflection.html#sleep-section-submit" class="btn feature-btn" >Slept horrible</a>
@@ -299,52 +275,46 @@
                 </div>
             </div>
 
-            <!-- self care content -->
+            <!-- Self care content -->
             <div id="self-care-content" class="py-5">
-                <h2 class="font-color">
-                    Choose how you want to give yourself a treat today 
-                </h1>
-                <p class="pb-5">
-                    Click on the arrow once you're done to secure the points  
-                </p>
+                <h2 class="font-color">Choose how you want to give yourself a treat today</h2>
+                <p class="pb-5">Click on the arrow once you're done to secure the points</p>
 
-                <!-- choices -->
+                <!-- Choices -->
                 <div class="row justify-content-center section-padding">
-                    <!-- movie marathon -->
+
+                    <!-- Movie marathon -->
                     <div class="col-md-5 img-border form-bg mx-2 my-2">
                         <div class="row h-100">
                             <div class="col-10 self-care-content-container py-5 ">
-                                <h1 class="self-care-content-text">
-                                    01
-                                </h1>
-                                <h5 class="self-care-content-text">
-                                    Movie Marathon 
-                                </h5>
-                                <p class="self-care-content-text">
-                                    Pick a movie, ask a friend to keep you company (or watch alone), grab a hot chocolate and popcorn. You're good to go :)
-                                </p>
+
+                                <h1 class="self-care-content-text">01</h1>
+                                <h5 class="self-care-content-text">Movie Marathon</h5>
+                                <p class="self-care-content-text">Pick a movie, ask a friend to keep you 
+                                    company (or watch alone), grab a hot chocolate and popcorn. 
+                                    You're good to go :)</p>
+
                             </div>
-                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-0">
+
+                            <div class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-0">
                                 <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
 
-                    <!-- game night -->
+                    <!-- Game night -->
                     <div class="col-md-5 img-border form-bg mx-2 my-2" >
                         <div class="row h-100">
                             <div class="col-10 self-care-content-container py-5">
-                                <h1 class="self-care-content-text">
-                                    02
-                                </h1>
-                                <h5 class="self-care-content-text">
-                                    Game Night
-                                </h5>
-                                <p class="self-care-content-text">
-                                    Time to immerse yourself in the alternate reality.. triple kill !! 
-                                </p>
+
+                                <h1 class="self-care-content-text">02</h1>
+                                <h5 class="self-care-content-text">Game Night</h5>
+                                <p class="self-care-content-text">Time to immerse yourself in the 
+                                    alternate reality.. Triple kill !!</p>
+
                             </div>
-                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-1">
+
+                            <div class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-1">
                                 <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
@@ -352,49 +322,48 @@
                 </div>
 
                 <div class="row justify-content-center section-padding">
-                    <!-- have a chat -->
+
+                    <!-- Chat with your loved ones -->
                     <div class="col-md-5 img-border form-bg mx-2 my-2">
                         <div class="row h-100">
-                            <div class="col-10 self-care-content-container py-5" >
-                                <h1 class="self-care-content-text">
-                                    03
-                                </h1>
-                                <h5 class="self-care-content-text">
-                                    Chat with your loved ones
-                                </h5>
-                                <p class="self-care-content-text">
-                                    How many hours a week do we spend quality time with our loved ones? Snuggle up and have a cute convo with them :)
-                                </p>
+                            <div class="col-10 self-care-content-container py-5">
+
+                                <h1 class="self-care-content-text">03</h1>
+                                <h5 class="self-care-content-text">Chat with your loved ones</h5>
+                                <p class="self-care-content-text">How many hours a week do we spend quality 
+                                    time with our loved ones? Snuggle up and have a cute convo with them :)</p>
+
                             </div>
-                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-2">
+
+                            <div class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-2">
                                 <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
 
-                    <!-- take a break -->
+                    <!-- Take a break -->
                     <div class="col-md-5 img-border form-bg mx-2 my-2" >
                         <div class="row h-100">
                             <div class="col-10 self-care-content-container py-5">
-                                <h1 class="self-care-content-text">
-                                    04
-                                </h1>
-                                <h5 class="self-care-content-text">
-                                    Push the pause button 
-                                </h5>
-                                <p class="self-care-content-text">
-                                    It's ok to slow down.. sip some tea, stargaze, listen to song and do whatever makes you a happy bean :-)
-                                </p>
+
+                                <h1 class="self-care-content-text">04</h1>
+                                <h5 class="self-care-content-text">Push the pause button</h5>
+                                <p class="self-care-content-text">It's ok to slow down.. sip some tea, stargaze, 
+                                    listen to song and do whatever makes you a happy bean :-)</p>
+                            
                             </div>
-                            <div  class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-3">
+
+                            <div class="col-2 centralise border-right-30 self-care-choice-arrow" id="arrow-3">
                                 <img src="images/right-arrow-white.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <!-- quotes of the day -->
+                <!-- Quote of the day -->
                 <h1 class="pt-5">Quote of the day</h1>
+
                 <blockquote class="blockquote text-center pt-3">
                     <p id="api-message" class="mb-0 py-3"></p>
                     <p class="blockquote-footer">Tranquil 2021</p>
@@ -406,50 +375,55 @@
         <footer class="d-flex align-items-center justify-content-center">
             <div class="container">
                 <div class="row my-5 px-0">
-                    <!-- Application description + personal info: linkedin, github -->
-                    <div class="col-6">
-                        Tranquil <br>
-                        Singapore <br> <br>
-                        By: Alexander & Balqis <br>
-                        Follow us <br> <br>
-                        <a href="https://sg.linkedin.com/school/ngee-ann-polytechnic/" target="_blank"><img src="images/linkedin-white.svg" alt="linkedin logo" width="32" height="32" title="linkedin"></a> 
-                        <a href="https://github.com/axtcsq/Tranquil" target="_blank"><img src="images/github-white.svg" alt="github logo" width="32" height="32" title="github"></a>
-                    </div>
-        
-                    <!-- Links for api + github reference  -->
-                    <div class="col-3">
-                        <b>Developer</b>  <br> <br>
-                        <a href="https://github.com/axtcsq/Tranquil" target="_blank" class="remove-link-deco">Github</a> <br>
-                        <a href="https://type.fit/api/quotes" target="_blank" class="remove-link-deco">API</a> <br>
-                    </div>
-        
-                    <!-- Contact/feedback link -->
-                    <div class="col-3" id="contact">
-                        <b>Feedback</b> <br> <br>
-                        <address>
-                            <a href="mailto:askNP@np.edu.sg" class="remove-link-deco">Email</a>
-                        </address>
-                    </div>
+                    
+                <!-- Developer's Names & Links -->
+                <div class="col-6">
+                    Tranquil <br>
+                    Singapore <br><br>
+                    By: Alexander & Balqis<br>
+                    Follow us <br><br>
+
+                    <a href="https://sg.linkedin.com/school/ngee-ann-polytechnic/" target="_blank"><img src="images/linkedin-white.svg" alt="linkedin logo" width="32" height="32" title="linkedin"></a> 
+                    <a href="https://github.com/axtcsq/Tranquil" target="_blank"><img src="images/github-white.svg" alt="github logo" width="32" height="32" title="github"></a>
                 </div>
-        
-                <!-- Application's name -->
+
+                <!-- GitHub & API Links -->
+                <div class="col-3">
+                    <b>Developer</b>  <br> <br>
+                    <a href="https://github.com/axtcsq/Tranquil" target="_blank" class="remove-link-deco">Github</a> <br>
+                    <a href="https://type.fit/api/quotes" target="_blank" class="remove-link-deco">API</a> <br>
+                </div>
+
+                <!-- Contact/Feedback Link -->
+                <div class="col-3" id="contact">
+                    <b>Feedback</b> <br><br>
+                    <address><a href="mailto:askNP@np.edu.sg" class="remove-link-deco">Email</a></address>
+                </div>
+
+                </div>
+
+                <!-- Application's Name -->
                 <div class="row my-5">
                     <div class="col-12 text-center " style="font-size: 1rem;">&copy; Tranquil 2021</div>
                 </div>
+
             </div>          
         </footer>
+
     </div>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="scripts/reflection-script.js"></script>
-    <script src="scripts/back-to-top.js"></script>
-    <script src="scripts/loader-script.js"></script>
-    <script src="scripts/OverlayScrollbars.min.js"></script>
-    <script src="scripts/overlay-scrollbar.js"></script>
-
+        <!-- Others -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        
+        <!-- Self-Defined -->
+        <script src="scripts/reflection-script.js"></script>
+        <script src="scripts/back-to-top.js"></script>
+        <script src="scripts/loader-script.js"></script>
+        <script src="scripts/OverlayScrollbars.min.js"></script>
+        <script src="scripts/overlay-scrollbar.js"></script>
 </body>
 </html>
