@@ -1,4 +1,12 @@
-/* style button */
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(177, 177, 177);
+}
+
+/* Style button */
 .btn{
     background-color: black;
     color: white;
@@ -10,18 +18,14 @@
 }
 
 .reflection-bg{
-    background-color:rgb(197,226,240);
+    background-color:rgb(164, 189, 202);
 }
 
 #reflection-header-bg{
-    background: azure;
+    background: rgb(203, 209, 209);
 }
 
-p,
-h1,
-h3,
-h5,
-.font-color{
+p, h1, h3, h5, .font-color{
     color: black;
 }
 
@@ -32,4 +36,3 @@ h5,
 .self-care-choice-arrow{
     background-color: #040822;
 }
-

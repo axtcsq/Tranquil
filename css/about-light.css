@@ -1,5 +1,5 @@
 .header-bg{
-    background-image: url("../images/background-light.jpg");
+    background-image: url("../images/light-background.jpg");
 }
 
 /* Modal Box & Card */
@@ -8,7 +8,7 @@
     background: #ffffff7d; 
 }
 
-/* style button */
+/* Style button */
 .btn{
     background-color: black;
     color: white;

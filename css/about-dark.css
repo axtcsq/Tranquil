@@ -1,16 +1,5 @@
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-    color: rgb(177, 177, 177);
-}
-
-#points{
-    color: antiquewhite;
-}
-
 .header-bg{
-    background-image: url("../images/darkbg1.jpg");
+    background-image: url("../images/dark-background.jpg");
 }
 
 /* Modal Box & Card */
@@ -19,7 +8,7 @@
     background: #ffffff7d; 
 }
 
-/* style button */
+/* Style button */
 .btn{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);

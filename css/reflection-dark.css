@@ -1,42 +1,40 @@
 .navbar-light .navbar-nav .nav-link{
     color: white;
 }
+
 .navbar-light .navbar-nav .nav-link:hover{
     color: rgb(177, 177, 177);
 }
 
 /* style button */
 .btn{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
 }
 
 #reflection-submit{
-    background-color: rgb(90, 90, 90);
+    background-color: black;
+    color: white;
 }
 
 #reflection-submit:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(90, 90, 90);
 }
 
 .btn:hover{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(90, 90, 90);
     color: rgb(238, 238, 238);
 }
 
 .reflection-bg{
-    background-color:rgb(9, 6, 22);
+    background-color:rgb(19, 19, 19);
 }
 
 #reflection-header-bg{
-    background: rgb(34, 34, 34);
+    background: rgb(49, 49, 49);
 }
 
-p,
-h1,
-h3,
-h5,
-.font-color{
+p, h1, h3, h5, .font-color{
     color: rgb(255, 255, 255);
 }
 
