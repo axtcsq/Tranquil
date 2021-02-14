@@ -12,6 +12,29 @@ $(document).ready(function () {
         $("#logo").attr("src", 'images/logo_white_bg.png');
     }
 
+    const APIKEY = "600e2fe91346a1524ff12dbd";
+    let settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://idassignment3-e0c6.restdb.io/rest/userdata",
+        "method": "GET",
+        "headers": {
+            "content-type": "application/json",
+            "x-apikey": APIKEY,
+            "cache-control": "no-cache"
+        },
+    }
+    $.ajax(settings).done(function(response) {
+        response.sort(GetSortOrder("points"));
+        $("#leaderboard-msg").append("There are "+response.length+" people enrolling in this journey with you!");
+        $("#leaderboard-name-1").append(response[response.length-1].username);
+        $("#leaderboard-name-2").append(response[response.length-2].username);
+        $("#leaderboard-name-3").append(response[response.length-3].username);
+        $("#leaderboard-points-1").append(response[response.length-1].points);
+        $("#leaderboard-points-2").append(response[response.length-2].points);
+        $("#leaderboard-points-3").append(response[response.length-3].points);
+    }); 
+
     // decide if dark/ light mode.
     // show button 
     if(loginArray[0].darkmode == true){
@@ -132,3 +155,13 @@ function lightMode(){
     link.href = 'css/about-light.css';  
     head.appendChild(link);
 }
+function GetSortOrder(prop) {    
+    return function(a, b) {    
+        if (a[prop] > b[prop]) {    
+            return 1;    
+        } else if (a[prop] < b[prop]) {    
+            return -1;    
+        }    
+        return 0;    
+    }    
+} 
