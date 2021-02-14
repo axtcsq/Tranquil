@@ -19,10 +19,15 @@
     color: rgb(238, 238, 238);
 }
 
-#article-bg{
+.article-bg{
     background: rgb(0, 17, 22);
 }
 
-#video-bg{
+.video-bg{
     background: rgb(15, 15, 15);
+}
+
+#leaderboard-bg{
+    background-color: rgb(27, 13, 158);
+    box-shadow: 10px 10px 5px #645e5e25;
 }

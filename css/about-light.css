@@ -19,10 +19,14 @@
     color: black;
 }
 
-#article-bg{
+.article-bg{
     background: rgb(122, 148, 156);
 }
 
-#video-bg{
+.video-bg{
     background: rgb(70, 124, 175);
+}
+
+#leaderboard-bg{
+    background-color: rgb(16, 14, 34);
 }
