@@ -27,15 +27,17 @@ $(document).ready(function () {
     $("#self-care-content").hide();
     $("#well-being-content").hide();
     if(preferredModeArray[0].darkmode == false){
-        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
+        $("#logo").attr("src", 'images/logo_transparent.png');
     }else{
-        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+        $("#mood-select")[0].style.backgroundColor = 'rgb(' + [19,19,19].join(',') + ')';
+        $("#logo").attr("src", 'images/logo_white_bg.png');
     }
     $("#mood-select").on("click",function(){
         if(preferredModeArray[0].darkmode == false){
-            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
         }else{
-            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+            $("#mood-select")[0].style.backgroundColor = 'rgb(' + [19,19,19].join(',') + ')';
         }
         $("#well-being-select")[0].style.backgroundColor = "";
         $("#self-care-select")[0].style.backgroundColor = "";
@@ -45,9 +47,9 @@ $(document).ready(function () {
     })
     $("#well-being-select").on("click",function(){
         if(preferredModeArray[0].darkmode == false){
-            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
         }else{
-            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+            $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [19,19,19].join(',') + ')';
         }
         $("#mood-select")[0].style.backgroundColor = "";
         $("#self-care-select")[0].style.backgroundColor = "";
@@ -57,9 +59,9 @@ $(document).ready(function () {
     })
     $("#self-care-select").on("click",function(){
         if(preferredModeArray[0].darkmode == false){
-            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [197,226,240].join(',') + ')'; 
+            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
         }else{
-            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [9,6,22].join(',') + ')';
+            $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [19,19,19].join(',') + ')';
         }
         $("#mood-select")[0].style.backgroundColor = "";
         $("#well-being-select")[0].style.backgroundColor = "";

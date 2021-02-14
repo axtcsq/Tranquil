@@ -6,6 +6,12 @@ $(document).ready(function () {
     var loginArray = JSON.parse(localStorage.getItem("login"));
     var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
 
+    if(preferredModeArray[0].darkmode == false){
+        $("#logo").attr("src", 'images/logo_transparent.png');
+    }else{
+        $("#logo").attr("src", 'images/logo_white_bg.png');
+    }
+
     // decide if dark/ light mode.
     // show button 
     if(loginArray[0].darkmode == true){
@@ -19,9 +25,11 @@ $(document).ready(function () {
             if(preferredModeArray[0].darkmode == true){
                 preferredModeArray[0].darkmode = false;
                 lightMode();
+                $("#logo").attr("src", 'images/logo_transparent.png');
             }else{
                 preferredModeArray[0].darkmode = true;
                 darkMode();
+                $("#logo").attr("src", 'images/logo_white_bg.png');
             }
             let p = new preferredMode(preferredModeArray[0].darkmode);
             preferredModeArray =[];
@@ -59,7 +67,7 @@ $(document).ready(function () {
         $(".app").show();
         $("#paragraph").hide();
         $("#darkmode-link").hide();
-
+        
         //update dark mode is purchased and decrement points
         loginArray[loginArray.length-1].darkmode=true;
         loginArray[loginArray.length-1].points = loginArray[loginArray.length-1].points - 30;
