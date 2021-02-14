@@ -3,7 +3,7 @@ $(document).ready(function () {
     // parse array
     var loginArray = JSON.parse(localStorage.getItem("login"));
     var preferredModeArray = JSON.parse(localStorage.getItem("preferredMode"));
-    $("#hi-msg").append("Hello"+" "+loginArray[0].username+" "+ "👋");
+    
     // decide if dark/ light mode.
     if(loginArray[0].darkmode == true){
         if(preferredModeArray[0].darkmode == true){
@@ -14,11 +14,16 @@ $(document).ready(function () {
     }else{
         lightMode();
     }
+
+    // append hi message 
+    $("#hi-msg").append("Hello"+" "+loginArray[0].username+" "+ "👋");
     n =  new Date();
     y = n.getFullYear();
     m = n.getMonth() + 1;
     d = n.getDate();
     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+
+    // hide and show content when user click. change style based on dark mode 
     $("#self-care-content").hide();
     $("#well-being-content").hide();
     if(preferredModeArray[0].darkmode == false){
@@ -64,6 +69,7 @@ $(document).ready(function () {
 
     })
 
+    // change style if user click on arrow. increment points 
     $("#arrow-0").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -74,7 +80,6 @@ $(document).ready(function () {
         $(".self-care-content-container")[0].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[0].style.borderBottomLeftRadius = "30px";
     })
-
     $("#arrow-1").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -85,7 +90,6 @@ $(document).ready(function () {
         $(".self-care-content-container")[1].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[1].style.borderBottomLeftRadius = "30px";
     })
-
     $("#arrow-2").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -96,7 +100,6 @@ $(document).ready(function () {
         $(".self-care-content-container")[2].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[2].style.borderBottomLeftRadius = "30px";
     })
-
     $("#arrow-3").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -107,6 +110,8 @@ $(document).ready(function () {
         $(".self-care-content-container")[3].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[3].style.borderBottomLeftRadius = "30px";
     })
+
+    // increment points if user submit 
     $("#food-section-submit").click(function(){
         loginArray[loginArray.length-1].points+=2;
         updateData();
@@ -119,6 +124,8 @@ $(document).ready(function () {
         loginArray[loginArray.length-1].points+=2;
         updateData();
     })
+
+
     // call quotes API
     var settings = {
         "url": "https://type.fit/api/quotes",
@@ -130,14 +137,8 @@ $(document).ready(function () {
     $.ajax(settings).done(function (response) {
         const data = JSON.parse(response);
         var indexList = [11,13,21,25,27,32,35]; 
-        var randomIndex=  Math.floor(Math.random()*10);
-        if(randomIndex == 9 || randomIndex == 8 || randomIndex == 7){
-            randomIndex=  Math.floor(Math.random()*10);
-        }
-        var index = indexList[randomIndex];
-        console.log(randomIndex);
-        console.log(index);
-        $("#api-message").append(data[index].text);
+        var randomIndex = indexList[Math.floor(Math.random() * indexList.length)];
+        $("#api-message").append(data[randomIndex].text);
     });
 
     // update local storage and RESTDB if user submit
