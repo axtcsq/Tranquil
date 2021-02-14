@@ -304,6 +304,12 @@ footer{
   cursor: pointer;
 }
 
+#leaderboard-bg{
+  align-items:initial; 
+  border-radius: 10px; 
+  box-shadow: 10px 10px 5px #2b28282e;
+}
+
 @media (min-width: 576px) { 
   footer{
     font-size: 15px;
