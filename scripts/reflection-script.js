@@ -1,3 +1,4 @@
+// jshint esversion:6
 $(document).ready(function () {
     $(".app").hide();
     // parse array
@@ -17,10 +18,10 @@ $(document).ready(function () {
 
     // append hi message 
     $("#hi-msg").append("Hello"+" "+loginArray[0].username+" "+ "👋");
-    n =  new Date();
-    y = n.getFullYear();
-    m = n.getMonth() + 1;
-    d = n.getDate();
+    var n =  new Date();
+    var y = n.getFullYear();
+    var m = n.getMonth() + 1;
+    var d = n.getDate();
     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
     // hide and show content when user click. change style based on dark mode 
@@ -44,7 +45,7 @@ $(document).ready(function () {
         $("#mood-content").show();
         $("#self-care-content").hide();
         $("#well-being-content").hide();
-    })
+    });
     $("#well-being-select").on("click",function(){
         if(preferredModeArray[0].darkmode == false){
             $("#well-being-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
@@ -56,7 +57,7 @@ $(document).ready(function () {
         $("#mood-content").hide();
         $("#self-care-content").hide();
         $("#well-being-content").show();
-    })
+    });
     $("#self-care-select").on("click",function(){
         if(preferredModeArray[0].darkmode == false){
             $("#self-care-select")[0].style.backgroundColor = 'rgb(' + [164,189,202].join(',') + ')'; 
@@ -69,7 +70,7 @@ $(document).ready(function () {
         $("#well-being-content").hide();
         $("#self-care-content").show();
 
-    })
+    });
 
     // change style if user click on arrow. increment points 
     $("#arrow-0").click(function(){
@@ -81,7 +82,7 @@ $(document).ready(function () {
         $(".self-care-content-text")[2].style.color = "white";
         $(".self-care-content-container")[0].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[0].style.borderBottomLeftRadius = "30px";
-    })
+    });
     $("#arrow-1").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -91,7 +92,7 @@ $(document).ready(function () {
         $(".self-care-content-text")[5].style.color = "white";
         $(".self-care-content-container")[1].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[1].style.borderBottomLeftRadius = "30px";
-    })
+    });
     $("#arrow-2").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -101,7 +102,7 @@ $(document).ready(function () {
         $(".self-care-content-text")[8].style.color = "white";
         $(".self-care-content-container")[2].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[2].style.borderBottomLeftRadius = "30px";
-    })
+    });
     $("#arrow-3").click(function(){
         loginArray[loginArray.length-1].points+=1;
         updateData();
@@ -111,21 +112,21 @@ $(document).ready(function () {
         $(".self-care-content-text")[11].style.color = "white";
         $(".self-care-content-container")[3].style.borderTopLeftRadius = "30px";
         $(".self-care-content-container")[3].style.borderBottomLeftRadius = "30px";
-    })
+    });
 
     // increment points if user submit 
     $("#food-section-submit").click(function(){
         loginArray[loginArray.length-1].points+=2;
         updateData();
-    })
+    });
     $("#exercise-section-submit").click(function(){
         loginArray[loginArray.length-1].points+=2;
         updateData();
-    })
+    });
     $("#sleep-section-submit").click(function(){
         loginArray[loginArray.length-1].points+=2;
         updateData();
-    })
+    });
 
 
     // call quotes API
@@ -172,7 +173,7 @@ $(document).ready(function () {
             },
             "processData": false,
             "data": JSON.stringify(jsondata)
-        }
+        };
     
         // update local storage
         $.ajax(settings).done(function (response) {

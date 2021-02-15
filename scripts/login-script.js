@@ -1,16 +1,17 @@
+// jshint esversion:6
 $(document).ready(function(e) {
   // user input
-  username = $("#usernameInput").val();
-  password = $("#passwordInput").val();
+  var username = $("#usernameInput").val();
+  var password = $("#passwordInput").val();
   $("#usernameInput").change(function() {
       username = $("#usernameInput").val();
-  })
+  });
   $("#passwordInput").change(function() {
       password = $("#passwordInput").val();
-  })
+  });
 
   // getting the data from RESTDB
-  responseArray = [];
+  var responseArray = [];
   const APIKEY = "600e2fe91346a1524ff12dbd";
   let settings = {
       "async": true,
@@ -22,7 +23,7 @@ $(document).ready(function(e) {
           "x-apikey": APIKEY,
           "cache-control": "no-cache"
       },
-  }
+  };
   $.ajax(settings).done(function(response) {
       responseArray = response;
   });
@@ -52,7 +53,7 @@ $(document).ready(function(e) {
 
         // set preferred mode to false in local storage
         let p = new preferredMode(false);
-        preferredModeArray =[];
+        var preferredModeArray =[];
         preferredModeArray.push(p);
         localStorage["preferredMode"]= JSON.stringify(preferredModeArray);
   });

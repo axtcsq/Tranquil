@@ -1,3 +1,4 @@
+// jshint esversion:6
 $(document).ready(function () {
     // hide dark mode buton
     $(".app").hide();
@@ -23,7 +24,7 @@ $(document).ready(function () {
             "x-apikey": APIKEY,
             "cache-control": "no-cache"
         },
-    }
+    };
     $.ajax(settings).done(function(response) {
         response.sort(GetSortOrder("points"));
         $("#leaderboard-msg").append("There are "+response.length+" people enrolling in this journey with you!");
@@ -116,7 +117,7 @@ $(document).ready(function () {
             },
             "processData": false,
             "data": JSON.stringify(jsondata)
-        }
+        };
 
         // update local storage
         $.ajax(settings).done(function (response) {
@@ -163,5 +164,5 @@ function GetSortOrder(prop) {
             return -1;    
         }    
         return 0;    
-    }    
+    };
 } 

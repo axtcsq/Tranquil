@@ -1,3 +1,4 @@
+// jshint esversion:6
 $(document).ready(function () {
     $(".alert").hide();
 
@@ -37,7 +38,7 @@ $(document).ready(function () {
               alert('Username taken. Plase use another one :)');
               console.clear();
           }
-        } 
+        };
 
         //show successful message
         $.ajax(settings).done(function (response) {

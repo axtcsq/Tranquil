@@ -1,3 +1,4 @@
+// jshint esversion:6
 $(document).ready(function () {
     // parse array
     var loginArray = JSON.parse(localStorage.getItem("login"));
@@ -45,7 +46,7 @@ $(document).ready(function () {
             },
             "processData": false,
             "data": JSON.stringify(jsondata)
-        }
+        };
 
         // update local storage
         $.ajax(settings).done(function (response) {
