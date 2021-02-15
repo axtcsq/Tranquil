@@ -1,10 +1,9 @@
 # Tranquil (Assignment 3)
 
-
-Our idea is to create a website that raises awareness of mental health. The aim is to encourage people to take care of themselves especially in their busiest days based on a point system. The audience for our website would be for busy people, students and workers who require comfort.
+Tranquil is a website application that raises awareness of mental health and people's well-being. The aim is to encourage people to take care of themselves especially in their busiest days based on a point system. 
 
 * Aim: encourages people to take care of themselves even in their busiest days by point system.
-* Audience: busy people, students, workers - needs comfort
+* Audience: busy people, students, workers
 * Group name: Tranquil
 ## Table of Contents
 * [Tranquil (Assignment 3)](https://github.com/axtcsq/Tranquil#tranquil-assignment-3)
@@ -40,6 +39,17 @@ Link: https://axtcsq.github.io/Tranquil/
 ### Demo Recording
 ## Design Process
 ### User Stories
+As someone who works/ study in the society which idolize achievements more than anything, we are prone to burnout. We wanted to make a website that can benefit the society and thought that we can touch on this problem.
+
+Apart from resources like articles and youtube videos, we use gamification for this website to make it more interactive and encourages user to keep coming back. As mentioned earlier, people idolize achievements. So, we came up with point system. This points can be traded with a feature that can improve user's experiece of the website (dark mode). They might also see their friends in the leaderboard. All of these encourages them to keep using our website - just like gaming, people like to compete and get noticed. 
+
+We see a lot of gamification for study apps, and a-commerce but not well-being app. This idea is as original and authentic as we made it to be. 
+
+Although this might not solve the problem fully, we hope it can at least put a smile on the user :) 
+### Layout
+The layout of our website has a common structure so it does not confuse the user (centralised content, titles are of same font and size, subheaders are italics, etc). Yet, it's interesting enough to look at with varieties of content placement per section.  
+### Pictures
+Background images chosen are mountain images to emphasise the idea of tranquility and peace.
 ### Colour Schemes
 The goal of our web app is to let people take a break and reconnect with their emotions. Hence, the main color scheme of this website is green #20302B and blue #7A949C - both the color of nature, harmony and calm. Using the same color scheme for all the pages ensures consistency but it can get too repetitive and boring. That is why we introduce bright colors like yellow #ffff00 to highlight important words ,and saturated, intense blue #1b0d9e as background colors of some containers. 
 
@@ -54,7 +64,6 @@ Our idea of the logo sparked after we finalised the typography. Hence, we decide
 We used many mountain images and hence including a mountain graphics stacked behind the letters just makes sense and gives sense of completeness to the logo. Color chosen are not far from our main color scheme. We have 2 logo colors for light and dark mode so it's visible for both modes.
 
 The way letter T is higher than letter Q gives a sense of safety - like an umbrella on a rainy day. This encourages the user to trust our website.
-### Layout
 ### Others
 * Scrollbar : We modify the scrollbar to make it look more friendly and less "boxy" and old-fashioned.
 * Border radius : Some pictures, buttons and containers have borders to make it look less intimidating.
@@ -62,11 +71,10 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 * Emojis: Some emojis are used to make it less tense and a bit more playful.
 * Huge font-size for homepage's header: following modern UI trends, it draws user attention to the text and not intimidate them with too much information.
 * Hover effects: distiguishing between elements that are clickable is important for a good user experience. Hence we made sure we had different styles/effects showing for most buttons/ links
-### Uniformity and Simplicity
-### Pictures
-### Screenshots
+
 ## Features
 ### Existing Features
+(Website is responsive to all screen sizes)
 * Login,logout and sign up
 * Loading, back to top
 * Display random motivational quotes
@@ -84,9 +92,10 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 
 ### Features Left to Implement
 * Have a clap button for people at leaderboard(Like instagram "like" button)
+* back button for meditation page 
   
 ## Technologies Used
-### Website
+### Website 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   * The project requires and uses HTML to display content.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -135,15 +144,32 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
   
 ### Online Documentation
 * [w3schools](https://www.w3schools.com/)
-  * This project was made possible with the help of w3schools' documentation
+* [Stack Overflow](https://stackoverflow.com/)
+* [Freecodecamp](www.freecodecamp.org)
+* [Geeksforgeeks](www.geeksforgeeks.org)
+* [Codepen.io](https://codepen.io/)
 ## Testing
 ### Different Browsers and Screen Sizes
 ### Bugs and Problems
+* OverlayScrollbar plugin can sometimes give an error message but it do not affect anything.
+* Loading page takes a long time.
 ## Credits
 References can also be found in the attached Word document titled "References".
 ### Content
-External source codes used in this site were obtained from:
+Articles and youtube links:
+* https://www.youtube.com/watch?v=RZrdUuEARXA
+* https://www.youtube.com/watch?v=bb5OOO_0HXs
+* https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress
+* https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream
+
 ### Media
 The photos used in this site were obtained from:
 ### Acknowledgements
-I received inspiration for this project from:
+#### User Testing
+People that helped us in the process:
+* Our lecturer, Mr.Andy for clarifying our doubts
+* Friends (wish to stay anonymous) for testing our website and giving feedbacks
+#### Inspiration
+We received inspiration for this project from:
+* https://www.my.reflection.app/a/account#login
+* https://www.calm.com/signup-flow
