@@ -1,5 +1,4 @@
 # Tranquil (Assignment 3)
-Currently doing: Media Queries
 
 
 Our idea is to create a website that raises awareness of mental health. The aim is to encourage people to take care of themselves especially in their busiest days based on a point system. The audience for our website would be for busy people, students and workers who require comfort.
@@ -47,14 +46,19 @@ Link: https://axtcsq.github.io/Tranquil/
 ### Screenshots
 ## Features
 ### Existing Features
-* Login and sign up (restDB API - only username and password. no email required)
-* Motivational quotes API 
-* Background info about mental health (just copy paste from somethere) : article, youtube video link
-* Gain points by: 
-  * 30 minutes of meditation +5 points
-  * Self reflection form +5 points (as long as they complete add points. can only fill up once per day)
-* See how other's are doing by points
-* If points reach 100+, new features unlocked. e.g. dark mode
+* Login and sign up
+* Display random motivational quotes
+* Background info about mental health : article and youtube video link
+* Point system - user gain points by: 
+  * meditate +5 points
+  * Self reflection
+    * submit reflection in mood section +5 points
+    * declare they have eaten, exercised, slept well in well-being section +2 points
+    * choose their way of self-care +1 point
+* If points reach >30, user can buy dark mode feature -30 points
+* Leaderboard where top 3 scorers(by points) are shown
+
+
 ### Features Left to Implement
 ## Technologies Used
 ### Website
@@ -63,9 +67,11 @@ Link: https://axtcsq.github.io/Tranquil/
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
   * The project uses CSS to improve the aesthetics of the website, and is also used to make it into a responsive website.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  * This project requires and uses JavaScript in order for APIs to work.
+  * This project uses JavaScript to make the website more interactive- logic of website.
 * [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
-  * This project requires and uses jQuery in order for APIs to work.
+  * This project requires and uses jQuery to simplify javascript codes.
+* [JQuery AJAX](https://api.jquery.com/jquery.ajax/)
+  * This project uses AJAX to load API.
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   * This project uses Bootstrap to improve the aesthetics of the website, make the website responsive and to cut down on development time.
 ### Code Validation Service
@@ -82,6 +88,11 @@ Link: https://axtcsq.github.io/Tranquil/
 ### Other Software
 * [PINETOOLS](https://pinetools.com/darken-image)
   * This project uses PINETOOLS to darken images
+* [Adobe illustrator](https://www.adobe.com/sea/products/illustrator.html?sdid=YB1TGRSV&mv=search&ef_id=CjwKCAiAsaOBBhA4EiwAo0_AnLKts73HNZ0fTIJO1BHdbdyCguKHdnhXYFafOCd8GTPmSXtj17g9eRoCggoQAvD_BwE:G:s&s_kwcid=AL!3085!3!417375903572!e!!g!!adobe%20illustrator&gclid=CjwKCAiAsaOBBhA4EiwAo0_AnLKts73HNZ0fTIJO1BHdbdyCguKHdnhXYFafOCd8GTPmSXtj17g9eRoCggoQAvD_BwE)
+  * This project uses adobe illustrator to make brand logo, dark mode logo, and modify color of icons(arrow, socials)
+* [Postman](https://www.postman.com/)
+  * This project uses postman to test API
+  
 ### Online Documentation
 * [w3schools](https://www.w3schools.com/)
   * This project was made possible with the help of w3schools' documentation
