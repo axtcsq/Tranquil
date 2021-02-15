@@ -135,8 +135,11 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 * [Typosaur](https://typosaur.us/)
   * This project makes use of Typosaur to check for any spelling errors
 * [Cross-browser testing](https://accounts.lambdatest.com/)
+  * This project makes use of cross-browser tester to check how the website looks across different browsers
 * [CSS minifier](https://cssnano.co/playground/)
+  * This project makes use of css minifier to minify css code
 * [JS minifier](https://javascript-minifier.com/)
+  * This project makes use of js minifier to minify and make the code harder to read
 ### Other Software
 * [PINETOOLS](https://pinetools.com/darken-image)
   * This project uses PINETOOLS to darken images
