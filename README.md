@@ -134,6 +134,9 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
   * This project makes use of Alt Tag Checker to check for any missing Alt tags
 * [Typosaur](https://typosaur.us/)
   * This project makes use of Typosaur to check for any spelling errors
+* [Cross-browser testing](https://accounts.lambdatest.com/)
+* [CSS minifier](https://cssnano.co/playground/)
+* [JS minifier](https://javascript-minifier.com/)
 ### Other Software
 * [PINETOOLS](https://pinetools.com/darken-image)
   * This project uses PINETOOLS to darken images
@@ -200,7 +203,7 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 6. Scroll down and click "Settings". click "API" and "Add New"
 7. Add your website's link (you can set as /** first before publishing), set methods to GET,POST,PUT,DELETE,PATCH and copy the key
 8. Open the folder in your IDE
-9. Change all the constant API cors key variables on javascript files to your own key (copies on step 7)
+9. Change all the constant API cors key variables on javascript files to your own key (copied on step 7)
 10. To check on the APIs, download and sign up for postman [here](https://www.postman.com/)
 11. You are all set up!
 
