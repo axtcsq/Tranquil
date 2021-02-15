@@ -59,7 +59,7 @@ $(document).ready(function () {
     }
 
     // finish meditating after a given time
-    setTimeout(sayDone, 3000); //60000
+    setTimeout(sayDone, 60000);
 });
 
 // functions
