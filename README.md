@@ -79,12 +79,12 @@ As we used quite a few mountain images, including a mountain graphics stacked be
 
 The positioning of the letter ‘T’ is higher than the letter ‘Q’ gives a sense of safety, similar to an umbrella on a rainy day. We hope doing so would encourage the user to trust our website.
 ### Others
-* Scrollbar : We modify the scrollbar to make it look more friendly and less "boxy" and old-fashioned.
-* Border radius : Some pictures, buttons and containers have borders to make it look less intimidating.
+* Scrollbar: We modified the scrollbar to make it look more friendly and less "boxy" and old-fashioned.
+* Border radius: Some pictures, buttons and containers have borders to make it look less intimidating.
 * Shadows: Some containers use shadow to make it stand out and less flat. 
 * Emojis: Some emojis are used to make it less tense and a bit more playful.
-* Huge font-size for homepage's header: following modern UI trends, it draws user attention to the text and not intimidate them with too much information.
-* Hover effects: distiguishing between elements that are clickable is important for a good user experience. Hence we made sure we had different styles/effects showing for most buttons/ links
+* Huge font-size for homepage's header: Following modern User Interface (UI) trends, it draws user attention to the text and not intimidate them with too much information.
+* Hover effects: Distinguishing between clickable elements is important for a good user experience. Hence we made sure we had different styles and effects showing for most buttons and links.
 ## Features
 ### Existing Features
 (Website is responsive to all screen sizes)
