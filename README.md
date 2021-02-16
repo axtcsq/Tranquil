@@ -149,14 +149,20 @@ Website is responsive to all screen sizes
 * [CSS Minifier](https://cssnano.co/playground/)
   * This project makes use of CSS Minifier to minify CSS code.
 * [JS Minifier](https://javascript-minifier.com/)
-  * This project makes use of JS Minifier to minify and make the code easier to read.
+  * This project makes use of JS Minifier to minify JS code.
 ### Other Software
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * This project use visual studio code as the code editor
 * [PINETOOLS](https://pinetools.com/darken-image)
   * This project uses PINETOOLS to darken images.
 * [Adobe Illustrator](https://www.adobe.com/sea/products/illustrator.html)
   * This project uses Adobe Illustrator to create our logo, modify icons colours such as arrows, socials & dark mode.
+* [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en)
+  * This project use colorpick chrome extension to get the hex of desired colours found online. 
 * [Postman](https://www.postman.com/)
   * This project uses postman to test out our chosen API.
+* [Screentogif](https://www.screentogif.com/)
+  * This project uses screentogif to convert screen recording to gif for README.md.
 ### Online Documentation
 * [W3Schools](https://www.w3schools.com/)
 * [Stack Overflow](https://stackoverflow.com/)
@@ -168,6 +174,8 @@ Website is responsive to all screen sizes
 Google Forms link: https://docs.google.com/spreadsheets/d/1naNA6v0aO19Xxq-8MklVlcbCuX8fGZCcKu1RlV4GKFw/edit?usp=sharing
 ### Different Browsers and Screen Sizes
 ![Desktop Preview of Website](gifs/Desktop-version.gif)
+
+Take a look at mobile version here : https://docs.google.com/presentation/d/1OmA8BHxPPySB1-l8BwDyo7qAWHEZjFWcYkgBBNsiebc/edit?usp=sharing
 ### Bugs and Problems
 * OverlayScrollbar plugin can sometimes give an error message but it does not affect anything.
 ## Deployment
