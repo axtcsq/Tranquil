@@ -266,16 +266,25 @@ https://lottiefiles.com/42226-winning-leadership
 D, Kris. (2020). Well Done [Online image]. LottieFiles.
 https://lottiefiles.com/14337-well-done
 #### Logos & Icons
-* Github logo : https://icons.getbootstrap.com/icons/github/ 
-* Linkedin logo : https://icons.getbootstrap.com/icons/linkedin/ 
-* Right arrow : https://icons8.com/icons/set/arrow 
-* Colorscheme.png : https://icons8.com/icons/set/night-mode
-* Mountain illustration for logo : https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
+Bootstrap. (n.d.). GitHub [Online image]. Bootstrap.
+https://icons.getbootstrap.com/icons/github/
+
+Bootstrap. (n.d.). Linkedin [Online image]. Bootstrap.
+https://icons.getbootstrap.com/icons/linkedin/
+
+Barmaleeva. (n.d.). Mountain Shapes For Logos [Online image]. shutterstock.
+https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
+
+icons8. (n.d.). Right Icon [Online image]. icons8.
+https://img.icons8.com/?id=VkByjr3dVHY1&size=2x&color=000000
+
+icons8. (n.d.).  [Online image]. icons8.
+⚠ Missing Link - To be updated
 ### Acknowledgements
 #### User Testing
 People that helped us in the process:
 * Our lecturer, Mr Andy for clarifying our doubts
-* Friends (wish to stay anonymous) for testing our website and giving feedbacks
+* Friends (who wish to stay anonymous) for testing our website and giving feedbacks
 #### Inspiration
 We received inspiration for this project from:
 * https://www.my.reflection.app/a/account#login
