@@ -222,8 +222,11 @@ https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditati
 The Straits Times. (2017, Oct 15). After yoga, meditation breaks into the mainstream. The Straits Times.
 https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream
 #### YouTube videos
-  * https://www.youtube.com/watch?v=RZrdUuEARXA
-  * https://www.youtube.com/watch?v=bb5OOO_0HXs
+DoctorOz [DoctorOz]. (2014, Oct 29). Dr. Oz Shares The Benefits of Meditation. [Video]. YouTube.
+https://www.youtube.com/watch?v=bb5OOO_0HXs
+
+TEDx Talks [TEDx Talks]. (2018, Jan 5). Meditation - The Single Most Important Skill Needed Today | Dr. Shyam Bhat | TEDxLavelleRoad. [Video]. YouTube.
+https://www.youtube.com/watch?v=RZrdUuEARXA
 ### Media
 The photos used in this site were obtained from:
 #### Images
