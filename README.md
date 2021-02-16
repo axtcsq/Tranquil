@@ -103,7 +103,7 @@ Website is responsive to all screen sizes
 * Leaderboard where top 3 scorers ranked by points are shown
 * Shows the amount of people who have already signed up
 ### Features Left to Implement
-* Have a clap button for people at leaderboard (similar to Instagram "like" button)  
+* Have a clap button for the people shown in leaderboard (similar to Instagram "like" button)  
 ## Technologies Used
 ### Website 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -111,57 +111,57 @@ Website is responsive to all screen sizes
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
   * The project uses CSS to improve the aesthetics of the website, and is also used to make it into a responsive website.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  * This project uses JavaScript to make the website more interactive- logic of website.
+  * This project uses JavaScript to make the website more interactive, and contains the logic of the website.
 * [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
-  * This project requires and uses jQuery to simplify javascript codes.
+  * This project requires and uses jQuery to simplify JavaScript codes.
 * [JQuery AJAX](https://api.jquery.com/jquery.ajax/)
   * This project uses AJAX to load API.
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   * This project uses Bootstrap to improve the aesthetics of the website, make the website responsive and to cut down on development time.
 * [Google Fonts](https://fonts.google.com/specimen/Yeseva+One?sidebar.open=true&preview.text=yeseva&preview.text_type=custom&query=yeseva#standard-styles)
-  * This project uses fonts from this website
+  * This project uses additional fonts to improve the aesthetics of the website.
 * [LottieFiles](https://lottiefiles.com/)
-  * This project uses lottie animation for loader, meditation , well done page, and leaderboard section.
+  * This project uses lottie animation for loader, meditation, well done, and leaderboard section.
 * [OverlayScrollbars](https://kingsora.github.io/OverlayScrollbars/#!overview)
-  * This project uses scrollbar plugin to modify scrollbar
+  * This project uses scrollbar plugin to modify the design of the scrollbar.
 * [Motivational quotes API](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373)
-  * This project uses motivational quotes API to generate random quotes for user
+  * This project uses motivational quotes API to generate & display random quotes on our website.
 * [RESTDB](https://restdb.io/login/)
-  * This project uses RESTDB to store user's sign up information
+  * This project uses RESTDB to store user's sign up and login information.
 * [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-  * This project uses local storage to store who's currently logged in, their points and dark mode preferences, so it can be accessed in all pages.
+  * This project uses local storage to store who's currently logged in, their total points and dark mode preferences, such that it can be accessed in all pages.
 * [Anime.js](https://animejs.com/)
   * This project uses anime.js library for text animations.
 ### Code Validation Service
 * [HTML Validator](https://validator.w3.org/)
-  * This project makes use of HTML Validator to check for errors
+  * This project makes use of HTML Validator to check for errors.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
-  * This project makes use of CSS Validator to check for errors
+  * This project makes use of CSS Validator to check for errors.
 * [JavaScript Validator](https://jshint.com/)
-  * This project makes use of JavaScript Validator to check for errors
+  * This project makes use of JavaScript Validator to check for errors.
 * [Alt Tag Checker](https://rushax.com/tools/alt-tag-checker/)
-  * This project makes use of Alt Tag Checker to check for any missing Alt tags
+  * This project makes use of Alt Tag Checker to check for any missing Alt tags.
 * [Typosaur](https://typosaur.us/)
-  * This project makes use of Typosaur to check for any spelling errors
+  * This project makes use of Typosaur to check for any spelling errors.
 * [Cross-browser testing](https://accounts.lambdatest.com/)
-  * This project makes use of cross-browser tester to check how the website looks across different browsers
-* [CSS minifier](https://cssnano.co/playground/)
-  * This project makes use of css minifier to minify css code
-* [JS minifier](https://javascript-minifier.com/)
-  * This project makes use of js minifier to minify and make the code harder to read
+  * This project makes use of cross-browser tester to check how the website looks across different browsers.
+* [CSS Minifier](https://cssnano.co/playground/)
+  * This project makes use of CSS Minifier to minify CSS code.
+* [JS Minifier](https://javascript-minifier.com/)
+  * This project makes use of JS Minifier to minify and make the code easier to read.
 ### Other Software
 * [PINETOOLS](https://pinetools.com/darken-image)
-  * This project uses PINETOOLS to darken images
-* [Adobe illustrator](https://www.adobe.com/sea/products/illustrator.html?sdid=YB1TGRSV&mv=search&ef_id=CjwKCAiAsaOBBhA4EiwAo0_AnLKts73HNZ0fTIJO1BHdbdyCguKHdnhXYFafOCd8GTPmSXtj17g9eRoCggoQAvD_BwE:G:s&s_kwcid=AL!3085!3!417375903572!e!!g!!adobe%20illustrator&gclid=CjwKCAiAsaOBBhA4EiwAo0_AnLKts73HNZ0fTIJO1BHdbdyCguKHdnhXYFafOCd8GTPmSXtj17g9eRoCggoQAvD_BwE)
-  * This project uses adobe illustrator to make brand logo, and modify color of icons(arrow, socials, dark mode)
+  * This project uses PINETOOLS to darken images.
+* [Adobe Illustrator](https://www.adobe.com/sea/products/illustrator.html)
+  * This project uses Adobe Illustrator to create our logo, modify icons colours such as arrows, socials & dark mode.
 * [Postman](https://www.postman.com/)
-  * This project uses postman to test API
+  * This project uses postman to test out our chosen API.
 ### Online Documentation
-* [w3schools](https://www.w3schools.com/)
+* [W3Schools](https://www.w3schools.com/)
 * [Stack Overflow](https://stackoverflow.com/)
-* [Freecodecamp](www.freecodecamp.org)
-* [Geeksforgeeks](www.geeksforgeeks.org)
-* [Codepen.io](https://codepen.io/)
+* [freeCodeCamp](www.freecodecamp.org)
+* [GeeksforGeeks](www.geeksforgeeks.org)
+* [CodePen](https://codepen.io/)
 ## Testing
 ### Manual user Testing
 ### Different Browsers and Screen Sizes
