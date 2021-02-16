@@ -55,7 +55,7 @@ In our research, we have seen quite a lot of gamification concept for study and 
 
 Although this might not fully address the problem, we hope our website can at least put a smile on our users’ face.
 ### Layout
-The layout of our website has a common structure so it does not confuse the user (centralised content, titles are of same font and size, subheaders are italics, etc). Yet, it's interesting enough to look at with varieties of content placement per section.  
+As the layout of our website uses a common structure, it should avoid any confusion when users navigate our website. This is achieved by ensuring all pages uses centralised content, titles are of same font and size, and that subheaders are in italics. Despite being limited to a common structure, we have made it in a way that it is still interesting enough to look at, especially with varieties of content placement per section.
 ### Pictures
 Background images chosen are mountain images to emphasise the idea of tranquility and peace.
 ### Colour Schemes
