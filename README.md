@@ -67,7 +67,11 @@ Our website’s text colours are pretty standard, consisting of either black, wh
 
 As for dark mode, we avoid using pure black as much as possible as it can cause eye strain for the user. Hence, we use dark blue #040822 and dark green #001116 as our main dark mode colours.
 ### Typography 
-This website uses font pairing of yeseva one for headers and default bootstrap font-family of Helvetica Neue for the rest. Yeseva one font has a good mix of bold corners and curves to make it friendly yet formal enough for this website. Most importantly, it gives a vibe of The Buddha which relates to meditation and our website in general. This font is unique and hence, become the "Signature piece" of our website as it's also featured in our logo. Bootstrap's default font is flexible and versatile enough to work with yeseva one. It's clean and a familiar font to everyone, so it's gives a sense of comfort.
+This website uses font pairing of yeseva one for headers and default bootstrap font-family of Helvetica Neue for the rest. Yeseva one font has a good mix of bold corners and curves to make it friendly yet formal enough for this website.
+
+Most importantly, it gives a vibe of The Buddha which relates to meditation and our website in general. This font is unique and hence, becomes the "signature piece" of our website as it is also featured in our logo.
+
+Bootstrap's default font is flexible and versatile enough to work with yeseva one. It's clean and a familiar font to everyone, so it's gives a sense of comfort.
 ### Logo
 Our idea of the logo sparked after we finalised the typography. Hence, we decided to make a mix of typography-based and lettermark logo. Pronounced as Tran-quil, we decided that our logo should include letter "T" and "Q". TQ is also a short form of "thank you" which represents gratefullness- something we try to encourage in our website. 
 
