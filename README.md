@@ -57,7 +57,7 @@ Although this might not fully address the problem, we hope our website can at le
 ### Layout
 As the layout of our website uses a common structure, it should avoid any confusion when users navigate our website. This is achieved by ensuring all pages uses centralised content, titles are of same font and size, and that subheaders are in italics. Despite being limited to a common structure, we have made it in a way that it is still interesting enough to look at, especially with varieties of content placement per section.
 ### Pictures
-Background images chosen are mountain images to emphasise the idea of tranquility and peace.
+The website’s background images consist mostly of mountain images, as we wanted to emphasise the idea of tranquillity and peace.
 ### Colour Schemes
 The goal of our web app is to let people take a break and reconnect with their emotions. Hence, the main color scheme of this website is green #20302B and blue #7A949C - both the color of nature, harmony and calm. Using the same color scheme for all the pages ensures consistency but it can get too repetitive and boring. That is why we introduce bright colors like yellow #ffff00 to highlight important words ,and saturated, intense blue #1b0d9e as background colors of some containers. 
 
