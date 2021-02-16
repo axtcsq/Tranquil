@@ -230,13 +230,26 @@ https://www.youtube.com/watch?v=RZrdUuEARXA
 ### Media
 The photos used in this site were obtained from:
 #### Images
-* Happy.jpg : https://www.freepik.com/free-vector/enthusiastic-concept-illustration_10386550.htm#page=1&query=happy%20illustration&position=11
-* Grateful.jpg : https://www.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_7606522.htm#query=grateful%20illustration&position=16
-* Sad.jpg : https://www.freepik.com/premium-vector/cabin-fever-with-sad-man-house_8642487.htm
-* Anxious.jpg : https://www.freepik.com/free-vector/low-self-esteem-illustration_10877502.htm#page=1&query=/low-self-esteem-illustration&position=7
-* Food.jpg : https://www.freepik.com/free-vector/eating-healthy-food-concept-illustration_8673470.htm#page=1&query=eating-healthy-food-concept-illustration&position=1
-* Exercise.jpg : https://www.freepik.com/free-vector/pilates-concept-illustration_6450150.htm#page=1&query=pilates-concept-illustration&position=12
-* Sleep.jpg : https://www.freepik.com/free-vector/insomnia-concept-illustration_10137711.htm#page=1&query=insomnia-concept-illustration&position=33
+freepik. (2020, Jun). Cabin fever with sad man in house Premium Vector [Online image]. freepik.
+https://www.freepik.com/premium-vector/cabin-fever-with-sad-man-house_8642487.htm
+
+freepik. (2020, Sept). Insomnia concept illustration Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/insomnia-concept-illustration_10137711.htm#page=1&query=insomnia-concept-illustration&position=33
+
+pikisuperstar. (2020, Apr). Thank you doctors and nurses illustration with lettering Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_7606522.htm#query=grateful%20illustration&position=16 
+
+pikisuperstar. (2020, Oct). Low self-esteem illustration Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/low-self-esteem-illustration_10877502.htm#page=1&query=/low-self-esteem-illustration&position=7 
+
+stories. (2020, Feb). Pilates concept illustration Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/pilates-concept-illustration_6450150.htm#page=1&query=pilates-concept-illustration&position=12 
+ 
+stories. (2020, Jun). Eating healthy food concept illustration Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/eating-healthy-food-concept-illustration_8673470.htm#page=1&query=eating-healthy-food-concept-illustration&position=1
+
+stories. (2020, Sept). Enthusiastic concept illustration Free Vector [Online image]. freepik.
+https://www.freepik.com/free-vector/enthusiastic-concept-illustration_10386550.htm#page=1&query=happy%20illustration&position=11
 #### Lottie
 * Well done lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_OX0Ts3.json
 * Leaderboard lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_8udmnhsx.json
