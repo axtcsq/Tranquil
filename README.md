@@ -1,9 +1,5 @@
 # Tranquil (Assignment 3)
-Tranquil is a website application that raises awareness of mental health and people's well-being. The aim is to encourage people to take care of themselves especially in their busiest days based on a point system. 
-
-* Aim: encourages people to take care of themselves even in their busiest days by point system.
-* Audience: busy people, students, workers
-* Group name: Tranquil
+Tranquil is a website application that raises awareness of mental health and people's well-being. The aim is to encourage people to take care of themselves especially on their busiest days based on a point system. Our website's user audience is catered to busy people such as students and workers. The chosen name for this website is called Tranquil.
 ## Table of Contents
 * [Tranquil (Assignment 3)](https://github.com/axtcsq/Tranquil#tranquil-assignment-3)
 * [GitHub](https://github.com/axtcsq/Tranquil#github)
