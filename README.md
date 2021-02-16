@@ -266,20 +266,20 @@ https://lottiefiles.com/42226-winning-leadership
 D, Kris. (2020). Well Done [Online image]. LottieFiles.
 https://lottiefiles.com/14337-well-done
 #### Logos & Icons
+Barmaleeva. (n.d.). Mountain Shapes For Logos [Online image]. shutterstock.
+https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
+
 Bootstrap. (n.d.). GitHub [Online image]. Bootstrap.
 https://icons.getbootstrap.com/icons/github/
 
 Bootstrap. (n.d.). Linkedin [Online image]. Bootstrap.
 https://icons.getbootstrap.com/icons/linkedin/
 
-Barmaleeva. (n.d.). Mountain Shapes For Logos [Online image]. shutterstock.
-https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
+shutterstock. (n.d.). right arrow icon. right arrow vector design [Online image]. shutterstock.
+https://www.shutterstock.com/image-vector/right-arrow-icon-vector-design-1719478270?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkETytRyAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558 
 
-icons8. (n.d.). Right Icon [Online image]. icons8.
-https://img.icons8.com/?id=VkByjr3dVHY1&size=2x&color=000000
-
-icons8. (n.d.).  [Online image]. icons8.
-⚠ Missing Link - To be updated
+stockunlimited. (n.d.). Moon and cloud [Online image]. stockunlimited.
+https://www.stockunlimited.com/vector-illustration/moon-and-cloud_1245719.html
 ### Acknowledgements
 #### User Testing
 People that helped us in the process:
