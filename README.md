@@ -265,6 +265,12 @@ https://lottiefiles.com/42226-winning-leadership
 
 D, Kris. (2020). Well Done [Online image]. LottieFiles.
 https://lottiefiles.com/14337-well-done
+
+Malvi, Pratik. (2019). Plant, Office, Desk [Online image]. LottieFiles.
+https://lottiefiles.com/4251-plant-office-desk
+
+T, Athulraj. (2020). Meditating Lady [Online image]. LottieFiles.
+https://lottiefiles.com/22979-meditating-lady 
 #### Logos & Icons
 Barmaleeva. (n.d.). Mountain Shapes For Logos [Online image]. shutterstock.
 https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
@@ -281,10 +287,22 @@ https://www.shutterstock.com/image-vector/right-arrow-icon-vector-design-1719478
 stockunlimited. (n.d.). Moon and cloud [Online image]. stockunlimited.
 https://www.stockunlimited.com/vector-illustration/moon-and-cloud_1245719.html
 ### Acknowledgements
+#### Codes
+Ahlin, Tobias. (n.d.). Effect 3. Moving Letters.
+https://tobiasahlin.com/moving-letters/#3 
+
+Coyier, Chris. (2020). Fluid Width Video. CSS-Tricks.
+https://css-tricks.com/fluid-width-video/ 
+
+Type.fit. (n.d.). api quotes. Type.fit.
+https://type.fit/api/quotes 
+
+W3Schools. (n.d.). How TO - Full Page Image. W3Schools.
+https://www.w3schools.com/howto/howto_css_full_page.asp 
 #### User Testing
 People that helped us in the process:
 * Our lecturer, Mr Andy for clarifying our doubts
-* Friends (who wish to stay anonymous) for testing our website and giving feedbacks
+* Friends (who wish to remain anonymous) for testing and giving feedbacks for our website
 #### Inspiration
 We received inspiration for this project from:
 * https://www.my.reflection.app/a/account#login
