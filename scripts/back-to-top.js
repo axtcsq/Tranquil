@@ -1,9 +1,1 @@
-// jshint esversion:6
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        window.location.href = "#content";
-        return false;
-    });
-
-});
+$(document).ready(function(){$("#back2Top").click(function(n){return n.preventDefault(),window.location.href="#content",!1})});
