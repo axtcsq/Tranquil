@@ -34,6 +34,7 @@ Tranquil is a website application that raises awareness of mental health and peo
     * [Lottie](https://github.com/axtcsq/Tranquil#lottie)
     * [Logos & Icons](https://github.com/axtcsq/Tranquil#logos--icons)
   * [Acknowledgements](https://github.com/axtcsq/Tranquil#acknowledgements)
+    * [Codes](https://github.com/axtcsq/Tranquil#codes)
     * [User Testing](https://github.com/axtcsq/Tranquil#user-testing)
     * [Inspiration](https://github.com/axtcsq/Tranquil#inspiration)
 ## GitHub
@@ -305,5 +306,5 @@ People that helped us in the process:
 * Friends (who wish to remain anonymous) for testing and giving feedbacks for our website
 #### Inspiration
 We received inspiration for this project from:
-* https://www.my.reflection.app/a/account#login
-* https://www.calm.com/signup-flow
+* [Reflection.app](https://www.my.reflection.app/a/account#login)
+* [Calm](https://www.calm.com/signup-flow)
