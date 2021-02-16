@@ -99,8 +99,8 @@ Website is responsive to all screen sizes
       * Submit reflection in mood section (Worth 5 points)
       * Declare they have eaten, exercised & slept well in well-being section (Worth 2 points)
       * Choose their way of self-care (Worth 1 point)
-* If points reaches beyond 30, user can buy dark mode feature (Deducts 30 points)
-* Leaderboard where top 3 scorers ranked by points are shown
+  * If points reaches beyond 30, user can buy dark mode feature (Deducts 30 points)
+  * Leaderboard where top 3 scorers ranked by points are shown
 * Shows the amount of people who have already signed up
 ### Features Left to Implement
 * Have a clap button for the people shown in leaderboard (similar to Instagram "like" button)  
