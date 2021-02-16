@@ -167,7 +167,7 @@ Website is responsive to all screen sizes
 ### Manual user Testing
 Google Forms link: https://docs.google.com/spreadsheets/d/1naNA6v0aO19Xxq-8MklVlcbCuX8fGZCcKu1RlV4GKFw/edit?usp=sharing
 ### Different Browsers and Screen Sizes
-![Desktop Preview of Website](../Tranquil/gifs/Desktop-version.gif)
+![Desktop Preview of Website](../gifs/Desktop-version.gif)
 ### Bugs and Problems
 * OverlayScrollbar plugin can sometimes give an error message but it does not affect anything.
 ## Deployment
