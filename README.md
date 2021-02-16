@@ -1,5 +1,4 @@
 # Tranquil (Assignment 3)
-
 Tranquil is a website application that raises awareness of mental health and people's well-being. The aim is to encourage people to take care of themselves especially in their busiest days based on a point system. 
 
 * Aim: encourages people to take care of themselves even in their busiest days by point system.
@@ -13,10 +12,12 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [Demo Recording](https://github.com/axtcsq/Tranquil#demo-recording)
 * [Design Process](https://github.com/axtcsq/Tranquil#design-process)
   * [User Stories](https://github.com/axtcsq/Tranquil#user-stories)
-  * [Colour Schemes](https://github.com/axtcsq/Tranquil#user-stories)
-  * [Uniformity and Simplicity](https://github.com/axtcsq/Tranquil#uniformity-and-simplicity)
+  * [Layout](https://github.com/axtcsq/Tranquil#layout)
   * [Pictures](https://github.com/axtcsq/Tranquil#pictures)
-  * [Screenshots](https://github.com/axtcsq/Tranquil#screenshots)
+  * [Colour Schemes](https://github.com/axtcsq/Tranquil#user-stories)
+  * [Typography](https://github.com/axtcsq/Tranquil#typography)
+  * [Logo](https://github.com/axtcsq/Tranquil#logo)
+  * [Others](https://github.com/axtcsq/Tranquil#others)
 * [Features](https://github.com/axtcsq/Tranquil#features)
   * [Existing Features](https://github.com/axtcsq/Tranquil#existing-features)
   * [Features Left to Implement](https://github.com/axtcsq/Tranquil#features-left-to-implement)
@@ -24,13 +25,21 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [Website](https://github.com/axtcsq/Tranquil#website)
   * [Code Validation Service](https://github.com/axtcsq/Tranquil#code-validation-service)
   * [Other Software](https://github.com/axtcsq/Tranquil#other-software)
+  * [Online Documentation](https://github.com/axtcsq/Tranquil#online-documentation)
 * [Testing](https://github.com/axtcsq/Tranquil#testing)
+  * [Manual user Testing](https://github.com/axtcsq/Tranquil#manual-user-testing)
   * [Different Browsers and Screen Sizes](https://github.com/axtcsq/Tranquil#different-browsers-and-screen-sizes)
   * [Bugs and Problems](https://github.com/axtcsq/Tranquil#bugs-and-problems)
+* [Deployement](https://github.com/axtcsq/Tranquil#deployement)
 * [Credits](https://github.com/axtcsq/Tranquil#credits)
   * [Content](https://github.com/axtcsq/Tranquil#content)
   * [Media](https://github.com/axtcsq/Tranquil#media)
+    * [Images](https://github.com/axtcsq/Tranquil#images)
+    * [Lottie](https://github.com/axtcsq/Tranquil#lottie)
+    * [Logo/ icons](https://github.com/axtcsq/Tranquil#logo-icons)
   * [Acknowledgements](https://github.com/axtcsq/Tranquil#acknowledgements)
+    * [User Testing](https://github.com/axtcsq/Tranquil#user-testing)
+    * [Inspiration](https://github.com/axtcsq/Tranquil#inspiration)
 ## GitHub
 ### GitHub Repository
 Link: https://github.com/axtcsq/Tranquil
