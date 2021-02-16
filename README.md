@@ -87,23 +87,23 @@ The positioning of the letter ‘T’ is higher than the letter ‘Q’ gives a 
 * Hover effects: Distinguishing between clickable elements is important for a good user experience. Hence we made sure we had different styles and effects showing for most buttons and links.
 ## Features
 ### Existing Features
-(Website is responsive to all screen sizes)
-* Login,logout and sign up
+Website is responsive to all screen sizes
+* Login, logout and sign up
 * Loading, back to top
 * Display random motivational quotes
-* Background info about mental health : article and youtube video link
-* Point system - user gain points by: 
-  * meditate +5 points
-  * Self reflection
-    * submit reflection in mood section +5 points
-    * declare they have eaten, exercised, slept well in well-being section +2 points
-    * choose their way of self-care +1 point
-* If points reach >30, user can buy dark mode feature -30 points
-* Leaderboard where top 3 scorers(by points) are shown
-* Show how many people have signed up
+* Background information about mental health: articles and YouTube video links
+* Point system
+  * User gain points by: 
+    * Meditating (Worth 5 points)
+    * Self-reflection
+      * Submit reflection in mood section (Worth 5 points)
+      * Declare they have eaten, exercised & slept well in well-being section (Worth 2 points)
+      * Choose their way of self-care (Worth 1 point)
+* If points reaches beyond 30, user can buy dark mode feature (Deducts 30 points)
+* Leaderboard where top 3 scorers ranked by points are shown
+* Shows the amount of people who have already signed up
 ### Features Left to Implement
-* Have a clap button for people at leaderboard(Like instagram "like" button)
-* back button for meditation page   
+* Have a clap button for people at leaderboard (similar to Instagram "like" button)  
 ## Technologies Used
 ### Website 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
