@@ -73,11 +73,11 @@ Most importantly, it gives a vibe of The Buddha which relates to meditation and 
 
 Bootstrap's default font is flexible and versatile enough to work with yeseva one. It's clean and a familiar font to everyone, so it's gives a sense of comfort.
 ### Logo
-Our idea of the logo sparked after we finalised the typography. Hence, we decided to make a mix of typography-based and lettermark logo. Pronounced as Tran-quil, we decided that our logo should include letter "T" and "Q". TQ is also a short form of "thank you" which represents gratefullness- something we try to encourage in our website. 
+Our idea of the logo sparked after we finalised the typography. Hence, we decided to make a mix of typography-based and lettermark logo. Pronounced as Tran-quil, we decided that our logo should include the letter ‘T’ and ‘Q’. TQ is also a short form of "thank you" which represents gratefulness, also something that we try to encourage in our website. 
 
-We used many mountain images and hence including a mountain graphics stacked behind the letters just makes sense and gives sense of completeness to the logo. Color chosen are not far from our main color scheme. We have 2 logo colors for light and dark mode so it's visible for both modes.
+As we used quite a few mountain images, including a mountain graphics stacked behind the letters just makes sense as it gives a sense of completeness to the logo. The colour chosen is not far from our main colour scheme. We have 2 logo colours for light and dark mode so it's visible for both modes.
 
-The way letter T is higher than letter Q gives a sense of safety - like an umbrella on a rainy day. This encourages the user to trust our website.
+The positioning of the letter ‘T’ is higher than the letter ‘Q’ gives a sense of safety, similar to an umbrella on a rainy day. We hope doing so would encourage the user to trust our website.
 ### Others
 * Scrollbar : We modify the scrollbar to make it look more friendly and less "boxy" and old-fashioned.
 * Border radius : Some pictures, buttons and containers have borders to make it look less intimidating.
