@@ -10,7 +10,7 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [User Stories](https://github.com/axtcsq/Tranquil#user-stories)
   * [Layout](https://github.com/axtcsq/Tranquil#layout)
   * [Pictures](https://github.com/axtcsq/Tranquil#pictures)
-  * [Colour Schemes](https://github.com/axtcsq/Tranquil#user-stories)
+  * [Colour Schemes](https://github.com/axtcsq/Tranquil#colour-schemes)
   * [Typography](https://github.com/axtcsq/Tranquil#typography)
   * [Logo](https://github.com/axtcsq/Tranquil#logo)
   * [Others](https://github.com/axtcsq/Tranquil#others)
@@ -26,13 +26,13 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [Manual user Testing](https://github.com/axtcsq/Tranquil#manual-user-testing)
   * [Different Browsers and Screen Sizes](https://github.com/axtcsq/Tranquil#different-browsers-and-screen-sizes)
   * [Bugs and Problems](https://github.com/axtcsq/Tranquil#bugs-and-problems)
-* [Deployement](https://github.com/axtcsq/Tranquil#deployement)
+* [Deployment](https://github.com/axtcsq/Tranquil#deployment)
 * [Credits](https://github.com/axtcsq/Tranquil#credits)
   * [Content](https://github.com/axtcsq/Tranquil#content)
   * [Media](https://github.com/axtcsq/Tranquil#media)
     * [Images](https://github.com/axtcsq/Tranquil#images)
     * [Lottie](https://github.com/axtcsq/Tranquil#lottie)
-    * [Logo/ icons](https://github.com/axtcsq/Tranquil#logo-icons)
+    * [Logo & Icons](https://github.com/axtcsq/Tranquil#logo-icons)
   * [Acknowledgements](https://github.com/axtcsq/Tranquil#acknowledgements)
     * [User Testing](https://github.com/axtcsq/Tranquil#user-testing)
     * [Inspiration](https://github.com/axtcsq/Tranquil#inspiration)
@@ -81,7 +81,6 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 * Emojis: Some emojis are used to make it less tense and a bit more playful.
 * Huge font-size for homepage's header: following modern UI trends, it draws user attention to the text and not intimidate them with too much information.
 * Hover effects: distiguishing between elements that are clickable is important for a good user experience. Hence we made sure we had different styles/effects showing for most buttons/ links
-
 ## Features
 ### Existing Features
 (Website is responsive to all screen sizes)
@@ -98,12 +97,9 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 * If points reach >30, user can buy dark mode feature -30 points
 * Leaderboard where top 3 scorers(by points) are shown
 * Show how many people have signed up
-
-
 ### Features Left to Implement
 * Have a clap button for people at leaderboard(Like instagram "like" button)
-* back button for meditation page 
-  
+* back button for meditation page   
 ## Technologies Used
 ### Website 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -132,7 +128,6 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
   * This project uses local storage to store who's currently logged in, their points and dark mode preferences, so it can be accessed in all pages.
 * [Anime.js](https://animejs.com/)
   * This project uses anime.js library for text animations.
-
 ### Code Validation Service
 * [HTML Validator](https://validator.w3.org/)
   * This project makes use of HTML Validator to check for errors
@@ -157,7 +152,6 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
   * This project uses adobe illustrator to make brand logo, and modify color of icons(arrow, socials, dark mode)
 * [Postman](https://www.postman.com/)
   * This project uses postman to test API
-  
 ### Online Documentation
 * [w3schools](https://www.w3schools.com/)
 * [Stack Overflow](https://stackoverflow.com/)
@@ -170,8 +164,7 @@ The way letter T is higher than letter Q gives a sense of safety - like an umbre
 ### Bugs and Problems
 * OverlayScrollbar plugin can sometimes give an error message but it do not affect anything.
 * Loading page takes a long time.
-
-## Deployement
+## Deployment
 1. Download an IDE (e.g. Visual Studio Code) with the necessary extensions. 
    
    [Download visual studio code here](https://code.visualstudio.com/)
@@ -245,7 +238,7 @@ The photos used in this site were obtained from:
 * Well done lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_OX0Ts3.json
 * Leaderboard lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_8udmnhsx.json
 
-#### Logo/ icons
+#### Logo & Icons
 * Github logo : https://icons.getbootstrap.com/icons/github/ 
 * Linkedin logo : https://icons.getbootstrap.com/icons/linkedin/ 
 * Right arrow : https://icons8.com/icons/set/arrow 
