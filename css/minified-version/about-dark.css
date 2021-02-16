@@ -1,0 +1,30 @@
+.header-bg{
+    background-image:url(../images/dark-background.jpg)
+}
+
+.card{
+    color:#000;background:hsla(0,0%,100%,.49)
+}
+
+.btn{
+    background-color:#fff;
+    color:#000
+}
+
+.btn:hover{
+    background-color:#242424;
+    color:#eee
+}
+
+.article-bg{
+    background:#001116
+}
+
+.video-bg{
+    background:#0f0f0f
+}
+
+#leaderboard-bg{
+    background-color:#1b0d9e;
+    box-shadow:10px 10px 5px rgba(100,94,94,.15)
+}
