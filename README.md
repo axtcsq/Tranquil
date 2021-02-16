@@ -165,11 +165,11 @@ Website is responsive to all screen sizes
 * [CodePen](https://codepen.io/)
 ## Testing
 ### Manual user Testing
-Google Forms link:
+Google Forms link: https://docs.google.com/spreadsheets/d/1naNA6v0aO19Xxq-8MklVlcbCuX8fGZCcKu1RlV4GKFw/edit?usp=sharing
 ### Different Browsers and Screen Sizes
+![Desktop Preview of Website](../Tranquil/gifs/Desktop-version.gif)
 ### Bugs and Problems
 * OverlayScrollbar plugin can sometimes give an error message but it does not affect anything.
-* Loading page may take a long time to load.
 ## Deployment
 1. Download an Integrated Development Environment (IDE) such as Visual Studio Code with the necessary extensions 
    * [Download Visual Studio Code here](https://code.visualstudio.com/)
