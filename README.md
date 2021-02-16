@@ -59,11 +59,13 @@ As the layout of our website uses a common structure, it should avoid any confus
 ### Pictures
 The website’s background images consist mostly of mountain images, as we wanted to emphasise the idea of tranquillity and peace.
 ### Colour Schemes
-The goal of our web app is to let people take a break and reconnect with their emotions. Hence, the main color scheme of this website is green #20302B and blue #7A949C - both the color of nature, harmony and calm. Using the same color scheme for all the pages ensures consistency but it can get too repetitive and boring. That is why we introduce bright colors like yellow #ffff00 to highlight important words ,and saturated, intense blue #1b0d9e as background colors of some containers. 
+The goal of our web app is to let people take a break and reconnect with their emotions. Hence, the main colour scheme of this website is green #20302B and blue #7A949C, both colours of nature, representing harmony and calm.
 
-We keep text colors pretty standard of either only black, white or grey. This way, people will focus on the content of the information and not get distracted. 
+Using the same colour scheme for all the pages ensures consistency, but it can get too repetitive and boring. Thus, we also use bright colours such as yellow #ffff00 to highlight important words, saturated and intense blue #1b0d9e as background colours of some containers.
 
-As for dark mode, we avoid using pure black as much as possible as it can cause eye strain for user. Hence, we use dark blue #040822 and dark green #001116 as our main dark mode colors. 
+Our website’s text colours are pretty standard, consisting of either black, white or grey. Doing so should help people to focus better on the information content and not get distracted.
+
+As for dark mode, we avoid using pure black as much as possible as it can cause eye strain for the user. Hence, we use dark blue #040822 and dark green #001116 as our main dark mode colours.
 ### Typography 
 This website uses font pairing of yeseva one for headers and default bootstrap font-family of Helvetica Neue for the rest. Yeseva one font has a good mix of bold corners and curves to make it friendly yet formal enough for this website. Most importantly, it gives a vibe of The Buddha which relates to meditation and our website in general. This font is unique and hence, become the "Signature piece" of our website as it's also featured in our logo. Bootstrap's default font is flexible and versatile enough to work with yeseva one. It's clean and a familiar font to everyone, so it's gives a sense of comfort.
 ### Logo
