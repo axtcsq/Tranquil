@@ -42,15 +42,18 @@ Link: https://github.com/axtcsq/Tranquil
 ### GitHub Pages
 Link: https://axtcsq.github.io/Tranquil/
 ### Demo Recording
+Link: 
 ## Design Process
 ### User Stories
-As someone who works/ study in the society which idolize achievements more than anything, we are prone to burnout. We wanted to make a website that can benefit the society and thought that we can touch on this problem.
+As someone who works and studies in a society which idolizes achievements more than anything, we are prone to burnout. We wanted to make a website that can benefit society and be able to address such problems.
 
-Apart from resources like articles and youtube videos, we use gamification for this website to make it more interactive and encourages user to keep coming back. As mentioned earlier, people idolize achievements. So, we came up with point system. This points can be traded with a feature that can improve user's experiece of the website (dark mode). They might also see their friends in the leaderboard. All of these encourages them to keep using our website - just like gaming, people like to compete and get noticed. 
+Apart from resources like articles and YouTube videos, the website uses a gamification concept to make it more interactive to the point it encourages users to keep coming back to our website. As people idolize their achievements, we came up with a point system for our website.
 
-We see a lot of gamification for study apps, and a-commerce but not well-being app. This idea is as original and authentic as we made it to be. 
+This points can then be used to unlock a feature, such as dark mode. Dark mode improves the user's experience of the website in low-light environments. Similar to gaming, there is also a leaderboard system where users can compete with their friends for rankings and to get noticed. We believe such features should encourage them to continuously use our website.
 
-Although this might not solve the problem fully, we hope it can at least put a smile on the user :) 
+In our research, we have seen quite a lot of gamification concept for study and E-commerce apps, but not for a well-being app. Thus, this idea is as original and authentic as we made it to be.
+
+Although this might not fully address the problem, we hope our website can at least put a smile on our users’ face.
 ### Layout
 The layout of our website has a common structure so it does not confuse the user (centralised content, titles are of same font and size, subheaders are italics, etc). Yet, it's interesting enough to look at with varieties of content placement per section.  
 ### Pictures
