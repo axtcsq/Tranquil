@@ -32,7 +32,7 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [Media](https://github.com/axtcsq/Tranquil#media)
     * [Images](https://github.com/axtcsq/Tranquil#images)
     * [Lottie](https://github.com/axtcsq/Tranquil#lottie)
-    * [Logo & Icons](https://github.com/axtcsq/Tranquil#logo-icons)
+    * [Logo & Icons](https://github.com/axtcsq/Tranquil#logo--icons)
   * [Acknowledgements](https://github.com/axtcsq/Tranquil#acknowledgements)
     * [User Testing](https://github.com/axtcsq/Tranquil#user-testing)
     * [Inspiration](https://github.com/axtcsq/Tranquil#inspiration)
