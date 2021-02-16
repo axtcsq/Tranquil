@@ -179,7 +179,7 @@ Google Forms link:
    * Type a username, your email address, and a password.
    * Choose Sign up for GitHub, and then follow the instructions. 
    * [Video: Guide on using GitHub in Visual Studio Code](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
-   * [Setting up username and user email in Git](https://www.codegrepper.com/code-examples/delphi/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git)
+   * [Setting up username and user's email in Git](https://www.codegrepper.com/code-examples/delphi/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git)
 3. Download & clone our project
    * Clone
      * Navigate to the main page of the repository
@@ -219,7 +219,6 @@ Articles and youtube links:
 * https://www.youtube.com/watch?v=bb5OOO_0HXs
 * https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress
 * https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream
-
 ### Media
 The photos used in this site were obtained from:
 #### images
@@ -230,23 +229,19 @@ The photos used in this site were obtained from:
 * Food.jpg : https://www.freepik.com/free-vector/eating-healthy-food-concept-illustration_8673470.htm#page=1&query=eating-healthy-food-concept-illustration&position=1
 * Exercise.jpg : https://www.freepik.com/free-vector/pilates-concept-illustration_6450150.htm#page=1&query=pilates-concept-illustration&position=12
 * Sleep.jpg : https://www.freepik.com/free-vector/insomnia-concept-illustration_10137711.htm#page=1&query=insomnia-concept-illustration&position=33
-
 #### Lottie
 * Well done lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_OX0Ts3.json
 * Leaderboard lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_8udmnhsx.json
-
 #### Logo & Icons
 * Github logo : https://icons.getbootstrap.com/icons/github/ 
 * Linkedin logo : https://icons.getbootstrap.com/icons/linkedin/ 
 * Right arrow : https://icons8.com/icons/set/arrow 
 * Colorscheme.png : https://icons8.com/icons/set/night-mode
 * Mountain illustration for logo : https://www.shutterstock.com/image-vector/mountain-shapes-logos-481505155?irclickid=x6i3C%3A09fxyLRfuwUx0Mo3QRUkET2%3AyaAS9%3AyU0&irgwc=1&utm_medium=Affiliate&utm_campaign=Icons8&utm_source=2052558&utm_term=&c3ch=Affiliate&c3nid=IR-2052558
-
-
 ### Acknowledgements
 #### User Testing
 People that helped us in the process:
-* Our lecturer, Mr.Andy for clarifying our doubts
+* Our lecturer, Mr Andy for clarifying our doubts
 * Friends (wish to stay anonymous) for testing our website and giving feedbacks
 #### Inspiration
 We received inspiration for this project from:
