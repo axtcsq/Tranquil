@@ -212,16 +212,21 @@ Google Forms link:
 10. To check on the APIs, download and sign up for [Postman](https://www.postman.com/)
 11. You are all set up
 ## Credits
-References can also be found in the attached Word document titled "References".
+References can also be found in the attached Word document titled "references".
 ### Content
-Articles and youtube links:
-* https://www.youtube.com/watch?v=RZrdUuEARXA
-* https://www.youtube.com/watch?v=bb5OOO_0HXs
-* https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress
-* https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream
+#### Articles
+Kaur, Amrita. (2020, Nov 17). Keep calm and curl up: More turning to meditation to cope with stress. 
+The Straits Times. 
+https://www.straitstimes.com/life/keep-calm-and-curl-up-more-turning-to-meditation-to-cope-with-stress
+
+The Straits Times. (2017, Oct 15). After yoga, meditation breaks into the mainstream. The Straits Times.
+https://www.straitstimes.com/lifestyle/after-yoga-meditation-breaks-into-the-mainstream
+#### YouTube videos
+  * https://www.youtube.com/watch?v=RZrdUuEARXA
+  * https://www.youtube.com/watch?v=bb5OOO_0HXs
 ### Media
 The photos used in this site were obtained from:
-#### images
+#### Images
 * Happy.jpg : https://www.freepik.com/free-vector/enthusiastic-concept-illustration_10386550.htm#page=1&query=happy%20illustration&position=11
 * Grateful.jpg : https://www.freepik.com/free-vector/thank-you-doctors-nurses-illustration-with-lettering_7606522.htm#query=grateful%20illustration&position=16
 * Sad.jpg : https://www.freepik.com/premium-vector/cabin-fever-with-sad-man-house_8642487.htm
