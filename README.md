@@ -32,7 +32,7 @@ Tranquil is a website application that raises awareness of mental health and peo
   * [Media](https://github.com/axtcsq/Tranquil#media)
     * [Images](https://github.com/axtcsq/Tranquil#images)
     * [Lottie](https://github.com/axtcsq/Tranquil#lottie)
-    * [Logo & Icons](https://github.com/axtcsq/Tranquil#logo--icons)
+    * [Logos & Icons](https://github.com/axtcsq/Tranquil#logos--icons)
   * [Acknowledgements](https://github.com/axtcsq/Tranquil#acknowledgements)
     * [User Testing](https://github.com/axtcsq/Tranquil#user-testing)
     * [Inspiration](https://github.com/axtcsq/Tranquil#inspiration)
@@ -262,7 +262,7 @@ https://www.freepik.com/free-vector/enthusiastic-concept-illustration_10386550.h
 #### Lottie
 * Well done lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_OX0Ts3.json
 * Leaderboard lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_8udmnhsx.json
-#### Logo & Icons
+#### Logos & Icons
 * Github logo : https://icons.getbootstrap.com/icons/github/ 
 * Linkedin logo : https://icons.getbootstrap.com/icons/linkedin/ 
 * Right arrow : https://icons8.com/icons/set/arrow 
