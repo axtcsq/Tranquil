@@ -164,60 +164,53 @@ Website is responsive to all screen sizes
 * [CodePen](https://codepen.io/)
 ## Testing
 ### Manual user Testing
+Google Forms link:
 ### Different Browsers and Screen Sizes
 ### Bugs and Problems
-* OverlayScrollbar plugin can sometimes give an error message but it do not affect anything.
-* Loading page takes a long time.
+* OverlayScrollbar plugin can sometimes give an error message but it does not affect anything
+* Loading page may take a long time to load
 ## Deployment
-1. Download an IDE (e.g. Visual Studio Code) with the necessary extensions. 
-   
-   [Download visual studio code here](https://code.visualstudio.com/)
-
-   [Check out what extensions to download here](https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development)
-
-   [Check out how to use visual studio code here](https://www.youtube.com/watch?v=VqCgcpAypFQ)
-
-2. Set up a github account.
-   
-   - Go to https://github.com/join 
-   - Type a user name, your email address, and a password.
-   - Choose Sign up for GitHub, and then follow the instructions. 
-   [Video : how to use github on visual studio code](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
-   
-   [Setting up user.name and user.email in git](https://www.codegrepper.com/code-examples/delphi/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git)
-3. Clone project / Download project.
-   * Clone : 
-      - navigate to the main page of the repository
-      - click down arrow on Code
-      - under "Clone with HTTPS", click the copy icon to copy link
-      - Open Git Bash
-      - Change the current working directory to the location where you want the cloned directory
-      - Type git clone, and then paste the URL you copied earlier
-      - Press Enter to create your local clone
-   Reference / more info : https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+1. Download an Integrated Development Environment (IDE) such as Visual Studio Code with the necessary extensions. 
+   * [Download Visual Studio Code here](https://code.visualstudio.com/)
+   * [Download extensions here](https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development)
+   * [Guide on using Visual Studio Code here](https://www.youtube.com/watch?v=VqCgcpAypFQ)
+2. Set up a GitHub account.
+   * Go to https://github.com/join 
+   * Type a username, your email address, and a password.
+   * Choose Sign up for GitHub, and then follow the instructions. 
+   * [Video: Guide on using GitHub in Visual Studio Code](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
+   * [Setting up username and user email in Git](https://www.codegrepper.com/code-examples/delphi/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git)
+3. Download & clone our project.
+   * Clone: 
+     * Navigate to the main page of the repository
+     * Click down arrow on Code
+     * Under "Clone with HTTPS", click the copy icon to copy link
+     * Open Git Bash
+     * Change the current working directory to the location where you want the cloned directory to be
+     * Type Git clone, and then paste the URL you copied earlier
+     * Press enter to create your local clone
+     * Guide: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
    * Download :
-      - navigate to the main page of the repository
-      - click down arrow on Code
-      - click 'download as zip'
-4. (modify for your own use)Sign up and login with RESTDB [here](https://restdb.io/signup/)
-5. Create new database.
-   
-  - Click on the Database menu and click on the Create New button. Select a name for your database and press "Go!"
-  - Click developer mode on top right corner
-  - Click settings, click "Add Fields"
-  - Add a few fields with these column names and data types:  
-    - username (text)
-    - password (text)
-    - points (numbers)
-    - darkmode
-6. Scroll down and click "Settings". click "API" and "Add New"
-7. Add your website's link (you can set as /** first before publishing), set methods to GET,POST,PUT,DELETE,PATCH and copy the key
+     * Navigate to the main page of the repository
+     * Click down arrow on Code
+     * Click 'download as zip'
+4. Modify for your own use.
+   * Sign up and login with [RESTDB](https://restdb.io/signup/)
+5. Create a new database.
+   * Click on the Database menu and click on the Create New button. Select a name for your database and press "Go!"
+   * Click on developer mode on the top right corner
+   * Click on settings, then click "Add Fields"
+   * Add a few fields with these column names and data types:  
+     * username (text)
+     * password (text)
+     * points (numbers)
+     * darkmode
+6. Scroll down and click on "Settings", then click on "API" and "Add New"
+7. Add your website's link (you can set as /** first before publishing), set methods to GET, POST, PUT, DELETE, PATCH and then copy the API key.
 8. Open the folder in your IDE
-9. Change all the constant API cors key variables on javascript files to your own key (copied on step 7)
-10. To check on the APIs, download and sign up for postman [here](https://www.postman.com/)
+9. Change all the constant API cors key variables on JavaScript files to your own API key (copied on Step 7)
+10. To check on the APIs, download and sign up for [Postman](https://www.postman.com/)
 11. You are all set up!
-
-
 ## Credits
 References can also be found in the attached Word document titled "References".
 ### Content
