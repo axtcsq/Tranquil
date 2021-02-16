@@ -301,10 +301,10 @@ https://type.fit/api/quotes
 W3Schools. (n.d.). How TO - Full Page Image. W3Schools.
 https://www.w3schools.com/howto/howto_css_full_page.asp 
 #### User Testing
-People who have helped us during the process:
-* Our lecturer, Mr Andy for clarifying our doubts
-* Friends (who wish to remain anonymous) for testing and giving feedbacks for our website
+* People who have helped us during the process:
+  * Our lecturer, Mr Andy for clarifying our doubts
+  * Friends (who wish to remain anonymous) for testing and giving feedbacks for our website
 #### Inspiration
-We received inspiration for this project from:
-* [Calm](https://www.calm.com/)
-* [Reflection.app](https://www.reflection.app/)
+* We received inspiration for this project from:
+  * [Calm](https://www.calm.com/)
+  * [Reflection.app](https://www.reflection.app/)
