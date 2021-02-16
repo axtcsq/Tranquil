@@ -260,8 +260,11 @@ https://www.freepik.com/free-vector/eating-healthy-food-concept-illustration_867
 stories. (2020). Enthusiastic concept illustration Free Vector [Online image]. freepik.
 https://www.freepik.com/free-vector/enthusiastic-concept-illustration_10386550.htm#page=1&query=happy%20illustration&position=11
 #### Lottie
-* Well done lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_OX0Ts3.json
-* Leaderboard lottie : https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_8udmnhsx.json
+Arrow, Mark. (2020). Winning- Leadership [Online image]. LottieFiles.
+https://lottiefiles.com/42226-winning-leadership
+
+D, Kris. (2020). Well Done [Online image]. LottieFiles.
+https://lottiefiles.com/14337-well-done
 #### Logos & Icons
 * Github logo : https://icons.getbootstrap.com/icons/github/ 
 * Linkedin logo : https://icons.getbootstrap.com/icons/linkedin/ 
