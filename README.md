@@ -175,7 +175,7 @@ Google Forms link: https://docs.google.com/spreadsheets/d/1naNA6v0aO19Xxq-8MklVl
 ### Different Browsers and Screen Sizes
 ![Desktop Preview of Website](gifs/Desktop-version.gif)
 
-Take a look at mobile version here : https://docs.google.com/presentation/d/1OmA8BHxPPySB1-l8BwDyo7qAWHEZjFWcYkgBBNsiebc/edit?usp=sharing
+Take a look at mobile version here : https://connectnpedu-my.sharepoint.com/:v:/g/personal/s10204973_connect_np_edu_sg/EbphMIvWxABHlANOlJoQTlkBPClsGJ47p4hSJKgRVFXDyQ?e=MGEuOM
 ### Bugs and Problems
 * OverlayScrollbar plugin can sometimes give an error message but it does not affect anything.
 ## Deployment
