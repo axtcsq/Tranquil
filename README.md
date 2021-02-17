@@ -43,7 +43,7 @@ Link: https://github.com/axtcsq/Tranquil
 ### GitHub Pages
 Link: https://axtcsq.github.io/Tranquil/
 ### Demo Recording
-Link: 
+Link: https://connectnpedu-my.sharepoint.com/:v:/g/personal/s10204973_connect_np_edu_sg/EXJvPfvI3FhGvya5oYzFKtgBAJZd7Lnh6JuVXQrAq2iAbQ?e=XxVBmk
 ## Design Process
 ### User Stories
 As someone who works and studies in a society which idolizes achievements more than anything, we are prone to burnout. We wanted to make a website that can benefit society and be able to address such problems.
@@ -315,4 +315,5 @@ https://www.w3schools.com/howto/howto_css_full_page.asp
 #### Inspiration
 * We received inspiration for this project from:
   * [Calm](https://www.calm.com/)
+  * [Grab](https://menudurable.ca/en/)
   * [Reflection.app](https://www.reflection.app/)
