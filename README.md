@@ -315,5 +315,5 @@ https://www.w3schools.com/howto/howto_css_full_page.asp
 #### Inspiration
 * We received inspiration for this project from:
   * [Calm](https://www.calm.com/)
-  * [Grab](https://menudurable.ca/en/)
+  * [Grab](https://www.grab.com/sg/)
   * [Reflection.app](https://www.reflection.app/)
